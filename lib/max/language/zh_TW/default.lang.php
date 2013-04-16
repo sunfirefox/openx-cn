@@ -371,6 +371,7 @@ $GLOBALS['strZones'] = "版位";
 $GLOBALS['strAddNewZone'] = "新增一個版位";
 $GLOBALS['strAddNewZone_Key'] = "新增<u>n</u>ew版位";
 $GLOBALS['strModifyZone'] = "修改版位";
+$GLOBALS['strLinkedZones'] = "版位关联";
 $GLOBALS['strZoneOverview'] = "版位總覽";
 $GLOBALS['strZoneProperties'] = "版位屬性";
 $GLOBALS['strZoneHistory'] = "版位歷史";

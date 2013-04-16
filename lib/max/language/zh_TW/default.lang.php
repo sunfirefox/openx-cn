@@ -730,8 +730,8 @@ $GLOBALS['strNoClientsForBanners'] = "目前沒有廣告，請先<a href='advert
 $GLOBALS['strAdvertiserCampaigns'] = "廣告商與項目";
 $GLOBALS['strCampaignStatusInactive'] = "活躍";
 $GLOBALS['strCampaignType'] = "項目名稱";
-$GLOBALS['strContract'] = "聯繫人";
-$GLOBALS['strStandardContract'] = "聯繫人";
+$GLOBALS['strContract'] = "合同";
+$GLOBALS['strStandardContract'] = "合同";
 $GLOBALS['strBannerToCampaign'] = "您的項目";
 $GLOBALS['strBannersOfCampaign'] = "屬於";
 $GLOBALS['strWebsiteZones'] = "媒體和版位";

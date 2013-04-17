@@ -138,7 +138,7 @@ $GLOBALS['strFieldContainsErrors']      = "The following fields contain errors:"
 $GLOBALS['strFieldFixBeforeContinue1']  = "Before you can continue you need";
 $GLOBALS['strFieldFixBeforeContinue2']  = "to correct these errors.";
 $GLOBALS['strDelimiter']                = "Delimiter";
-$GLOBALS['strMiscellaneous']            = "Miscellaneous";
+$GLOBALS['strMiscellaneous']            = "杂项";
 $GLOBALS['strCollectedAllStats']        = "All statistics";
 $GLOBALS['strCollectedToday']           = "Today";
 $GLOBALS['strCollectedYesterday']       = "Yesterday";
@@ -398,9 +398,9 @@ $GLOBALS['strContact']                          = "联系人";
 $GLOBALS['strContactName']                      = "姓名";
 $GLOBALS['strEMail']                            = "Email";
 $GLOBALS['strChars']                            = "chars";
-$GLOBALS['strSendAdvertisingReport']            = "Email campaign delivery reports";
-$GLOBALS['strNoDaysBetweenReports']             = "Number of days between campaign delivery reports";
-$GLOBALS['strSendDeactivationWarning']          = "Email when a campaign is automatically activated/deactivated";
+$GLOBALS['strSendAdvertisingReport']            = "通过 Email 发送项目投放状态报告";
+$GLOBALS['strNoDaysBetweenReports']             = "项目投放状态报告发送周期 (天)";
+$GLOBALS['strSendDeactivationWarning']          = "当系统自动开始或停止项目投放时通过 Email 发送通知";
 $GLOBALS['strAllowClientModifyInfo']            = "Allow this user to modify their own settings";
 $GLOBALS['strAllowClientModifyBanner']          = "Allow this user to modify their own banners";
 $GLOBALS['strAllowClientAddBanner']             = "Allow this user to add their own banners";
@@ -409,7 +409,7 @@ $GLOBALS['strAllowClientActivateBanner']        = "Allow this user to activate t
 $GLOBALS['strAllowClientViewTargetingStats']    = "Allow this user to view targeting statistics";
 $GLOBALS['strAllowCreateAccounts']              = "Allow this user to create new accounts";
 $GLOBALS['strCsvImportConversions']             = "Allow this user to import offline conversions";
-$GLOBALS['strAdvertiserLimitation']             = "Display only one banner from this advertiser on a web page";
+$GLOBALS['strAdvertiserLimitation']             = "禁止在同一个页面上重复投放来自该客户的广告";
 $GLOBALS['strAllowAuditTrailAccess']            = "Allow this user to access the audit trail";
 
 // Campaign
@@ -1198,7 +1198,7 @@ $GLOBALS['strWarningInaccurateReadMore']        = "Read more about this";
 $GLOBALS['strWarningInaccurateReport']          = "Some of the statistics in this report were logged in a non-UTC timezone, and may not be displayed in the correct timezone";
 
 //Validation
-$GLOBALS['strRequiredFieldLegend']              = "denotes required field";
+$GLOBALS['strRequiredFieldLegend']              = "表示必填的项目";
 $GLOBALS['strFormContainsErrors']               = "Form contains errors, please correct the marked fields below.";
 $GLOBALS['strRequiredField']                    = "Required field";
 $GLOBALS['strXRequiredField']                   = "%s is required";
@@ -1215,7 +1215,7 @@ $GLOBALS['strInvalidWebsiteURL']                = "Invalid Website URL";
 
 // Email
 $GLOBALS['strSirMadam']                         = "Sir/Madam";
-$GLOBALS['strMailSubject']                      = "Advertiser report";
+$GLOBALS['strMailSubject']                      = "客户状态报告";
 $GLOBALS['strAdReportSent']                     = "Advertiser report sent";
 $GLOBALS['strMailHeader']                       = "Dear {contact},\n";
 $GLOBALS['strMailBannerStats']                  = "Below you will find the banner statistics for {clientname}:";

@@ -213,15 +213,15 @@ $GLOBALS['strCapped']                   = "Capped";
 $GLOBALS['strNoCapping']                = "No capping";
 
 // Properties
-$GLOBALS['strName']                     = "Name";
+$GLOBALS['strName']                     = "名称";
 $GLOBALS['strSize']                     = "Size";
-$GLOBALS['strWidth']                    = "Width";
-$GLOBALS['strHeight']                   = "Height";
+$GLOBALS['strWidth']                    = "宽";
+$GLOBALS['strHeight']                   = "高";
 $GLOBALS['strURL2']                     = "URL";
 $GLOBALS['strTarget']                   = "Target";
-$GLOBALS['strLanguage']                 = "Language";
-$GLOBALS['strDescription']              = "Description";
-$GLOBALS['strVariables']                = "Variables";
+$GLOBALS['strLanguage']                 = "语言";
+$GLOBALS['strDescription']              = "详细描述";
+$GLOBALS['strVariables']                = "变量";
 $GLOBALS['strID']                       = "ID";
 $GLOBALS['strComments']                 = "Comments";
 

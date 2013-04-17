@@ -35,12 +35,12 @@ $GLOBALS['phpAds_DecimalPoint']         = ".";
 $GLOBALS['phpAds_ThousandsSeperator']   = ",";
 
 // Date & time configuration
-$GLOBALS['date_format']                 = "%d-%m-%Y";
+$GLOBALS['date_format']                 = "%Y-%m-%d";
 $GLOBALS['time_format']                 = "%H:%M:%S";
 $GLOBALS['minute_format']               = "%H:%M";
-$GLOBALS['month_format']                = "%m-%Y";
+$GLOBALS['month_format']                = "%Y-%m";
 $GLOBALS['day_format']                  = "%d-%m";
-$GLOBALS['week_format']                 = "%W-%Y";
+$GLOBALS['week_format']                 = "%Y-%W";
 $GLOBALS['weekiso_format']              = "%V-%G";
 
 // Formats used by PEAR Spreadsheet_Excel_Writer packate

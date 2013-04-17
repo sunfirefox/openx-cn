@@ -73,7 +73,7 @@ $GLOBALS['strLoginInformation']         = "登录信息";
 $GLOBALS['strLogoutURL']                = "注销后自动跳转地址。<br />留空则跳转到默认地址。";
 $GLOBALS['strAppendTrackerCode']        = "附加追踪器代码";
 $GLOBALS['strOverview']                 = "Overview";
-$GLOBALS['strSearch']                   = "<u>搜索</u>";
+$GLOBALS['strSearch']                   = "搜索 (<u>s</u>)";
 $GLOBALS['strHistory']                  = "历史";
 $GLOBALS['strDetails']                  = "详细";
 $GLOBALS['strUpdateSettings']           = "升级";
@@ -226,10 +226,10 @@ $GLOBALS['strID']                       = "ID";
 $GLOBALS['strComments']                 = "Comments";
 
 // User access
-$GLOBALS['strWorkingAs']                = "Working as";
-$GLOBALS['strWorkingAs_Key']            = "<u>W</u>orking as";
-$GLOBALS['strWorkingAs']                = "Working as";
-$GLOBALS['strSwitchTo']                 = "Switch to";
+$GLOBALS['strWorkingAs']                = "选择角色";
+$GLOBALS['strWorkingAs_Key']            = "选择角色 (<u>w</u>)";
+$GLOBALS['strWorkingAs']                = "选择角色";
+$GLOBALS['strSwitchTo']                 = "选择";
 $GLOBALS['strUseSearchBoxToFindMoreAccounts'] = "Use the switcher's search box to find more accounts";
 $GLOBALS['strWorkingFor']               = "%s for...";
 $GLOBALS['strNoAccountWithXInNameFound']= "No accounts with \"%s\" in name found";

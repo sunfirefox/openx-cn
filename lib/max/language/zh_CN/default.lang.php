@@ -226,12 +226,12 @@ $GLOBALS['strID']                       = "ID";
 $GLOBALS['strComments']                 = "Comments";
 
 // User access
-$GLOBALS['strWorkingAs']                = "选择角色";
-$GLOBALS['strWorkingAs_Key']            = "选择角色 (<u>w</u>)";
-$GLOBALS['strWorkingAs']                = "选择角色";
+$GLOBALS['strWorkingAs']                = "权限";
+$GLOBALS['strWorkingAs_Key']            = "权限 (<u>w</u>)";
+$GLOBALS['strWorkingAs']                = "权限";
 $GLOBALS['strSwitchTo']                 = "选择";
 $GLOBALS['strUseSearchBoxToFindMoreAccounts'] = "Use the switcher's search box to find more accounts";
-$GLOBALS['strWorkingFor']               = "%s for...";
+$GLOBALS['strWorkingFor']               = "%s账户";
 $GLOBALS['strNoAccountWithXInNameFound']= "No accounts with \"%s\" in name found";
 $GLOBALS['strRecentlyUsed']             = "Recently used";
 $GLOBALS['strLinkUser']                 = "Add user";

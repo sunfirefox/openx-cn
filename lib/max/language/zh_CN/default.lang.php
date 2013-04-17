@@ -61,7 +61,7 @@ $GLOBALS['strActions']                  = "操作";
 $GLOBALS['strMore']                     = "更多";
 $GLOBALS['strAndXMore']                 = "and %s more";
 $GLOBALS['strLess']                     = "更少";
-$GLOBALS['strAdminstration']            = "管理";
+$GLOBALS['strAdminstration']            = "广告投放";
 $GLOBALS['strMaintenance']              = "维护";
 $GLOBALS['strProbability']              = "权重";
 $GLOBALS['strInvocationcode']           = "生成代码";
@@ -158,10 +158,10 @@ $GLOBALS['strRequiredField']            = "Required field";
 $GLOBALS['strCloseWindow']              = "Close window";
 
 // Dashboard
-$GLOBALS['strDashboardCommunity']       = "Community";
+$GLOBALS['strDashboardCommunity']       = "OpenX 社区";
 $GLOBALS['strDashboardDashboard']       = "Dashboard";
-$GLOBALS['strDashboardForum']           = "OpenX Forum";
-$GLOBALS['strDashboardDocs']            = "OpenX Docs";
+$GLOBALS['strDashboardForum']           = "OpenX 论坛";
+$GLOBALS['strDashboardDocs']            = "OpenX 文档";
 $GLOBALS['strDashboardCantBeDisplayed'] = "The dashboard can not be displayed";
 $GLOBALS['strNoCheckForUpdates']        = "The dashboard cannot be displayed unless the<br />check for updates setting is enabled.";
 $GLOBALS['strEnableCheckForUpdates']    = "Please enable the <a href='account-settings-update.php' target='_top'>check for updates</a> setting on the<br/><a href='account-settings-update.php' target='_top'>update settings</a> page.";
@@ -1009,7 +1009,7 @@ $GLOBALS['strShortcutEditStatuses'] = "Edit statuses";
 $GLOBALS['strShortcutShowStatuses'] = "Show statuses";
 
 // Statistics
-$GLOBALS['strStats']                     = "Statistics";
+$GLOBALS['strStats']                     = "数据统计";
 $GLOBALS['strNoStats']                   = "There are currently no statistics available";
 $GLOBALS['strNoTargetingStats']          = "There are currently no targeting statistics available";
 $GLOBALS['strNoStatsForPeriod']          = "There are currently no statistics available for the period %s to %s";
@@ -1259,7 +1259,7 @@ $GLOBALS['strSourceEdit']                       = "Edit Sources";
 
 // Preferences
 $GLOBALS['strPreferences']                      = "Preferences";
-$GLOBALS['strMyAccount']                        = "My Account";
+$GLOBALS['strMyAccount']                        = "我的账户";
 $GLOBALS['strConfiguration']                    = "Configuration";
 $GLOBALS['strMainPreferences']                  = "Main Preferences";
 $GLOBALS['strAccountPreferences']               = "Account Preferences";

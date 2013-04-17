@@ -22,136 +22,148 @@
 | along with this program; if not, write to the Free Software               |
 | Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA |
 +---------------------------------------------------------------------------+
-$Id: invocation.lang.php 81772 2012-09-11 00:07:29Z chris.nutting $
+$Id:invocation.lang.php 20042 2008-05-09 01:10:00Z aj.tarachanowicz@openx.org $
 */
 
-// Invocation Types
-$GLOBALS['strInvocationRemote']			= "Ô¶³Ìµ÷ÓÃ";
-$GLOBALS['strInvocationJS']			= "Ô¶³Ìµ÷ÓÃJavascript";
-$GLOBALS['strInvocationIframes']		= "Ô¶³Ìµ÷ÓÃFrames";
-$GLOBALS['strInvocationXmlRpc']			= "Ô¶³Ìµ÷ÓÃXML-RPC";
-$GLOBALS['strInvocationCombined']		= "×éºÏÔ¶³Ìµ÷ÓÃ";
-$GLOBALS['strInvocationPopUp']			= "µ¯³ö";
-$GLOBALS['strInvocationAdLayer']		= "¿ÕÏ¶»òÕßÆ¯¸¡µÄDHTML";
-$GLOBALS['strInvocationLocal']			= "±¾µØÄ£Ê½";
-
-
 // Other
-$GLOBALS['strCopyToClipboard']			= "æ‹·è´åˆ°ç²˜è´´æ¿";
-
+$GLOBALS['strCopyToClipboard']                      = "Copy to clipboard";
+$GLOBALS['strCopy']                                 = "copy";
+$GLOBALS['strChooseTypeOfInvocation']               = "Please choose the type of invocation";
+$GLOBALS['strChooseTypeOfBannerInvocation']         = "Please choose the type of banner invocation";
 
 // Measures
-$GLOBALS['strAbbrPixels']			= "px";
-$GLOBALS['strAbbrSeconds']			= "ç§’";
-
+$GLOBALS['strAbbrPixels']                           = "px";
+$GLOBALS['strAbbrSeconds']                          = "sec";
 
 // Common Invocation Parameters
-$GLOBALS['strInvocationWhat']			= "é€‰æ‹©å¹¿å‘Š";
-$GLOBALS['strInvocationClientID']		= "¿Í»§»òÏîÄ¿";
-$GLOBALS['strInvocationTarget']			= "ç›®æ ‡Frame";
-$GLOBALS['strInvocationSource']			= "æ¥æº";
-$GLOBALS['strInvocationWithText']		= "å¹¿å‘Šç°æ˜¾ç¤ºçš„æ–‡å­—";
-$GLOBALS['strInvocationDontShowAgain']		= "åŒä¸€é¡µä¸é‡å¤æ˜¾ç¤ºç›¸åŒå¹¿å‘Š";
-$GLOBALS['strInvocationDontShowAgainCampaign']	= "åŒä¸€é¡µä¸æ˜¾ç¤ºç›¸åŒé¡¹ç›®";
-$GLOBALS['strInvocationTemplate'] 		= "ä¿å­˜å¹¿å‘Šå˜é‡ä½œä¸ºå°†æ¥ä½¿ç”¨çš„æ¨¡æ¿";
-
+$GLOBALS['strInvocationWhat']                       = "Banner selection";
+$GLOBALS['strInvocationPreview']                    = "Banner preview";
+$GLOBALS['strInvocationClientID']                   = "Advertiser";
+$GLOBALS['strInvocationCampaignID']                 = "Campaign";
+$GLOBALS['strInvocationTarget']                     = "Target frame";
+$GLOBALS['strInvocationSource']                     = "Source";
+$GLOBALS['strInvocationWithText']                   = "Show text below banner";
+$GLOBALS['strInvocationDontShowAgain']              = "Don't show the banner again on the same page";
+$GLOBALS['strInvocationDontShowAgainCampaign']      = "Don't show a banner from the same campaign again on the same page";
+$GLOBALS['strInvocationTemplate']                   = "Store the banner inside a variable so it can be used in a template";
+$GLOBALS['strInvocationBannerID']                   = "Banner ID";
+$GLOBALS['strInvocationComments']                   = "Include comments";
 
 // Iframe
-$GLOBALS['strIFrameRefreshAfter']		= "äºæ­¤ä¹‹ååˆ·æ–°";
-$GLOBALS['strIframeResizeToBanner']		= "æŒ‰ç…§å¹¿å‘Šå°ºå¯¸é‡æ–°è®¾ç½®iframeå¤§å°";
-$GLOBALS['strIframeMakeTransparent']		= "iframeé€æ˜";
-$GLOBALS['strIframeIncludeNetscape4']		= "å…¼å®¹Netscape4æˆ–æ›´é«˜ç‰ˆæœ¬";
+$GLOBALS['strIFrameRefreshAfter']                   = "Refresh after";
+$GLOBALS['strIframeResizeToBanner']                 = "Resize iframe to banner dimensions";
+$GLOBALS['strIframeMakeTransparent']                = "Make the iframe transparent";
+$GLOBALS['strIframeIncludeNetscape4']               = "Include Netscape 4 compatible ilayer";
+$GLOBALS['strIframeGoogleClickTracking']            = "Include code to track Google AdSense clicks";
 
 
 // PopUp
-$GLOBALS['strPopUpStyle']			= "µ¯³öÀàĞÍ";
-$GLOBALS['strPopUpStylePopUp']			= "µ¯³ö";
-$GLOBALS['strPopUpStylePopUnder']		= "µ¯ÏÂ";
-$GLOBALS['strPopUpCreateInstance']		= "´´½¨µ¯³öÊ½¹ã¸æµÄÇé¿ö";
-$GLOBALS['strPopUpImmediately']			= "Á¢¼´";
-$GLOBALS['strPopUpOnClose']			= "µ±´ËÒ³Ãæ¹Ø±ÕÊ±";
-$GLOBALS['strPopUpAfterSec']			= "Ê±¼ä¼ä¸ô";
-$GLOBALS['strAutoCloseAfter']			= "×Ô¶¯¹Ø±ÕÊ±¼ä";
-$GLOBALS['strPopUpTop']				= "ÆğÊ¼Î»ÖÃ(ÉÏ)";
-$GLOBALS['strPopUpLeft']			= "ÆğÊ¼Î»ÖÃ(×ó)";
-$GLOBALS['strWindowOptions']			= "´°¿ÚÑ¡Ïî";
-$GLOBALS['strShowToolbars']			= "¹¤¾ßÀ¸";
-$GLOBALS['strShowLocation']			= "µØÖ·À¸";
-$GLOBALS['strShowMenubar']			= "²Ëµ¥À¸";
-$GLOBALS['strShowStatus']			= "×´Ì¬À¸";
-$GLOBALS['strWindowResizable']			= "¿Éµ÷´óĞ¡";
-$GLOBALS['strShowScrollbars']			= "»¬¿é";
+$GLOBALS['strPopUpStyle']			= "Pop-up type";
+$GLOBALS['strPopUpStylePopUp']			= "Pop-up";
+$GLOBALS['strPopUpStylePopUnder']		= "Pop-under";
+$GLOBALS['strPopUpCreateInstance']		= "Instance when the pop-up is created";
+$GLOBALS['strPopUpImmediately']			= "Immediately";
+$GLOBALS['strPopUpOnClose']			= "When the page is closed";
+$GLOBALS['strPopUpAfterSec']			= "After";
+$GLOBALS['strAutoCloseAfter']			= "Automatically close after";
+$GLOBALS['strPopUpTop']				= "Initial position (top)";
+$GLOBALS['strPopUpLeft']			= "Initial position (left)";
+$GLOBALS['strWindowOptions']		= "Window options";
+$GLOBALS['strShowToolbars']			= "Toolbars";
+$GLOBALS['strShowLocation']			= "Location";
+$GLOBALS['strShowMenubar']			= "Menubar";
+$GLOBALS['strShowStatus']			= "Status";
+$GLOBALS['strWindowResizable']		= "Resizable";
+$GLOBALS['strShowScrollbars']		= "Scrollbars";
 
 
 // XML-RPC
-$GLOBALS['strXmlRpcLanguage']			= "Ö÷»úÓïÑÔ";
+$GLOBALS['strXmlRpcLanguage']       = "Host Language";
+$GLOBALS['strXmlRpcProtocol']       = "Use HTTPS to contact XML-RPC Server";
+$GLOBALS['strXmlRpcTimeout']        = "XML-RPC Timeout (Seconds)";
 
 
 // AdLayer
-$GLOBALS['strAdLayerStyle']			= "é£æ ¼";
+$GLOBALS['strAdLayerStyle']			= "Style";
 
-$GLOBALS['strAlignment']			= "¶ÔÆë";
-$GLOBALS['strHAlignment']			= "ºáÏò¶ÔÆë";
-$GLOBALS['strLeft']				= "×ó";
-$GLOBALS['strCenter']				= "ÖĞ";
-$GLOBALS['strRight']				= "ÓÒ";
+$GLOBALS['strAlignment']			= "Alignment";
+$GLOBALS['strHAlignment']			= "Horizontal alignment";
+$GLOBALS['strLeft']				= "Left";
+$GLOBALS['strCenter']				= "Center";
+$GLOBALS['strRight']				= "Right";
 
-$GLOBALS['strVAlignment']			= "×İÏò¶ÔÆë";
-$GLOBALS['strTop']				= "¶¥²¿";
-$GLOBALS['strMiddle']				= "ÖĞ²¿";
-$GLOBALS['strBottom']				= "µ×²¿";
+$GLOBALS['strVAlignment']			= "Vertical alignment";
+$GLOBALS['strTop']				= "Top";
+$GLOBALS['strMiddle']				= "Middle";
+$GLOBALS['strBottom']				= "Bottom";
 
-$GLOBALS['strAutoCollapseAfter']		= "×Ô¶¯ÕÛµşÊ±¼ä";
-$GLOBALS['strCloseText']			= "¹Ø±ÕÎÄ×Ö";
-$GLOBALS['strClose']				= "[¹Ø±Õ]";
-$GLOBALS['strBannerPadding']			= "¹ã¸æ²¹°×";
+$GLOBALS['strAutoCollapseAfter']		= "Automatically collapse after";
+$GLOBALS['strCloseText']			= "Close text";
+$GLOBALS['strClose']				= "[Close]";
+$GLOBALS['strBannerPadding']			= "Banner padding";
 
-$GLOBALS['strHShift']				= "ºáÏòÒÆ¶¯";
-$GLOBALS['strVShift']				= "×İÏòÒÆ¶¯";
+$GLOBALS['strHShift']				= "Horizontal shift";
+$GLOBALS['strVShift']				= "Vertical shift";
 
-$GLOBALS['strShowCloseButton']			= "ÏÔÊ¾¹Ø±Õ°´Å¥";
-$GLOBALS['strBackgroundColor']			= "±³¾°É«";
-$GLOBALS['strBorderColor']			= "±ß¿òÑÕÉ«";
+$GLOBALS['strShowCloseButton']			= "Show close button";
+$GLOBALS['strBackgroundColor']			= "Background color";
+$GLOBALS['strBorderColor']			= "Border color";
 
-$GLOBALS['strDirection']			= "·½Ïò";
-$GLOBALS['strLeftToRight']			= "´Ó×óµ½ÓÒ";
-$GLOBALS['strRightToLeft']			= "´ÓÓÒµ½×ó";
-$GLOBALS['strLooping']				= "Ñ­»·";
-$GLOBALS['strAlwaysActive']			= "×ÜÊÇÆôÓÃ";
-$GLOBALS['strSpeed']				= "ËÙ¶È";
-$GLOBALS['strPause']				= "æš‚åœ";
-$GLOBALS['strLimited']				= "ÏŞÖÆ";
-$GLOBALS['strLeftMargin']			= "×ó±ß½ç";
-$GLOBALS['strRightMargin']			= "ÓÒ±ß½ç";
-$GLOBALS['strTransparentBackground']		= "Í¸Ã÷±³¾°";
+$GLOBALS['strDirection']			= "Direction";
+$GLOBALS['strLeftToRight']			= "Left to right";
+$GLOBALS['strRightToLeft']			= "Right to left";
+$GLOBALS['strLooping']				= "Looping";
+$GLOBALS['strAlwaysActive']			= "Always active";
+$GLOBALS['strSpeed']				= "Speed";
+$GLOBALS['strPause']				= "Pause";
+$GLOBALS['strLimited']				= "Limited";
+$GLOBALS['strLeftMargin']			= "Left margin";
+$GLOBALS['strRightMargin']			= "Right margin";
+$GLOBALS['strTransparentBackground']		= "Transparent background";
 
-$GLOBALS['strSmoothMovement']			= "Æ½»¬ÒÆ¶¯";
-$GLOBALS['strHideNotMoving']			= "Êó±ê²»ÒÆ¶¯Ê±Òş²Ø¹ã¸æ";
-$GLOBALS['strHideDelay']			= "Òş²Ø¹ã¸æÇ°µÄÊ±¼äÑÓ³Ù";
-$GLOBALS['strHideTransparancy']			= "Ê¹Òş²ØµÄ¹ã¸æÍ¸Ã÷";
-
-
-$GLOBALS['strAdLayerStyleName']['geocities'] = "ä¸ªäººä¸»é¡µ";
-$GLOBALS['strAdLayerStyleName']['simple'] = "ç®€å•å¼";
-$GLOBALS['strAdLayerStyleName']['cursor'] = "å…‰æ ‡å¼";
-$GLOBALS['strAdLayerStyleName']['floater'] = "æµ®åŠ¨å¼";
+$GLOBALS['strSmoothMovement']		= "Smooth movement";
+$GLOBALS['strHideNotMoving']		= "Hide the banner when the cursor is not moving";
+$GLOBALS['strHideDelay']			= "Delay before banner is hidden";
+$GLOBALS['strHideTransparancy']		= "Transparancy of the hidden banner";
 
 
+$GLOBALS['strAdLayerStyleName']	= array(
+	'geocities'		=> "Geocities",
+	'simple'		=> "Simple",
+	'cursor'		=> "Cursor",
+	'floater'		=> "Floater"
+);
 
+// Support for 3rd party server clicktracking
+$GLOBALS['str3rdPartyTrack']		 = "Support 3rd Party Server Clicktracking";
 
-// Note: new translatiosn not found in original lang files but found in CSV
-$GLOBALS['strCopy'] = "æ‹·è´";
-$GLOBALS['strInvocationCampaignID'] = "é¡¹ç›®";
-$GLOBALS['strInvocationBannerID'] = "å¹¿å‘ŠID";
-$GLOBALS['strInvocationComments'] = "åŒ…æ‹¬æ³¨é‡Š";
-$GLOBALS['str3rdPartyTrack'] = "æ”¯æŒç¬¬ä¸‰æ–¹å¹¿å‘Šè·Ÿè¸ªæœåŠ¡å™¨";
-$GLOBALS['strCacheBuster'] = "æ’å…¥Icache-Busitngä»£ç ";
-$GLOBALS['strImgWithAppendWarning'] = "è·Ÿè¸ªå™¨å¸¦æœ‰é™„åŠ ä»£ç ï¼Œè¿™äº›é™„åŠ ä»£ç å¿…é¡»åœ¨JavaScriptæ ‡ç­¾ä¸­æ‰å¯è¿è¡Œã€‚";
+// Support for cachebusting code
+$GLOBALS['strCacheBuster']		    = "Insert Cache-Busting code";
 
+// Non-Img creatives Warning for zone image-only invocation
+$GLOBALS['strNonImgWarningZone']	= "Warning: There are banners attached to this zone which are not images. These banners will not be rotated using this tag.";
+$GLOBALS['strNonImgWarning']        = "Warning: This tag will not work because this banner is not an image.";
 
-// Note: New translations not found in original lang files but found in CSV
-$GLOBALS['strIframeGoogleClickTracking'] = "æ’å…¥ä¸€æ®µä»£ç ï¼Œç»Ÿè®¡Google AdSenseç‚¹å‡»";
-$GLOBALS['strWarningLocalInvocation'] = "<span class='tab-s'><strong>è­¦å‘Š:</strong>æœ¬åœ°æ¨¡å¼ä¸­ï¼Œç³»ç»Ÿå°†åªä¼šè¿”å›è¿™å°æœåŠ¡å™¨çš„å¹¿å‘Šè¯·æ±‚</span><br />è¯·æ£€æŸ¥ä»£ç å†…çš„ MAX_PATH <br />ï¼Œä½ å°†ä¼šåœ¨MAX_PATH/var å†…æœ‰ä¸€ä¸ªä»¥ä½ åŸŸåä¸ºæ–‡ä»¶åçš„é…ç½®æ–‡ä»¶";
-$GLOBALS['strChooseTypeOfInvocation'] = "è¯·é€‰æ‹©ç”Ÿæˆçš„å…¬å‘Šå½¢å¼";
-$GLOBALS['strChooseTypeOfBannerInvocation'] = "è¯·é€‰æ‹©ç”Ÿæˆçš„å…¬å‘Šå½¢å¼";
+// unkown HTML tag type Warning for zone invocation
+$GLOBALS['strUnknHtmlWarning']      = "Warning: This banner is an unkown HTML ad format.";
+
+// sql/web banner-type warning for clickonly zone invocation
+$GLOBALS['strWebBannerWarning']     = "Warning: This banner must be downloaded and you must notify us the correct URL for the banner.
+<br /> 1) Download the banner:";
+$GLOBALS['strDwnldWebBanner']       = "Right-click here and choose Save Target As";
+$GLOBALS['strWebBannerWarning2']    = "<br /> 2) Upload the banner to your webserver and write its location here: ";
+
+// IMG invocation selected for tracker with appended code
+$GLOBALS['strWarning'] = "Warning";
+$GLOBALS['strImgWithAppendWarning'] = "This tracker has appended code, appended code will <strong>only</strong> work with JavaScript tags";
+
+// Local Invocation
+$GLOBALS['strWarningLocalInvocation'] = "<span class='tab-s'><strong>Warning:</strong> Local mode invocation will ONLY work if the site calling the code
+ is on the same physical machine as the adserver</span><br />
+Check that the MAX_PATH defined in the code below points to the base directory of your MAX installation<br />
+and that you have a config file for the domain of the site showing the ads (in MAX_PATH/var)";
+
+$GLOBALS['strIABNoteLocalInvocation'] = "<b>Note:</b> Impression data generated from using Local Mode invocation tags are not compliant with IAB guidelines for ad impression measurements.";
+$GLOBALS['strIABNoteXMLRPCInvocation'] = "<b>Note:</b> Impression data generated from using XML-RPC invocation tags are not compliant with IAB guidelines for ad impression measurements.";
+
 ?>

@@ -26,8 +26,8 @@ $Id: index.lang.php 81772 2012-09-11 00:07:29Z chris.nutting $
 */
 
 // Meta information
-$translation_readable   = "Chinese";
-$translation_maintainer	= "vincen guo";
-$translation_contact	= "guo9310@yahoo.com.cn";
+$translation_readable   = "English";
+$translation_maintainer	= "OpenX Limited";
+$translation_contact	= "http://www.openx.org/community/localisation";
 
 ?>

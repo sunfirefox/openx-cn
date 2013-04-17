@@ -214,16 +214,16 @@ $GLOBALS['strNoCapping']                = "No capping";
 
 // Properties
 $GLOBALS['strName']                     = "名称";
-$GLOBALS['strSize']                     = "Size";
+$GLOBALS['strSize']                     = "规格";
 $GLOBALS['strWidth']                    = "宽";
 $GLOBALS['strHeight']                   = "高";
 $GLOBALS['strURL2']                     = "URL";
-$GLOBALS['strTarget']                   = "Target";
+$GLOBALS['strTarget']                   = "目标";
 $GLOBALS['strLanguage']                 = "语言";
 $GLOBALS['strDescription']              = "详细描述";
 $GLOBALS['strVariables']                = "变量";
 $GLOBALS['strID']                       = "ID";
-$GLOBALS['strComments']                 = "Comments";
+$GLOBALS['strComments']                 = "详细描述";
 
 // User access
 $GLOBALS['strWorkingAs']                = "权限";

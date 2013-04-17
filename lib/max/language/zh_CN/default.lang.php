@@ -1464,7 +1464,7 @@ $GLOBALS['strWrongDateFormat']      = "Wrong Date Format";
 
 
 // Password recovery
-$GLOBALS['strForgotPassword']         = "Forgot your password?";
+$GLOBALS['strForgotPassword']         = "忘记密码";
 $GLOBALS['strPasswordRecovery']       = "Password recovery";
 $GLOBALS['strEmailRequired']          = "Email is a required field";
 $GLOBALS['strPwdRecEmailSent']        = "Recovery email sent";

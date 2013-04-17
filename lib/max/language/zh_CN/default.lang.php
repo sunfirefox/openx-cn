@@ -261,7 +261,7 @@ $GLOBALS['strUnlinkUser']               = "Remove user";
 $GLOBALS['strUnlinkUserConfirmBody']    = "Are you sure you want to remove this user?";
 
 // Login & Permissions
-$GLOBALS['strUserAccess']               = "User Access";
+$GLOBALS['strUserAccess']               = "访问权限";
 $GLOBALS['strAdminAccess']              = "Admin Access";
 $GLOBALS['strUserProperties']           = "User Properties";
 $GLOBALS['strLinkNewUser']              = "Link New User";

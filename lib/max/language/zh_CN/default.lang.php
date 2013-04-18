@@ -198,7 +198,7 @@ $GLOBALS['strDashboardErrorDsc805']     = "XML-RPC connection wasn't allowed dur
                                            Please go to Administrator's account My account -> Product Updates to connect to and register in central server.";
 
 // Priority
-$GLOBALS['strPriority']                 = "Priority";
+$GLOBALS['strPriority']                 = "优先级";
 $GLOBALS['strPriorityLevel']            = "Priority level";
 $GLOBALS['strPriorityTargeting']        = "Distribution";
 $GLOBALS['strPriorityOptimisation']     = "Miscellaneous"; // Er, what?
@@ -453,8 +453,8 @@ $GLOBALS['strEcpmMinImpsDescription']       = "Set this to your desired minium b
 $GLOBALS['strPriorityExclusive']            = "Overrides other non-exclusive campaigns";
 $GLOBALS['strPriorityHigh']                 = "- Paid campaigns";
 $GLOBALS['strPriorityLow']                  = "- House and unpaid campaigns";
-$GLOBALS['strPriorityHighShort']            = "High";
-$GLOBALS['strPriorityLowShort']             = "Low";
+$GLOBALS['strPriorityHighShort']            = "高";
+$GLOBALS['strPriorityLowShort']             = "低";
 $GLOBALS['strHiddenCampaign']               = "Campaign";
 $GLOBALS['strHiddenAd']                     = "Advertisement";
 $GLOBALS['strHiddenAdvertiser']             = "Advertiser";
@@ -499,8 +499,8 @@ $GLOBALS['strEditWebsite']                  = "Edit website";
 $GLOBALS['strDontExpire']                = "长期投放";
 $GLOBALS['strActivateNow']               = "立即开始";
 $GLOBALS['strSetSpecificDate']           = "指定日期";
-$GLOBALS['strLow']                        = "Low";
-$GLOBALS['strHigh']                        = "High";
+$GLOBALS['strLow']                        = "低";
+$GLOBALS['strHigh']                        = "高";
 $GLOBALS['strExclusive']                = "Exclusive";
 $GLOBALS['strExpirationDate']            = "终止投放";
 $GLOBALS['strExpirationDateComment']    = "指定该项目投放周期的最后一天";
@@ -511,9 +511,9 @@ $GLOBALS['strTotalRevenue']             = "Total Revenue";
 $GLOBALS['strImpressionsRemaining']     = "Impressions Remaining";
 $GLOBALS['strClicksRemaining']             = "Clicks Remaining";
 $GLOBALS['strConversionsRemaining']     = "Conversions Remaining";
-$GLOBALS['strImpressionsBooked']         = "Impressions Booked";
-$GLOBALS['strClicksBooked']             = "Clicks Booked";
-$GLOBALS['strConversionsBooked']         = "Conversions Booked";
+$GLOBALS['strImpressionsBooked']         = "素材展示上限";
+$GLOBALS['strClicksBooked']             = "链接点击上限";
+$GLOBALS['strConversionsBooked']         = "数据转化上限";
 $GLOBALS['strCampaignWeight']              = "权重";
 $GLOBALS['strTargetLimitAdImpressions'] = "Target Limit Ad Impressions";
 $GLOBALS['strOptimise']                    = "Optimise delivery of this campaign.";
@@ -1251,7 +1251,7 @@ $GLOBALS['strImpendingCampaignExpiryImpsBody']  = "{clientname} shown below has 
 $GLOBALS['strImpendingCampaignExpiryBody']      = "As a result, the campaign will soon be automatically disabled, and the\nfollowing banners in the campaign will also be disabled:";
 
 // Priority
-$GLOBALS['strPriority']                         = "Priority";
+$GLOBALS['strPriority']                         = "优先级";
 $GLOBALS['strSourceEdit']                       = "Edit Sources";
 
 

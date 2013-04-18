@@ -43,7 +43,7 @@ function MAX_getDisplayName($name, $length = 60, $append = '...')
 function MAX_buildName($id, $name)
 {
 echo "<pre>";
-var_dump($phpAds_CharSet);
+var_dump($GLOBALS['phpAds_CharSet']);
 echo "</pre>";
     $encoding = isset($phpAds_CharSet) ? $phpAds_CharSet : 'UTF-8';
     return htmlentities($name, ENT_COMPAT | ENT_HTML401, $encoding);
@@ -1465,9 +1465,7 @@ function MAX_displayNavigationCampaign($campaignId, $aOtherAdvertisers, $aOtherC
     
     $advertiserName = MAX_buildName($advertiserId, $aOtherAdvertisers[$advertiserId]['name']);
 echo "<pre>";
-echo "SAH";
 var_dump($advertiserName);
-echo "SAH";
 echo "</pre>";
     $advertiserEditUrl = '';
     if (OA_Permission::hasAccessToObject('clients', $advertiserId, OA_Permission::OPERATION_EDIT)) {

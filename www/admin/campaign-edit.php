@@ -1028,10 +1028,11 @@ function displayPage($campaign, $campaignForm, $statusForm, $campaignErrors = nu
         $advertiser = phpAds_getClientDetails ( $campaign['clientid'] );
         $advertiserName = $advertiser ['clientname'];
         $advertiserEditUrl = "advertiser-edit.php?clientid=" . $campaign['clientid'];
-
+var_dump($advertiserName);
         // New campaign
         $builder = new OA_Admin_UI_Model_InventoryPageHeaderModelBuilder ( );
         $oHeaderModel = $builder->buildEntityHeader ( array (array ("name" => $advertiserName, "url" => $advertiserEditUrl ), array ("name" => "" ) ), "campaign", "edit-new" );
+var_dump($aEntityNamesUrls);
         phpAds_PageHeader ( "campaign-edit_new", $oHeaderModel );
     }
 

@@ -628,9 +628,9 @@ $GLOBALS['strBackToTrackers']             = "Back to trackers";
 
 // Banners (General)
 $GLOBALS['strBanner']                        = "Banner";
-$GLOBALS['strBanners']                       = "Banners";
+$GLOBALS['strBanners']                       = "素材";
 $GLOBALS['strBannerFilter']                  = "Banner Filter";
-$GLOBALS['strAddBanner']                     = "Add new banner";
+$GLOBALS['strAddBanner']                     = "添加新的素材";
 $GLOBALS['strAddBanner_Key']                 = "Add <u>n</u>ew banner";
 $GLOBALS['strBannerToCampaign']              = "to campaign";
 $GLOBALS['strModifyBanner']                  = "Modify banner";

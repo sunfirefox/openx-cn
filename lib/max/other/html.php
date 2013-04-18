@@ -42,11 +42,7 @@ function MAX_getDisplayName($name, $length = 60, $append = '...')
 
 function MAX_buildName($id, $name)
 {
-echo "<pre>";
-var_dump($GLOBALS['phpAds_CharSet']);
-echo "</pre>";
-    $encoding = isset($phpAds_CharSet) ? $phpAds_CharSet : 'UTF-8';
-    return htmlentities($name, ENT_COMPAT | ENT_HTML401, $encoding);
+    return htmlentities($name, ENT_COMPAT | ENT_HTML401, isset($GLOBALS['phpAds_CharSet']) ? $GLOBALS['phpAds_CharSet'] : 'UTF-8');
 }
 
 function MAX_getEntityIcon($entity, $active=true, $type='', $marketAdvertiserid = '')
@@ -1464,9 +1460,6 @@ function MAX_displayNavigationCampaign($campaignId, $aOtherAdvertisers, $aOtherC
     $campaignName = $doCampaign->campaignname;
     
     $advertiserName = MAX_buildName($advertiserId, $aOtherAdvertisers[$advertiserId]['name']);
-echo "<pre>";
-var_dump($advertiserName);
-echo "</pre>";
     $advertiserEditUrl = '';
     if (OA_Permission::hasAccessToObject('clients', $advertiserId, OA_Permission::OPERATION_EDIT)) {
         $advertiserEditUrl = "advertiser-edit.php?clientid=$advertiserId";

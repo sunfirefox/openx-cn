@@ -1460,6 +1460,11 @@ function MAX_displayNavigationCampaign($campaignId, $aOtherAdvertisers, $aOtherC
     $campaignName = $doCampaign->campaignname;
     
     $advertiserName = MAX_buildName($advertiserId, $aOtherAdvertisers[$advertiserId]['name']);
+echo "<pre>";
+echo "SAH";
+var_dump($advertiserName);
+echo "SAH";
+echo "</pre>";
     $advertiserEditUrl = '';
     if (OA_Permission::hasAccessToObject('clients', $advertiserId, OA_Permission::OPERATION_EDIT)) {
         $advertiserEditUrl = "advertiser-edit.php?clientid=$advertiserId";

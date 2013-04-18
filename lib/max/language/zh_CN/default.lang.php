@@ -1009,7 +1009,7 @@ $GLOBALS['strShortcutEditStatuses'] = "Edit statuses";
 $GLOBALS['strShortcutShowStatuses'] = "Show statuses";
 
 // Statistics
-$GLOBALS['strStats']                     = "数据统计";
+$GLOBALS['strStats']                     = "统计";
 $GLOBALS['strNoStats']                   = "There are currently no statistics available";
 $GLOBALS['strNoTargetingStats']          = "There are currently no targeting statistics available";
 $GLOBALS['strNoStatsForPeriod']          = "There are currently no statistics available for the period %s to %s";

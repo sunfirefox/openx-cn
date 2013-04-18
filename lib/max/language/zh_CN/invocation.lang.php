@@ -26,21 +26,21 @@ $Id:invocation.lang.php 20042 2008-05-09 01:10:00Z aj.tarachanowicz@openx.org $
 */
 
 // Other
-$GLOBALS['strCopyToClipboard']                      = "Copy to clipboard";
-$GLOBALS['strCopy']                                 = "copy";
+$GLOBALS['strCopyToClipboard']                      = "复制到剪贴板";
+$GLOBALS['strCopy']                                 = "复制";
 $GLOBALS['strChooseTypeOfInvocation']               = "Please choose the type of invocation";
 $GLOBALS['strChooseTypeOfBannerInvocation']         = "Please choose the type of banner invocation";
 
 // Measures
-$GLOBALS['strAbbrPixels']                           = "px";
-$GLOBALS['strAbbrSeconds']                          = "sec";
+$GLOBALS['strAbbrPixels']                           = "像素";
+$GLOBALS['strAbbrSeconds']                          = "秒";
 
 // Common Invocation Parameters
 $GLOBALS['strInvocationWhat']                       = "Banner selection";
 $GLOBALS['strInvocationPreview']                    = "Banner preview";
-$GLOBALS['strInvocationClientID']                   = "Advertiser";
-$GLOBALS['strInvocationCampaignID']                 = "Campaign";
-$GLOBALS['strInvocationTarget']                     = "Target frame";
+$GLOBALS['strInvocationClientID']                   = "客户";
+$GLOBALS['strInvocationCampaignID']                 = "项目";
+$GLOBALS['strInvocationTarget']                     = "目标窗口";
 $GLOBALS['strInvocationSource']                     = "Source";
 $GLOBALS['strInvocationWithText']                   = "Show text below banner";
 $GLOBALS['strInvocationDontShowAgain']              = "Don't show the banner again on the same page";

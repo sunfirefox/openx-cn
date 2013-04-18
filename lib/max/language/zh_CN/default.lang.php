@@ -252,7 +252,7 @@ $GLOBALS['strLinkUserHelp']             = "To add an <b>existing user</b>, type 
 $GLOBALS['strLinkUserHelpUser']         = "username";
 $GLOBALS['strLinkUserHelpEmail']        = "email address";
 $GLOBALS['strLastLoggedIn']             = "Last logged in";
-$GLOBALS['strDateLinked']               = "Date linked";
+$GLOBALS['strDateLinked']               = "关联日期";
 $GLOBALS['strUnlink']                   = "Remove";
 $GLOBALS['strUnlinkingFromLastEntity']  = "Removing user from last entity";
 $GLOBALS['strUnlinkingFromLastEntityBody']  = "Removing user from last entity will cause the user to be deleted. Would you like to remove this user?";
@@ -414,7 +414,7 @@ $GLOBALS['strAllowAuditTrailAccess']            = "Allow this user to access the
 
 // Campaign
 $GLOBALS['strCampaign']                     = "Campaign";
-$GLOBALS['strCampaigns']                    = "Campaigns";
+$GLOBALS['strCampaigns']                    = "项目";
 $GLOBALS['strOverallCampaigns']             = "campaign(s)";
 $GLOBALS['strTotalCampaigns']               = "Total campaigns";
 $GLOBALS['strActiveCampaigns']              = "Active campaigns";

@@ -751,8 +751,8 @@ $GLOBALS['strCreateAdSenseAccount']       = "Create AdSense Account";
 $GLOBALS['strEditAdSenseAccount']         = "Edit AdSense Account";
 
 // Display limitations
-$GLOBALS['strModifyBannerAcl']            = "Delivery Options";
-$GLOBALS['strACL']                        = "Delivery";
+$GLOBALS['strModifyBannerAcl']            = "投放控制";
+$GLOBALS['strACL']                        = "投放控制";
 $GLOBALS['strACLAdd']                     = "Add delivery limitation";
 $GLOBALS['strACLAdd_Key']                 = "Add <u>n</u>ew limitation";
 $GLOBALS['strNoLimitations']              = "No limitations";

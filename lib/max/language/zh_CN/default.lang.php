@@ -1410,32 +1410,32 @@ $GLOBALS['strModifychannel']              = "Edit targeting channel";
 $GLOBALS['strChannelsOfWebsite']          = 'in'; //this is added between page name and website name eg. 'Targeting channels in www.example.com'
 
 // Tracker Variables
-$GLOBALS['strVariableName']             = "Variable Name";
-$GLOBALS['strVariableDescription']     = "Description";
-$GLOBALS['strVariableDataType']         = "Data Type";
-$GLOBALS['strVariablePurpose']       = "Purpose";
-$GLOBALS['strGeneric']               = "Generic";
+$GLOBALS['strVariableName']             = "变量名";
+$GLOBALS['strVariableDescription']     = "详细描述";
+$GLOBALS['strVariableDataType']         = "数据类型";
+$GLOBALS['strVariablePurpose']       = "目的";
+$GLOBALS['strGeneric']               = "一般";
 $GLOBALS['strBasketValue']           = "Basket value";
-$GLOBALS['strNumItems']              = "Number of items";
-$GLOBALS['strVariableIsUnique']      = "Dedup conversions?";
+$GLOBALS['strNumItems']              = "计数";
+$GLOBALS['strVariableIsUnique']      = "检查唯一性";
 $GLOBALS['strJavascript']             = "Javascript";
 $GLOBALS['strRefererQuerystring']     = "Referer Querystring";
 $GLOBALS['strQuerystring']             = "Querystring";
 $GLOBALS['strInteger']                 = "Integer";
-$GLOBALS['strNumber']                 = "Number";
-$GLOBALS['strString']                 = "String";
-$GLOBALS['strTrackFollowingVars']     = "Track the following variable";
+$GLOBALS['strNumber']                 = "数字";
+$GLOBALS['strString']                 = "字符串";
+$GLOBALS['strTrackFollowingVars']     = "追踪以下变量";
 $GLOBALS['strAddVariable']             = "添加变量";
 $GLOBALS['strNoVarsToTrack']         = "您还没有添加要追踪的变量";
-$GLOBALS['strVariableHidden']       = "Hide variable to websites?";
-$GLOBALS['strVariableRejectEmpty']  = "Reject if empty?";
+$GLOBALS['strVariableHidden']       = "对指定媒体隐藏";
+$GLOBALS['strVariableRejectEmpty']  = "检查非空";
 $GLOBALS['strTrackingSettings']     = "追踪器设置";
 $GLOBALS['strTrackerType']          = "追踪器类型";
 $GLOBALS['strTrackerTypeJS']        = "追踪 JavaScript 变量";
 $GLOBALS['strTrackerTypeDefault']   = "追踪 JavaScript 变量 (向后兼容, 需转义)";
 $GLOBALS['strTrackerTypeDOM']       = "通过 DOM 追踪 HTML 元素";
 $GLOBALS['strTrackerTypeCustom']    = "自定义 JavaScript 代码";
-$GLOBALS['strVariableCode']         = "Javascript tracking code";
+$GLOBALS['strVariableCode']         = "Javascript 追踪代码";
 
 
 // Upload conversions

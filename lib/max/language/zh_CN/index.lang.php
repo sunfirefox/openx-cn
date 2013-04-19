@@ -26,8 +26,8 @@ $Id: index.lang.php 81772 2012-09-11 00:07:29Z chris.nutting $
 */
 
 // Meta information
-$translation_readable   = "English";
-$translation_maintainer	= "OpenX Limited";
-$translation_contact	= "http://www.openx.org/community/localisation";
+$translation_readable   = "简体中文";
+$translation_maintainer	= "上海众略广告有限公司";
+$translation_contact	= "http://zleffect.com";
 
 ?>

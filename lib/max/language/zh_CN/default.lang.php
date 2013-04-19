@@ -469,7 +469,7 @@ $GLOBALS['strRemaining']                    = "Remaining";
 $GLOBALS['strCompanionPositioning']         = "尝试在同一页面集中投放该项目的素材";
 $GLOBALS['strSelectUnselectAll']            = "全选";
 $GLOBALS['strConfirmOverwrite']             = "Saving these changes will overwrite any individual banner-zone links. Are you sure?";
-$GLOBALS['strCampaignsOfAdvertiser']        = " - "; //this is added between page name and advertiser name eg. 'Campaigns of Advertiser 1'
+$GLOBALS['strCampaignsOfAdvertiser']        = " | "; //this is added between page name and advertiser name eg. 'Campaigns of Advertiser 1'
 $GLOBALS['strShowCappedNoCookie']           = "对不支持 cookie 的用户忽略投放控制";
 
 // Campaign-zone linking page
@@ -922,7 +922,7 @@ $GLOBALS['strWarnChangeZoneSize']           = 'Changing the zone size will unlin
 $GLOBALS['strWarnChangeBannerSize']         = 'Changing the banner size will unlink this banner from any zones that are not the new size, and if this banner\'s <strong>campaign</strong> is linked to a zone of the new size, this banner will be automatically linked';
 $GLOBALS['strWarnBannerReadonly']           = 'This banner is read-only because an extension has been disabled.  Contact your Administrator for more information.';
 $GLOBALS['strInventoryForecasting']         = 'Inventory Forecasting';
-$GLOBALS['strZonesOfWebsite']               = 'in'; //this is added between page name and website name eg. 'Zones in www.example.com'
+$GLOBALS['strZonesOfWebsite']               = ' | '; //this is added between page name and website name eg. 'Zones in www.example.com'
 $GLOBALS['strBackToZones']                  = "Back to zones";
 
 $GLOBALS['strIab']['IAB_FullBanner(468x60)']         = "IAB Full Banner (468 x 60)";

@@ -231,7 +231,7 @@ $GLOBALS['strWorkingAs_Key']            = "权限 (<u>w</u>)";
 $GLOBALS['strWorkingAs']                = "权限";
 $GLOBALS['strSwitchTo']                 = "选择";
 $GLOBALS['strUseSearchBoxToFindMoreAccounts'] = "Use the switcher's search box to find more accounts";
-$GLOBALS['strWorkingFor']               = "%s账户";
+$GLOBALS['strWorkingFor']               = "%s 账户";
 $GLOBALS['strNoAccountWithXInNameFound']= "No accounts with \"%s\" in name found";
 $GLOBALS['strRecentlyUsed']             = "Recently used";
 $GLOBALS['strLinkUser']                 = "Add user";
@@ -1259,7 +1259,7 @@ $GLOBALS['strSourceEdit']                       = "Edit Sources";
 
 // Preferences
 $GLOBALS['strPreferences']                      = "Preferences";
-$GLOBALS['strMyAccount']                        = "我的账户";
+$GLOBALS['strMyAccount']                        = "账户";
 $GLOBALS['strConfiguration']                    = "Configuration";
 $GLOBALS['strMainPreferences']                  = "Main Preferences";
 $GLOBALS['strAccountPreferences']               = "Account Preferences";

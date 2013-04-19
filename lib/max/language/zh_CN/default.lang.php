@@ -347,25 +347,25 @@ $GLOBALS['strPercentSumVariables']      = "% Sum of variables";
 
 // Time and date related
 $GLOBALS['strDate']                     = "日期";
-$GLOBALS['strToday']                    = "Today";
-$GLOBALS['strDay']                      = "Day";
+$GLOBALS['strToday']                    = "今天";
+$GLOBALS['strDay']                      = "天";
 $GLOBALS['strDays']                     = "天";
-$GLOBALS['strLast7Days']                = "Last 7 days";
-$GLOBALS['strWeek']                     = "Week";
-$GLOBALS['strWeeks']                    = "Weeks";
-$GLOBALS['strSingleMonth']              = "Month";
-$GLOBALS['strMonths']                   = "Months";
-$GLOBALS['strDayOfWeek']                = "Day of week";
-$GLOBALS['strThisMonth']                = "This month";
-$GLOBALS['strMonth']                    = array("一月","二月","三月","四月","May","June","July", "August", "September", "October", "November", "December");
-$GLOBALS['strDayFullNames']             = array('星期日', '星期一', '星期二', 'Wednesday', 'Thursday', 'Friday', 'Saturday');
-$GLOBALS['strDayShortCuts']             = array("日","一","Tu","We","Th","Fr","Sa");
-$GLOBALS['strHour']                     = "Hour";
+$GLOBALS['strLast7Days']                = "过去 7 天";
+$GLOBALS['strWeek']                     = "周";
+$GLOBALS['strWeeks']                    = "周";
+$GLOBALS['strSingleMonth']              = "个月";
+$GLOBALS['strMonths']                   = "个月";
+$GLOBALS['strDayOfWeek']                = "星期";
+$GLOBALS['strThisMonth']                = "本月";
+$GLOBALS['strMonth']                    = array("一月","二月","三月","四月","五月","六月","七月", "八月", "九月", "十月", "十一月", "十二月");
+$GLOBALS['strDayFullNames']             = array('星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六');
+$GLOBALS['strDayShortCuts']             = array("日","一","二","三","四","五","六");
+$GLOBALS['strHour']                     = "小时";
 $GLOBALS['strHourFilter']               = "Hour Filter";
 $GLOBALS['strSeconds']                  = "秒";
 $GLOBALS['strMinutes']                  = "分钟";
 $GLOBALS['strHours']                    = "小时";
-$GLOBALS['strTimes']                    = "times";
+$GLOBALS['strTimes']                    = "次";
 
 // Advertiser
 $GLOBALS['strClient']                       = "客户";
@@ -1530,14 +1530,14 @@ $GLOBALS['strDeliveryLimitationsInputErrors'] = "Some of delivery limitations re
 $GLOBALS['strYouAreNowWorkingAsX'] = "You are now working as <b>%s</b>";
 $GLOBALS['strYouDontHaveAccess'] = "You don't have access to that page. You have been re-directed.";
 
-$GLOBALS['strAdvertiserHasBeenAdded'] = "Advertiser <a href='%s'>%s</a> has been added, <a href='%s'>add a campaign</a>";
-$GLOBALS['strAdvertiserHasBeenUpdated'] = "Advertiser <a href='%s'>%s</a> has been updated";
-$GLOBALS['strAdvertiserHasBeenDeleted'] = "Advertiser <b>%s</b> has been deleted";
-$GLOBALS['strAdvertisersHaveBeenDeleted'] = "All selected advertisers have been deleted";
+$GLOBALS['strAdvertiserHasBeenAdded'] = "新客户<a href='%s'>%s</a>已经添加成功，现在可以<a href='%s'>添加新项目</a>";
+$GLOBALS['strAdvertiserHasBeenUpdated'] = "客户<a href='%s'>%s</a>已经更新成功";
+$GLOBALS['strAdvertiserHasBeenDeleted'] = "客户<b>%s</b>已经删除";
+$GLOBALS['strAdvertisersHaveBeenDeleted'] = "选中的所有客户已经删除成功";
 
-$GLOBALS['strTrackerHasBeenAdded'] = "Tracker <a href='%s'>%s</a> has been added";
-$GLOBALS['strTrackerHasBeenUpdated'] = "Tracker <a href='%s'>%s</a> has been updated";
-$GLOBALS['strTrackerVarsHaveBeenUpdated'] = "Variables of tracker <a href='%s'>%s</a> have been updated";
+$GLOBALS['strTrackerHasBeenAdded'] = "新追踪器<a href='%s'>%s</a>已经添加成功";
+$GLOBALS['strTrackerHasBeenUpdated'] = "追踪器<a href='%s'>%s</a>已经更新成功";
+$GLOBALS['strTrackerVarsHaveBeenUpdated'] = "追踪器<a href='%s'>%s</a>的变量已经更新成功";
 $GLOBALS['strTrackerCampaignsHaveBeenUpdated'] = "Linked campaigns of tracker <a href='%s'>%s</a> have been updated";
 $GLOBALS['strTrackerAppendHasBeenUpdated'] = "Append tracker code of tracker <a href='%s'>%s</a> has been updated";
 $GLOBALS['strTrackerHasBeenDeleted'] = "Tracker <b>%s</b> has been deleted";

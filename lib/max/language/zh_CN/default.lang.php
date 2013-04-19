@@ -892,7 +892,7 @@ $GLOBALS['strAvailableZones']               = "可关联的版位";
 $GLOBALS['strLinkingNotSuccess']            = "Linking not successful, please try again";
 $GLOBALS['strZoneOverview']                 = "Zone Overview";
 $GLOBALS['strZoneProperties']               = "版位";
-$GLOBALS['strZoneHistory']                  = "Zone History";
+$GLOBALS['strZoneHistory']                  = "查看统计数据";
 $GLOBALS['strNoZones']                      = "There are currently no zones defined for this website.";
 $GLOBALS['strNoZonesAddWebsite']            = "There are currently no zones defined, because there are no websites. To create a zone, <a href='affiliate-edit.php'>add a new website</a> first.";
 $GLOBALS['strConfirmDeleteZone']            = "Do you really want to delete this zone?";
@@ -923,7 +923,7 @@ $GLOBALS['strWarnChangeBannerSize']         = 'Changing the banner size will unl
 $GLOBALS['strWarnBannerReadonly']           = 'This banner is read-only because an extension has been disabled.  Contact your Administrator for more information.';
 $GLOBALS['strInventoryForecasting']         = 'Inventory Forecasting';
 $GLOBALS['strZonesOfWebsite']               = ' | '; //this is added between page name and website name eg. 'Zones in www.example.com'
-$GLOBALS['strBackToZones']                  = "Back to zones";
+$GLOBALS['strBackToZones']                  = "返回版位列表";
 
 $GLOBALS['strIab']['IAB_FullBanner(468x60)']         = "IAB Full Banner (468 x 60)";
 $GLOBALS['strIab']['IAB_Skyscraper(120x600)']        = "IAB Skyscraper (120 x 600)";
@@ -1108,7 +1108,7 @@ $GLOBALS['strAction']                = "Action";
 $GLOBALS['strNoActionsLogged']        = "No actions are logged";
 
 // Code generation
-$GLOBALS['strGenerateBannercode']        = "Direct Selection";
+$GLOBALS['strGenerateBannercode']        = "生成代码";
 $GLOBALS['strChooseInvocationType']        = "请选择调用方式";
 $GLOBALS['strGenerate']                    = "生成";
 $GLOBALS['strParameters']                = "参数设置";

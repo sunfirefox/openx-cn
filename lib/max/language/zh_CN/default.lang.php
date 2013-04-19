@@ -320,8 +320,8 @@ $GLOBALS['strImportStats']              = "Import Statistics";
 $GLOBALS['strDateTime']                 = "Date Time";
 $GLOBALS['strTrackerID']                = "Tracker ID";
 $GLOBALS['strTrackerName']              = "Tracker Name";
-$GLOBALS['strTrackerImageTag']          = "Image Tag";
-$GLOBALS['strTrackerJsTag']             = "Javascript Tag";
+$GLOBALS['strTrackerImageTag']          = "Image 标签";
+$GLOBALS['strTrackerJsTag']             = "Javascript 标签";
 $GLOBALS['strTrackerAlwaysAppend']      = "Always display appended code, even if no conversion is recorded by the tracker?";
 $GLOBALS['strBanners']                  = "Banners";
 $GLOBALS['strCampaigns']                = "项目";
@@ -853,7 +853,7 @@ $GLOBALS['strAllowAffiliateApprPendConv']   = "Allow this user to only view appr
 // Website (properties - payment information)
 $GLOBALS['strPaymentInformation']           = "Payment information";
 $GLOBALS['strAddress']                      = "Address";
-$GLOBALS['strPostcode']                     = "Postcode";
+$GLOBALS['strPostcode']                     = "邮编";
 $GLOBALS['strCity']                         = "City";
 $GLOBALS['strCountry']                      = "国家";
 $GLOBALS['strPhone']                        = "Phone";
@@ -1096,7 +1096,7 @@ $GLOBALS['strWorksheets']             = "Worksheets";
 // Admin_UI_Fields
 $GLOBALS['strAllAdvertisers']            = "所有客户";
 $GLOBALS['strAnonAdvertisers']           = "Anonymous advertisers";
-$GLOBALS['strAllPublishers']             = "All websites";
+$GLOBALS['strAllPublishers']             = "所有媒体";
 $GLOBALS['strAnonPublishers']            = "Anonymous websites";
 $GLOBALS['strAllAvailZones']             = "All available zones";
 
@@ -1109,7 +1109,7 @@ $GLOBALS['strNoActionsLogged']        = "No actions are logged";
 
 // Code generation
 $GLOBALS['strGenerateBannercode']        = "Direct Selection";
-$GLOBALS['strChooseInvocationType']        = "Please choose the type of banner invocation";
+$GLOBALS['strChooseInvocationType']        = "请选择调用方式";
 $GLOBALS['strGenerate']                    = "生成";
 $GLOBALS['strParameters']                = "参数设置";
 $GLOBALS['strFrameSize']                = "Frame size";

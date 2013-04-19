@@ -375,7 +375,7 @@ $GLOBALS['strAddClient']                    = "添加新的客户";
 $GLOBALS['strAddClient_Key']                = "添加新的客户 (<u>n</u>)";
 $GLOBALS['strTotalClients']                 = "客户总数";
 $GLOBALS['strClientProperties']             = "客户";
-$GLOBALS['strClientHistory']                = "投放情况";
+$GLOBALS['strClientHistory']                = "统计投放情况";
 $GLOBALS['strNoClients']                    = "您还没有添加客户。在添加新的项目前，您需要先<a href='advertiser-edit.php'>添加客户</a>。";
 $GLOBALS['strNoClientsForBanners']          = "您还没有添加客户。在添加新的素材前，您需要先<a href='advertiser-edit.php'>添加客户</a>和项目。";
 $GLOBALS['strConfirmDeleteClient']          = "您真的要删除这个客户吗？";
@@ -392,7 +392,7 @@ $GLOBALS['strAdvertiserSignupLink']         = "Advertiser Sign Up link";
 $GLOBALS['strAdvertiserSignupLinkDesc']     = "To add an Advertiser Sign Up link to your site, please copy the HTML below:";
 $GLOBALS['strAdvertiserSignupOption']       = "Advertiser Sign Up option";
 $GLOBALS['strAdvertiserSignunOptionDesc']   = "To edit your Advertiser Sign Up options, follow to";
-$GLOBALS['strAdvertiserCampaigns']          = "显示该客户的项目";
+$GLOBALS['strAdvertiserCampaigns']          = "查看项目列表";
 // Advertisers properties
 $GLOBALS['strContact']                          = "联系人";
 $GLOBALS['strContactName']                      = "姓名";
@@ -430,7 +430,7 @@ $GLOBALS['strLinkedCampaigns']              = "项目关联";
 $GLOBALS['strCampaignStats']                = "Campaign Statistics";
 $GLOBALS['strCampaignProperties']           = "项目";
 $GLOBALS['strCampaignOverview']             = "Campaign Overview";
-$GLOBALS['strCampaignHistory']              = "投放情况";
+$GLOBALS['strCampaignHistory']              = "统计投放情况";
 $GLOBALS['strNoCampaigns']                  = "There are currently no campaigns defined for this advertiser.";
 $GLOBALS['strNoCampaignsAddAdvertiser']     = "There are currently no campaigns defined, because there are no advertisers. To create a campaign, <a href='advertiser-edit.php'>add a new advertiser</a> first.";
 $GLOBALS['strNoCampaignsForBanners']        = "This advertiser has no campaigns. You need to <a href='campaign-edit.php?clientid=%s'>add first campaign</a> in order to add banners";
@@ -577,7 +577,7 @@ $GLOBALS['strLowExclusiveDisabled']         = "You cannot change this campaign t
 $GLOBALS['strCannotSetBothDateAndLimit']    = "You cannot set both an end date and limit for a Remnant or Exclusive campaign.<br>If you need to set both an end date and limit impressions/clicks/conversions please use a non-exclusive Contract campaign.";
 $GLOBALS['strWhyDisabled']                  = "为何禁用？";
 $GLOBALS['strBackToCampaigns']              = "返回项目列表";
-$GLOBALS['strCampaignBanners']              = "显示该项目的素材";
+$GLOBALS['strCampaignBanners']              = "转到素材列表";
 $GLOBALS['strCookies']                      = "Cookie";
 
 // Tracker

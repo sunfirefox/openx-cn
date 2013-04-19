@@ -392,7 +392,7 @@ $GLOBALS['strAdvertiserSignupLink']         = "Advertiser Sign Up link";
 $GLOBALS['strAdvertiserSignupLinkDesc']     = "To add an Advertiser Sign Up link to your site, please copy the HTML below:";
 $GLOBALS['strAdvertiserSignupOption']       = "Advertiser Sign Up option";
 $GLOBALS['strAdvertiserSignunOptionDesc']   = "To edit your Advertiser Sign Up options, follow to";
-$GLOBALS['strAdvertiserCampaigns']          = "该客户的所有项目";
+$GLOBALS['strAdvertiserCampaigns']          = "显示该客户的项目";
 // Advertisers properties
 $GLOBALS['strContact']                          = "联系人";
 $GLOBALS['strContactName']                      = "姓名";
@@ -576,8 +576,8 @@ $GLOBALS['strLimit']                        = "限制";
 $GLOBALS['strLowExclusiveDisabled']         = "You cannot change this campaign to Remnant or Exclusive, since both an end date and either of impressions/clicks/conversions limit are set. <br>In order to change type, you need to set no expiry date or remove limits.";
 $GLOBALS['strCannotSetBothDateAndLimit']    = "You cannot set both an end date and limit for a Remnant or Exclusive campaign.<br>If you need to set both an end date and limit impressions/clicks/conversions please use a non-exclusive Contract campaign.";
 $GLOBALS['strWhyDisabled']                  = "为何禁用？";
-$GLOBALS['strBackToCampaigns']              = "所有项目";
-$GLOBALS['strCampaignBanners']              = "该项目的所有素材";
+$GLOBALS['strBackToCampaigns']              = "返回项目列表";
+$GLOBALS['strCampaignBanners']              = "显示该项目的素材";
 $GLOBALS['strCookies']                      = "Cookie";
 
 // Tracker
@@ -705,7 +705,7 @@ $GLOBALS['strURL']                     = "Destination URL (incl. http://)";
 $GLOBALS['strHTML']                 = "HTML";
 $GLOBALS['strKeyword']              = "Keywords";
 $GLOBALS['strTextBelow']             = "Text below image";
-$GLOBALS['strWeight']                 = "权重";
+$GLOBALS['strWeight']                 = "Weight";
 $GLOBALS['strAlt']                     = "Alt text";
 $GLOBALS['strStatusText']            = "Status text";
 $GLOBALS['strBannerWeight']            = "Banner weight";

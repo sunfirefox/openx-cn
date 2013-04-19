@@ -122,7 +122,7 @@ $GLOBALS['strUnfilteredTotal']          = "Total (unfiltered)";
 $GLOBALS['strFilteredTotal']            = "Total (filtered)";
 $GLOBALS['strActive']                   = "active";
 $GLOBALS['strFrom']                     = "From";
-$GLOBALS['strTo']                       = "to";
+$GLOBALS['strTo']                       = "到";
 $GLOBALS['strAdd']                      = "Add";
 $GLOBALS['strLinkedTo']                 = "linked to";
 $GLOBALS['strDaysLeft']                 = "Days left";
@@ -199,7 +199,7 @@ $GLOBALS['strDashboardErrorDsc805']     = "XML-RPC connection wasn't allowed dur
 
 // Priority
 $GLOBALS['strPriority']                 = "优先级";
-$GLOBALS['strPriorityLevel']            = "Priority level";
+$GLOBALS['strPriorityLevel']            = "优先级";
 $GLOBALS['strPriorityTargeting']        = "Distribution";
 $GLOBALS['strPriorityOptimisation']     = "Miscellaneous"; // Er, what?
 $GLOBALS['strExclusiveAds']             = "Exclusive Contract Advertisements";
@@ -469,7 +469,7 @@ $GLOBALS['strRemaining']                    = "Remaining";
 $GLOBALS['strCompanionPositioning']         = "尝试在同一页面集中投放该项目的素材";
 $GLOBALS['strSelectUnselectAll']            = "Select / Unselect All";
 $GLOBALS['strConfirmOverwrite']             = "Saving these changes will overwrite any individual banner-zone links. Are you sure?";
-$GLOBALS['strCampaignsOfAdvertiser']        = "列表: "; //this is added between page name and advertiser name eg. 'Campaigns of Advertiser 1'
+$GLOBALS['strCampaignsOfAdvertiser']        = " - "; //this is added between page name and advertiser name eg. 'Campaigns of Advertiser 1'
 $GLOBALS['strShowCappedNoCookie']           = "对不支持 cookie 的用户忽略投放控制";
 
 // Campaign-zone linking page
@@ -520,7 +520,7 @@ $GLOBALS['strOptimise']                    = "Optimise delivery of this campaign
 $GLOBALS['strAnonymous']                = "隐藏该项目的客户以及该项目关联的媒体";
 $GLOBALS['strHighPriority']                = "Show banners in this campaign with high priority.<br />If you use this option ".MAX_PRODUCT_NAME." will try to distribute the number of Impressions evenly over the course of the day.";
 $GLOBALS['strLowPriority']                = "Show banner in this campaign with low priority.<br /> This campaign is used to show the left over Impressions which aren't used by high priority campaigns.";
-$GLOBALS['strTargetPerDay']                = "per day.";
+$GLOBALS['strTargetPerDay']                = " / 天";
 $GLOBALS['strTargetLimitImpressionsTo']   = "Limit impressions to";
 $GLOBALS['strPriorityAutoTargeting']      = "Automatic - Distribute the remaining inventory evenly over the remaining number of days.";
 $GLOBALS['strCampaignWarningRemnantNoWeight']   = "The type of this campaign has been set to Remnant, \nbut the weight is set to zero or it has not been \nspecified. This will cause the campaign to be \ndeactivated and its banners won't be delivered \nuntil the weight has been set to a valid number. \n\nAre you sure you want to continue?";
@@ -572,7 +572,7 @@ $GLOBALS['strPricingModel']                 = "结算方式";
 $GLOBALS['strSelectPricingModel']           = "-- 选择结算方式 --";
 $GLOBALS['strRatePrice']                    = "单价";
 $GLOBALS['strMinimumImpressions']           = "Minimum daily impressions";
-$GLOBALS['strLimit']                        = "Limit";
+$GLOBALS['strLimit']                        = "限制";
 $GLOBALS['strLowExclusiveDisabled']         = "You cannot change this campaign to Remnant or Exclusive, since both an end date and either of impressions/clicks/conversions limit are set. <br>In order to change type, you need to set no expiry date or remove limits.";
 $GLOBALS['strCannotSetBothDateAndLimit']    = "You cannot set both an end date and limit for a Remnant or Exclusive campaign.<br>If you need to set both an end date and limit impressions/clicks/conversions please use a non-exclusive Contract campaign.";
 $GLOBALS['strWhyDisabled']                  = "为何禁用？";

@@ -1145,76 +1145,74 @@ $GLOBALS['strThirdPartyComment']        = "
   *";
 
 // Errors
-$GLOBALS['strMySQLError']                       = "SQL Error:";
-$GLOBALS['strErrorDatabaseConnetion']           = "Database connection error.";
-$GLOBALS['strErrorCantConnectToDatabase']       = "A fatal error occurred %s can't connect to the database. Because
-                                                   of this it isn't possible to use the administrator interface. The delivery
-                                                   of banners might also be affected. Possible reasons for the problem are:
+$GLOBALS['strMySQLError']                       = "SQL 错误：";
+$GLOBALS['strErrorDatabaseConnetion']           = "数据库连接错误";
+$GLOBALS['strErrorCantConnectToDatabase']       = "致命错误: %s 无法连接到数据库。管理界面目前无法使用，同时广告投放功能也有可能收到影响。常见的错误原因有：
                                                    <ul>
-                                                     <li>The database server isn't functioning at the moment</li>
-                                                     <li>The location of the database server has changed</li>
-                                                     <li>The username or password used to contact the database server are not correct</li>
-                                                     <li>PHP has not loaded the MySQL Extension</li>
+                                                     <li>数据库服务器出现故障</li>
+                                                     <li>数据库服务器的地址变更</li>
+                                                     <li>用于连接数据库服务器的用户名或密码错误</li>
+                                                     <li>PHP 没有加载 MySQL 扩展</li>
                                                    </ul>";
-$GLOBALS['strLogErrorClients']                  = "[phpAds] An error occurred while trying to fetch the advertisers from the database.";
-$GLOBALS['strLogErrorBanners']                  = "[phpAds] An error occurred while trying to fetch the banners from the database.";
-$GLOBALS['strLogErrorViews']                    = "[phpAds] An error occurred while trying to fetch the Impressions from the database.";
-$GLOBALS['strLogErrorClicks']                   = "[phpAds] An error occurred while trying to fetch the Clicks from the database.";
-$GLOBALS['strLogErrorConversions']              = "[phpAds] An error occurred while trying to fetch the Conversions from the database.";
-$GLOBALS['strErrorViews']                       = "You must enter the number of impressions or select the unlimited box !";
-$GLOBALS['strErrorNegViews']                    = "Negative impressions are not allowed";
-$GLOBALS['strErrorClicks']                      = "You must enter the number of clicks or select the unlimited box !";
-$GLOBALS['strErrorNegClicks']                   = "Negative clicks are not allowed";
-$GLOBALS['strErrorConversions']                 = "You must enter the number of conversions or select the unlimited box !";
-$GLOBALS['strErrorNegConversions']              = "Negative conversions are not allowed";
-$GLOBALS['strNoMatchesFound']                   = "No matches were found";
-$GLOBALS['strErrorOccurred']                    = "An error occurred";
-$GLOBALS['strErrorUploadSecurity']              = "Detected a possible security problem, upload halted!";
-$GLOBALS['strErrorUploadBasedir']               = "Could not access uploaded file, probably due to safemode or open_basedir restrictions";
-$GLOBALS['strErrorUploadUnknown']               = "Could not access uploaded file, due to an unknown reason. Please check your PHP configuration";
-$GLOBALS['strErrorStoreLocal']                  = "An error occcured while trying to save the banner in the local directory. This is probably the result of a misconfiguration of the local directory path settings";
-$GLOBALS['strErrorStoreFTP']                    = "An error occcured while trying to upload the banner to the FTP server. This could be because the server is not available, or because of a misconfiguration of the FTP server settings";
-$GLOBALS['strErrorDBPlain']                     = "An error occurred while accessing the database";
-$GLOBALS['strErrorDBSerious']                   = "A serious problem with the database has been detected";
-$GLOBALS['strErrorDBNoDataPlain']               = "Due to a problem with the database ".MAX_PRODUCT_NAME." couldn't retrieve or store data. ";
-$GLOBALS['strErrorDBNoDataSerious']             = "Due to a serious problem with the database, ".MAX_PRODUCT_NAME." couldn't retrieve data";
-$GLOBALS['strErrorDBCorrupt']                   = "The database table is probably corrupt and needs to be repaired. For more information about repairing corrupted tables please read the chapter <i>Troubleshooting</i> of the <i>Administrator guide</i>.";
-$GLOBALS['strErrorDBContact']                   = "Please contact the administrator of this server and notify him or her of the problem.";
+$GLOBALS['strLogErrorClients']                  = "[phpAds] 从数据库读取客户信息时发生错误。";
+$GLOBALS['strLogErrorBanners']                  = "[phpAds] 从数据库读取素材信息时发生错误。";
+$GLOBALS['strLogErrorViews']                    = "[phpAds] 从数据库读取素材展示信息时发生错误。";
+$GLOBALS['strLogErrorClicks']                   = "[phpAds] 从数据库读取素材点击信息时发生错误。";
+$GLOBALS['strLogErrorConversions']              = "[phpAds] 从数据库读取数据追踪信息时发生错误。";
+$GLOBALS['strErrorViews']                       = "请输入限制展示次数或选择无限制。";
+$GLOBALS['strErrorNegViews']                    = "展示次数不可以为负值。";
+$GLOBALS['strErrorClicks']                      = "请输入限制点击次数或选择无限制。";
+$GLOBALS['strErrorNegClicks']                   = "点击次数不可以为负值。";
+$GLOBALS['strErrorConversions']                 = "请输入限制数据追踪次数或选择无限制。";
+$GLOBALS['strErrorNegConversions']              = "限制数据追踪次数不可以为负值。";
+$GLOBALS['strNoMatchesFound']                   = "没有找到匹配的信息。";
+$GLOBALS['strErrorOccurred']                    = "发生错误。";
+$GLOBALS['strErrorUploadSecurity']              = "检测到安全问题，已暂停升级。";
+$GLOBALS['strErrorUploadBasedir']               = "无法访问上传的文件。请检查 PHP 的 safe_mode 和 open_basedir 设置。";
+$GLOBALS['strErrorUploadUnknown']               = "无法访问上传的文件。原因未知。请检查 PHP 的设置。";
+$GLOBALS['strErrorStoreLocal']                  = "保存图片时发生错误。请检查图片存储路径设置。";
+$GLOBALS['strErrorStoreFTP']                    = "向 FTP 服务器上传图片时发生错误。请检查 FTP 服务器配置，并确保 FTP 服务器正常工作。";
+$GLOBALS['strErrorDBPlain']                     = "访问数据库时发生错误。";
+$GLOBALS['strErrorDBSerious']                   = "检测到数据库存在严重问题。";
+$GLOBALS['strErrorDBNoDataPlain']               = "数据库异常，".MAX_PRODUCT_NAME." 无法存取数据。";
+$GLOBALS['strErrorDBNoDataSerious']             = "数据库异常，".MAX_PRODUCT_NAME." 无法读取数据。";
+$GLOBALS['strErrorDBCorrupt']                   = "数据表异常，请参考 <i>Administrator guide</i> 中的 <i>Troubleshooting</i> 章节尝试修复。";
+$GLOBALS['strErrorDBContact']                   = "请联系系统管理员。";
 $GLOBALS['strErrorDBSubmitBug']                 = "If this problem is reproducable it might be caused by a bug in ".MAX_PRODUCT_NAME.". Please report the following information to the creators of ".MAX_PRODUCT_NAME.". Also try to describe the actions that led to this error as clearly as possible.";
-$GLOBALS['strMaintenanceNotActive']             = "The maintenance script has not been run in the last 24 hours. \\nIn order for ".MAX_PRODUCT_NAME." to function correctly it needs to run \\nevery hour. \\n\\nPlease read the Administrator guide for more information \\nabout configuring the maintenance script.";
-$GLOBALS['strErrorBadUserType']                 = "The system was unable to determine your account user type!";
-$GLOBALS['strErrorLinkingBanner']               = "It was not possible to link this banner to this zone because:";
-$GLOBALS['strUnableToLinkBanner']               = "Cannot link this banner: ";
-$GLOBALS['strErrorEditingCampaign']             = "Error updating campaign:";
-$GLOBALS['strUnableToChangeCampaign']           = "Cannot apply this change because:";
-$GLOBALS['strErrorEditingCampaignRevenue']      = "incorrect number format in Revenue Information field";
-$GLOBALS['strErrorEditingCampaignECPM']         = "incorrect number format in ECPM Information field";
-$GLOBALS['strErrorEditingZone']                 = "Error updating zone:";
-$GLOBALS['strUnableToChangeZone']               = "Cannot apply this change because:";
-$GLOBALS['strDatesConflict']                    = "Dates of the campaign you are trying to link overlap with the dates of the campaign already linked ";
-$GLOBALS['strEmailNoDates']                     = "Campaigns linked to Email Zones must have a start and end date set. OpenX ensures that on a given date, only one active banner is linked to an Email Zone. Please ensure that the campaigns already linked to the zone do not have overlapping dates with the campaign you are trying to link.";
-$GLOBALS['strWarningInaccurateStats']           = "Some of these statistics were logged in a non-UTC timezone, and may not be displayed in the correct timezone.";
-$GLOBALS['strWarningInaccurateReadMore']        = "Read more about this";
-$GLOBALS['strWarningInaccurateReport']          = "Some of the statistics in this report were logged in a non-UTC timezone, and may not be displayed in the correct timezone";
+$GLOBALS['strMaintenanceNotActive']             = "距离上次运行维护脚本已经超过 24 小时。\\n为保证 ".MAX_PRODUCT_NAME." 正常工作，维护脚本运行的间隔不应该超过 1 小时。\\n\\n请参考 <i>Administrator guide</i> 配置维护脚本。";
+$GLOBALS['strErrorBadUserType']                 = "系统无法检测您的账户类型。";
+$GLOBALS['strErrorLinkingBanner']               = "将素材关联到该版位时发生错误：";
+$GLOBALS['strUnableToLinkBanner']               = "无法关联该素材：";
+$GLOBALS['strErrorEditingCampaign']             = "修改项目时发生错误：";
+$GLOBALS['strUnableToChangeCampaign']           = "无法修改该项目：";
+$GLOBALS['strErrorEditingCampaignRevenue']      = "收入金额数字格式无效。";
+$GLOBALS['strErrorEditingCampaignECPM']         = "ECPM 数字格式无效。";
+$GLOBALS['strErrorEditingZone']                 = "修改版位时发生错误：";
+$GLOBALS['strUnableToChangeZone']               = "无法修改该版位：";
+$GLOBALS['strDatesConflict']                    = "该项目与其它已经关联的项目的日期有重叠。";
+$GLOBALS['strEmailNoDates']                     = "Email 类型的版位所关联的项目必须设置开始和终止日期。";
+$GLOBALS['strWarningInaccurateStats']           = "部分投放记录采用了非 UTC 时区，可能导致显示不准确。";
+$GLOBALS['strWarningInaccurateReadMore']        = "查看详细解释";
+$GLOBALS['strWarningInaccurateReport']          = "该报表中的部分投放记录采用了非 UTC 时区，可能导致显示不准确。";
 
 //Validation
 $GLOBALS['strRequiredFieldLegend']              = "表示必填的项目";
-$GLOBALS['strFormContainsErrors']               = "Form contains errors, please correct the marked fields below.";
-$GLOBALS['strRequiredField']                    = "Required field";
-$GLOBALS['strXRequiredField']                   = "%s is required";
-$GLOBALS['strMaxLengthField']                   = "Please enter maximum %s characters";
-$GLOBALS['strEmailField']                       = "Please enter a valid email";
-$GLOBALS['strNumericField']                     = "Please enter a number (only digits allowed)";
-$GLOBALS['strGreaterThanZeroField']             = "Must be greater than 0";
-$GLOBALS['strXGreaterThanZeroField']            = "%s must be greater than 0";
-$GLOBALS['strXPositiveWholeNumberField']        = "%s must be a positive whole number";
-$GLOBALS['strXUniqueField']                     = "%s with this %s already exists";
-$GLOBALS['strXDecimalFieldWithDecimalPlaces']   = "Must be a decimal with maximum %s decimal places";
-$GLOBALS['strInvalidWebsiteURL']                = "Invalid Website URL";
+$GLOBALS['strFormContainsErrors']               = "表单填写有错误, 请修正。";
+$GLOBALS['strRequiredField']                    = "必填项目";
+$GLOBALS['strXRequiredField']                   = "%s 为必填。";
+$GLOBALS['strMaxLengthField']                   = "不能超过 %s 个字符。";
+$GLOBALS['strEmailField']                       = "Email 格式无效。";
+$GLOBALS['strNumericField']                     = "必须为数字。";
+$GLOBALS['strGreaterThanZeroField']             = "必须大于 0。";
+$GLOBALS['strXGreaterThanZeroField']            = "%s 必须大于 0。";
+$GLOBALS['strXPositiveWholeNumberField']        = "%s 必须是正整数。";
+$GLOBALS['strXUniqueField']                     = "不能与其它 %s 的 %s 相同。";
+$GLOBALS['strXDecimalFieldWithDecimalPlaces']   = "必须是不超过 %s 位的整数。";
+$GLOBALS['strInvalidWebsiteURL']                = "媒体 URL 格式无效。";
 
 
 // Email
-$GLOBALS['strSirMadam']                         = "Sir/Madam";
+$GLOBALS['strSirMadam']                         = "先生／女士";
 $GLOBALS['strMailSubject']                      = "客户状态报告";
 $GLOBALS['strAdReportSent']                     = "Advertiser report sent";
 $GLOBALS['strMailHeader']                       = "Dear {contact},\n";

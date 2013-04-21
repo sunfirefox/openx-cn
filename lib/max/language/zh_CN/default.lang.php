@@ -409,7 +409,7 @@ $GLOBALS['strAllowClientActivateBanner']        = "启用素材";
 $GLOBALS['strAllowClientViewTargetingStats']    = "Allow this user to view targeting statistics";
 $GLOBALS['strAllowCreateAccounts']              = "添加新的用户";
 $GLOBALS['strCsvImportConversions']             = "Allow this user to import offline conversions";
-$GLOBALS['strAdvertiserLimitation']             = "禁止在同一个页面上重复投放来自该客户的广告";
+$GLOBALS['strAdvertiserLimitation']             = "禁止在同一个页面上重复投放属于该客户的素材";
 $GLOBALS['strAllowAuditTrailAccess']            = "查看日志";
 
 // Campaign

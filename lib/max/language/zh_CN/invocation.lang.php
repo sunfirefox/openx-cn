@@ -41,13 +41,13 @@ $GLOBALS['strInvocationPreview']                    = "Banner preview";
 $GLOBALS['strInvocationClientID']                   = "客户";
 $GLOBALS['strInvocationCampaignID']                 = "项目";
 $GLOBALS['strInvocationTarget']                     = "目标窗口";
-$GLOBALS['strInvocationSource']                     = "Source";
-$GLOBALS['strInvocationWithText']                   = "Show text below banner";
-$GLOBALS['strInvocationDontShowAgain']              = "Don't show the banner again on the same page";
-$GLOBALS['strInvocationDontShowAgainCampaign']      = "Don't show a banner from the same campaign again on the same page";
+$GLOBALS['strInvocationSource']                     = "来源";
+$GLOBALS['strInvocationWithText']                   = "在素材下方显示文字";
+$GLOBALS['strInvocationDontShowAgain']              = "禁止在同一个页面上重复投放相同的素材";
+$GLOBALS['strInvocationDontShowAgainCampaign']      = "禁止在同一个页面上重复投放属于同一项目的素材";
 $GLOBALS['strInvocationTemplate']                   = "Store the banner inside a variable so it can be used in a template";
 $GLOBALS['strInvocationBannerID']                   = "Banner ID";
-$GLOBALS['strInvocationComments']                   = "Include comments";
+$GLOBALS['strInvocationComments']                   = "包含注释";
 
 // Iframe
 $GLOBALS['strIFrameRefreshAfter']                   = "Refresh after";

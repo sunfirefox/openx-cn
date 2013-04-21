@@ -106,7 +106,7 @@ $GLOBALS['strYes']                      = "是";
 $GLOBALS['strNo']                       = "否";
 $GLOBALS['strNone']                     = "None";
 $GLOBALS['strCustom']                   = "自定义";
-$GLOBALS['strDefault']                  = "Default";
+$GLOBALS['strDefault']                  = "默认";
 $GLOBALS['strOther']                    = "Other";
 $GLOBALS['strUnknown']                  = "Unknown";
 $GLOBALS['strUnlimited']                = "无限制";
@@ -420,7 +420,7 @@ $GLOBALS['strTotalCampaigns']               = "Total campaigns";
 $GLOBALS['strActiveCampaigns']              = "已开始的项目";
 $GLOBALS['strAddCampaign']                  = "添加新的项目";
 $GLOBALS['strAddCampaign_Key']              = "添加新的项目（<u>n</u>）";
-$GLOBALS['strCampaignForAdvertiser']        = "for advertiser";
+$GLOBALS['strCampaignForAdvertiser']        = "到";
 $GLOBALS['strCreateNewCampaign']            = "Create new campaign";
 $GLOBALS['strModifyCampaign']               = "Modify campaign";
 $GLOBALS['strMoveToNewCampaign']            = "Move to a new campaign";
@@ -469,7 +469,7 @@ $GLOBALS['strRemaining']                    = "Remaining";
 $GLOBALS['strCompanionPositioning']         = "尝试在同一页面集中投放该项目的素材";
 $GLOBALS['strSelectUnselectAll']            = "全选";
 $GLOBALS['strConfirmOverwrite']             = "Saving these changes will overwrite any individual banner-zone links. Are you sure?";
-$GLOBALS['strCampaignsOfAdvertiser']        = "｜"; //this is added between page name and advertiser name eg. 'Campaigns of Advertiser 1'
+$GLOBALS['strCampaignsOfAdvertiser']        = "属于"; //this is added between page name and advertiser name eg. 'Campaigns of Advertiser 1'
 $GLOBALS['strShowCappedNoCookie']           = "对不支持 cookie 的用户忽略投放控制";
 
 // Campaign-zone linking page
@@ -561,9 +561,9 @@ $GLOBALS['strRemnant']                      = "普通";
 $GLOBALS['strStandardContract']             = "标准合同";
 $GLOBALS['strExclusiveContract']            = "排他合同";
 $GLOBALS['strRemnant']                      = "普通项目";
-$GLOBALS['strStandardContractInfo']         = "通过控制每天的投放量，保证该项目的总投放量均匀分布到投放周期中的每一天";
-$GLOBALS['strExclusiveContractInfo']        = "在有多个项目的素材关联到同一版位时，总是保证该项目优先投放";
-$GLOBALS['strRemnantInfo']                  = "";
+$GLOBALS['strStandardContractInfo']         = "通过控制每天的投放量，保证该项目的总投放量均匀分布到投放周期中的每一天。";
+$GLOBALS['strExclusiveContractInfo']        = "当有多个项目的素材关联到同一版位时，总是保证该项目优先投放。";
+$GLOBALS['strRemnantInfo']                  = "无特殊规则的普通项目。";
 $GLOBALS['strECPMInfo']                     = "This is a standard campaign which can be constrained with either an end date or a specific limit. Based on current settings it will be prioritised using eCPM.";
 $GLOBALS['strContractCampaign']             = "Contract Campaign";
 $GLOBALS['strRemnantCampaign']              = "Remnant Campaign";
@@ -587,7 +587,7 @@ $GLOBALS['strTrackerOverview']            = "Tracker overview";
 $GLOBALS['strTrackerPreferences']            = "Tracker Preferences";
 $GLOBALS['strAddTracker']                 = "添加新的追踪器";
 $GLOBALS['strAddTracker_Key']             = "添加新的追踪器（<u>n</u>）";
-$GLOBALS['strTrackerForAdvertiser']       = "for advertiser";
+$GLOBALS['strTrackerForAdvertiser']       = "到";
 $GLOBALS['strNoTrackers']                 = "您还没有为该客户添加追踪器";
 $GLOBALS['strConfirmDeleteAllTrackers']   = "Do you really want to delete all trackers owned by this advertiser?";
 $GLOBALS['strConfirmDeleteTrackers']      = "Do you really want to delete all selected trackers?";
@@ -648,13 +648,13 @@ $GLOBALS['strBannerOverview']                = "Banner Overview";
 $GLOBALS['strBannerProperties']              = "素材";
 $GLOBALS['strBannerHistory']                 = "投放记录";
 $GLOBALS['strBannerNoStats']                 = "There are no statistics available for this banner";
-$GLOBALS['strNoBanners']                     = "There are currently no banners defined for this campaign.";
-$GLOBALS['strNoBannersAddCampaign']          = "There are currently no banners defined, because there are no campaigns. To create a banner, <a href='campaign-edit.php?clientid=%s'>add a new campaign</a> first.";
-$GLOBALS['strNoBannersAddAdvertiser']        = "There are currently no banners defined, because there are no advertisers. To create a banner, <a href='advertiser-edit.php'>add a new advertiser</a> first.";
-$GLOBALS['strConfirmDeleteBanner']           = "Deleting this banner will also remove its statistics.\\nDo you really want to delete this banner?";
-$GLOBALS['strConfirmDeleteBanners']          = "Deleting these banners will also remove their statistics.\\nDo you really want to delete the selected banners?";
-$GLOBALS['strConfirmDeleteAllBanners']       = "Deleting the banners will also remove their statistics.\\nDo you really want to delete all banners which are owned by this campaign?";
-$GLOBALS['strConfirmResetBannerStats']       = "Do you really want to delete all existing statistics for this banner?";
+$GLOBALS['strNoBanners']                     = "您还没有为该项目添加素材。";
+$GLOBALS['strNoBannersAddCampaign']          = "您还没有添加素材。在添加新的素材前，您需要先<a href='campaign-edit.php?clientid=%s'>添加项目</a>。";
+$GLOBALS['strNoBannersAddAdvertiser']        = "您还没有添加素材。在添加新的素材前，您需要先<a href='advertiser-edit.php'>添加客户</a>。";
+$GLOBALS['strConfirmDeleteBanner']           = "删除素材会同时删除相关的投放记录。\\n您真的要删除该素材吗？";
+$GLOBALS['strConfirmDeleteBanners']          = "删除素材会同时删除相关的投放记录。\\n您真的要删除所有选中的素材吗？";
+$GLOBALS['strConfirmDeleteAllBanners']       = "删除素材会同时删除相关的投放记录。\\n您真的要删除该项目所有的素材吗？";
+$GLOBALS['strConfirmResetBannerStats']       = "您真的要删除该素材所有的投放记录吗？";
 $GLOBALS['strShowParentCampaigns']           = "显示素材所属的项目";
 $GLOBALS['strHideParentCampaigns']           = "隐藏素材所属的项目";
 $GLOBALS['strHideInactiveBanners']           = "隐藏停用的素材";
@@ -669,7 +669,7 @@ $GLOBALS['strWarningMissingClosing']         = " closing tag '>'";
 $GLOBALS['strWarningMissingOpening']         = " opening tag '<'";
 $GLOBALS['strSubmitAnyway']       		     = "Submit Anyway";
 $GLOBALS['strOverallBanners']                = "banner(s)";
-$GLOBALS['strBannersOfCampaign']             = "｜"; //this is added between page name and campaign name eg. 'Banners in coca cola campaign'
+$GLOBALS['strBannersOfCampaign']             = "属于"; //this is added between page name and campaign name eg. 'Banners in coca cola campaign'
 
 
 // Banner Preferences
@@ -696,8 +696,8 @@ $GLOBALS['strURLBanner']               = "Link an external banner";
 $GLOBALS['strHTMLBanner']              = "Create an HTML banner";
 $GLOBALS['strTextBanner']              = "Create a Text banner";
 $GLOBALS['strAlterHTML']               = "Alter HTML to enable click tracking for:";
-$GLOBALS['strUploadOrKeep']            = "您希望保持现有的图片<br />还是重新上传图片？";
-$GLOBALS['strUploadOrKeepAlt']        = "Do you wish to keep your <br />existing backup image, or do you <br />want to upload another?";
+$GLOBALS['strUploadOrKeep']            = "您希望保持现有的图片，还是上传新的图片？";
+$GLOBALS['strUploadOrKeepAlt']        = "您希望保持现有的图片，还是上传新的图片？";
 $GLOBALS['strNewBannerFile']         = "请选择您要上传的图片<br /><br /><br />";
 $GLOBALS['strNewBannerFileAlt']     = "Select a backup image you <br />want to use in case browsers<br />don't support rich media<br /><br />";
 $GLOBALS['strNewBannerURL']         = "Image URL (incl. http://)";
@@ -922,7 +922,7 @@ $GLOBALS['strWarnChangeZoneSize']           = 'Changing the zone size will unlin
 $GLOBALS['strWarnChangeBannerSize']         = 'Changing the banner size will unlink this banner from any zones that are not the new size, and if this banner\'s <strong>campaign</strong> is linked to a zone of the new size, this banner will be automatically linked';
 $GLOBALS['strWarnBannerReadonly']           = 'This banner is read-only because an extension has been disabled.  Contact your Administrator for more information.';
 $GLOBALS['strInventoryForecasting']         = 'Inventory Forecasting';
-$GLOBALS['strZonesOfWebsite']               = '｜'; //this is added between page name and website name eg. 'Zones in www.example.com'
+$GLOBALS['strZonesOfWebsite']               = '属于'; //this is added between page name and website name eg. 'Zones in www.example.com'
 $GLOBALS['strBackToZones']                  = "返回版位列表";
 
 $GLOBALS['strIab']['IAB_FullBanner(468x60)']         = "IAB 标准全尺寸旗标（468 x 60）";

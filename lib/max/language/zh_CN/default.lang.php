@@ -798,7 +798,7 @@ $GLOBALS['strReferer']                    = "Referring page";
 $GLOBALS['strDeliveryLimitations']        = "投放控制条件";
 
 $GLOBALS['strDeliveryCapping']            = "按用户进行投放控制";
-$GLOBALS['strDeliveryCappingReset']       = "投放计数重置周期:";
+$GLOBALS['strDeliveryCappingReset']       = "投放控制周期";
 $GLOBALS['strDeliveryCappingTotal']       = "次 (总计)";
 $GLOBALS['strDeliveryCappingSession']     = "次 / 会话";
 

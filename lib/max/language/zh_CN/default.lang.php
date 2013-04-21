@@ -669,7 +669,7 @@ $GLOBALS['strWarningMissingClosing']         = " closing tag '>'";
 $GLOBALS['strWarningMissingOpening']         = " opening tag '<'";
 $GLOBALS['strSubmitAnyway']       		     = "Submit Anyway";
 $GLOBALS['strOverallBanners']                = "banner(s)";
-$GLOBALS['strBannersOfCampaign']             = "in"; //this is added between page name and campaign name eg. 'Banners in coca cola campaign'
+$GLOBALS['strBannersOfCampaign']             = " | "; //this is added between page name and campaign name eg. 'Banners in coca cola campaign'
 
 
 // Banner Preferences

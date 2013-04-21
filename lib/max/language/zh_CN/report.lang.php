@@ -25,13 +25,13 @@
 $Id: report.lang.php 81772 2012-09-11 00:07:29Z chris.nutting $
 */
 
-$GLOBALS['strAdvertiserCampaignHistoryReport'] = 'Campaign History Report';
+$GLOBALS['strAdvertiserCampaignHistoryReport'] = '项目投放历史';
 $GLOBALS['strAdvertiserCampaignHistoryDescription'] = 'A daily breakdown of all activity for a specific campaign';
-$GLOBALS['strAdvertiserHistoryReport'] = 'History Report';
+$GLOBALS['strAdvertiserHistoryReport'] = '客户投放历史';
 $GLOBALS['strAdvertiserHistoryDescription'] = "A daily breakdown of all activity for a specific advertiser";
 $GLOBALS['strAdvertiserKeywordHistoryReport'] = 'Keyword Campaign History Report';
 $GLOBALS['strAdvertiserKeywordHistoryDescription'] = "A detailed breakdown of a keyword campaign, including conversion tracking data";
-$GLOBALS['strAdvertiserTrackerHistoryReport'] = 'Tracking Report';
+$GLOBALS['strAdvertiserTrackerHistoryReport'] = '数据追踪';
 $GLOBALS['strAdvertiserTrackerHistoryDescription'] = 'A detailed breakdown of conversion tracking.';
 $GLOBALS['strAdvertiserZoneAnalysisReport'] = 'Zone Analysis';
 $GLOBALS['strAdvertiserZoneAnalysisDescription'] = 'This table shows total campaign activity by site and zone.';

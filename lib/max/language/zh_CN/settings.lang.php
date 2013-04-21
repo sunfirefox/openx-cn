@@ -367,14 +367,14 @@ $GLOBALS['strGeotrackingGeoipIspLocationError']      = "The MaxMind GeoIP ISP Da
 $GLOBALS['strGeotrackingGeoipNetspeedLocationError'] = "The MaxMind GeoIP Netspeed Database does not exist in the location specified";
 
 // Interface Settings
-$GLOBALS['strInventory']                             = "Inventory";
+$GLOBALS['strInventory']                             = "管理界面";
 $GLOBALS['strUploadConversions']                     = "Upload Conversions";
-$GLOBALS['strShowCampaignInfo']                      = "Show extra campaign info on <i>Campaigns</i> page";
-$GLOBALS['strShowBannerInfo']                        = "Show extra banner info on <i>Banners</i> page";
-$GLOBALS['strShowCampaignPreview']                   = "Show preview of all banners on <i>Banners</i> page";
+$GLOBALS['strShowCampaignInfo']                      = "在<i>项目列表</i>页面显示更多信息";
+$GLOBALS['strShowBannerInfo']                        = "在<i>素材列表</i>页面显示更多信息";
+$GLOBALS['strShowCampaignPreview']                   = "在<i>素材列表</i>页面显示所有素材的预览";
 $GLOBALS['strShowBannerHTML']                        = "Show actual banner instead of plain HTML code for HTML banner preview";
-$GLOBALS['strShowBannerPreview']                     = "Show banner preview at the top of pages which deal with banners";
-$GLOBALS['strHideInactive']                          = "Hide inactive items from all overview pages";
+$GLOBALS['strShowBannerPreview']                     = "在所有操作素材的页面顶部显示素材预览";
+$GLOBALS['strHideInactive']                          = "在所有列表页面隐藏无效的行";
 $GLOBALS['strGUIShowMatchingBanners']                = "Show matching banners on the <i>Linked banner</i> pages";
 $GLOBALS['strGUIShowParentCampaigns']                = "Show parent campaigns on the <i>Linked banner</i> pages";
 $GLOBALS['strShowEntityId']                          = "Show entity identifiers";

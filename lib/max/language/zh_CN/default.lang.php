@@ -263,7 +263,7 @@ $GLOBALS['strUnlinkUserConfirmBody']    = "Are you sure you want to remove this 
 // Login & Permissions
 $GLOBALS['strUserAccess']               = "访问权限";
 $GLOBALS['strAdminAccess']              = "管理员权限";
-$GLOBALS['strUserProperties']           = "User Properties";
+$GLOBALS['strUserProperties']           = "用户";
 $GLOBALS['strLinkNewUser']              = "Link New User";
 $GLOBALS['strPermissions']              = "权限";
 $GLOBALS['strAuthentification']         = "身份验证";
@@ -398,8 +398,8 @@ $GLOBALS['strContact']                          = "联系人";
 $GLOBALS['strContactName']                      = "姓名";
 $GLOBALS['strEMail']                            = "Email";
 $GLOBALS['strChars']                            = "chars";
-$GLOBALS['strSendAdvertisingReport']            = "通过 Email 发送项目投放状态报告";
-$GLOBALS['strNoDaysBetweenReports']             = "项目投放状态报告发送周期（天）";
+$GLOBALS['strSendAdvertisingReport']            = "通过 Email 发送项目报表";
+$GLOBALS['strNoDaysBetweenReports']             = "项目报表发送周期（天）";
 $GLOBALS['strSendDeactivationWarning']          = "当系统自动开始或终止项目投放时通过 Email 发送通知";
 $GLOBALS['strAllowClientModifyInfo']            = "修改个人信息";
 $GLOBALS['strAllowClientModifyBanner']          = "修改素材";
@@ -446,7 +446,7 @@ $GLOBALS['strContractDetails']              = "Contract details";
 $GLOBALS['strInventoryDetails']             = "Inventory details";
 $GLOBALS['strPriorityInformation']          = "权重";
 $GLOBALS['strImpressionGoal']               = "Impression Goal";
-$GLOBALS['strECPMInformation']              = "eCPM prioritization";
+$GLOBALS['strECPMInformation']              = "eCPM 优先级";
 $GLOBALS['strRemnantEcpmDescription']       = "eCPM is automatically calculated based on this campaign's performance.<br />It will be used to prioritise Remnant campaigns relative to each other.";
 $GLOBALS['strContractEcpmDescription']      = "eCPM is automatically calculated based on this campaign's performance.<br />It will be used to prioritise campaigns with priority levels %s through %s.";
 $GLOBALS['strEcpmMinImpsDescription']       = "Set this to your desired minium basis on which to calculate this campaign's eCPM.";
@@ -673,11 +673,11 @@ $GLOBALS['strBannersOfCampaign']             = "属于"; //this is added between
 
 
 // Banner Preferences
-$GLOBALS['strBannerPreferences']                     = "Banner Preferences";
-$GLOBALS['strCampaignPreferences']                   = "Campaign Preferences";
-$GLOBALS['strDefaultBanners']                        = "Default Banners";
-$GLOBALS['strDefaultBannerUrl']                      = "Default Image URL";
-$GLOBALS['strDefaultBannerDestination']              = "Default Destination URL";
+$GLOBALS['strBannerPreferences']                     = "素材";
+$GLOBALS['strCampaignPreferences']                   = "项目";
+$GLOBALS['strDefaultBanners']                        = "默认素材";
+$GLOBALS['strDefaultBannerUrl']                      = "默认图片 URL";
+$GLOBALS['strDefaultBannerDestination']              = "默认着陆页 URL";
 $GLOBALS['strAllowedBannerTypes']                    = "Allowed Banner Types";
 $GLOBALS['strTypeSqlAllow']                          = "Allow SQL Local Banners";
 $GLOBALS['strTypeWebAllow']                          = "Allow Webserver Local Banners";
@@ -701,7 +701,7 @@ $GLOBALS['strUploadOrKeepAlt']        = "您希望保持现有的图片，还是
 $GLOBALS['strNewBannerFile']         = "请选择您要上传的图片<br /><br /><br />";
 $GLOBALS['strNewBannerFileAlt']     = "Select a backup image you <br />want to use in case browsers<br />don't support rich media<br /><br />";
 $GLOBALS['strNewBannerURL']         = "Image URL (incl. http://)";
-$GLOBALS['strURL']                     = "着陆页（包括 http://）";
+$GLOBALS['strURL']                     = "着陆页 URL（包括 http://）";
 $GLOBALS['strHTML']                 = "HTML";
 $GLOBALS['strKeyword']              = "关键字";
 $GLOBALS['strTextBelow']             = "图片下方显示文字";
@@ -1101,7 +1101,7 @@ $GLOBALS['strAnonPublishers']            = "Anonymous websites";
 $GLOBALS['strAllAvailZones']             = "All available zones";
 
 // Userlog
-$GLOBALS['strUserLog']                = "User Log";
+$GLOBALS['strUserLog']                = "日志";
 $GLOBALS['strUserLogDetails']        = "User log details";
 $GLOBALS['strDeleteLog']            = "Delete log";
 $GLOBALS['strAction']                = "Action";
@@ -1213,7 +1213,7 @@ $GLOBALS['strInvalidWebsiteURL']                = "媒体 URL 格式无效。";
 
 // Email
 $GLOBALS['strSirMadam']                         = "先生／女士";
-$GLOBALS['strMailSubject']                      = "客户状态报告";
+$GLOBALS['strMailSubject']                      = "项目报表";
 $GLOBALS['strAdReportSent']                     = "Advertiser report sent";
 $GLOBALS['strMailHeader']                       = "Dear {contact},\n";
 $GLOBALS['strMailBannerStats']                  = "Below you will find the banner statistics for {clientname}:";
@@ -1256,35 +1256,35 @@ $GLOBALS['strSourceEdit']                       = "Edit Sources";
 
 
 // Preferences
-$GLOBALS['strPreferences']                      = "Preferences";
+$GLOBALS['strPreferences']                      = "设置";
 $GLOBALS['strMyAccount']                        = "账户";
 $GLOBALS['strConfiguration']                    = "Configuration";
 $GLOBALS['strMainPreferences']                  = "Main Preferences";
 $GLOBALS['strAccountPreferences']               = "Account Preferences";
-$GLOBALS['strCampaignEmailReportsPreferences']  = "Campaign email Reports Preferences";
-$GLOBALS['strTimezonePreferences']              = "Timezone Preferences";
+$GLOBALS['strCampaignEmailReportsPreferences']  = "项目投放报表";
+$GLOBALS['strTimezonePreferences']              = "时区";
 $GLOBALS['strAdminEmailWarnings']               = "Administrator email Warnings";
 $GLOBALS['strAgencyEmailWarnings']              = "Agency email Warnings";
 $GLOBALS['strAdveEmailWarnings']                = "Advertiser email Warnings";
-$GLOBALS['strFullName']                         = "Full Name";
-$GLOBALS['strEmailAddress']                     = "Email address";
+$GLOBALS['strFullName']                         = "姓名";
+$GLOBALS['strEmailAddress']                     = "Email";
 $GLOBALS['strUserDetails']                      = "用户信息";
 $GLOBALS['strLanguageTimezone']                 = "Language & Timezone";
 $GLOBALS['strLanguageTimezonePreferences']      = "Language and Timezone Preferences";
-$GLOBALS['strUserInterfacePreferences']         = "User Interface Preferences";
-$GLOBALS['strPluginPreferences']                = "Plugin Preferences";
+$GLOBALS['strUserInterfacePreferences']         = "界面";
+$GLOBALS['strPluginPreferences']                = "插件";
 $GLOBALS['strInvocationPreferences']            = "Invocation Preferences";
 $GLOBALS['strColumnName']                       = "Column Name";
 $GLOBALS['strShowColumn']                       = "Show Column";
 $GLOBALS['strCustomColumnName']                 = "Custom Column Name";
 $GLOBALS['strColumnRank']                       = "Column Rank";
-$GLOBALS['strUserPreferences']                  = "User Preferences";
-$GLOBALS['strChangePassword']                   = "Change Password";
-$GLOBALS['strChangeEmail']                      = "Change E-mail";
-$GLOBALS['strCurrentPassword']                  = "Current Password";
-$GLOBALS['strChooseNewPassword']                = "Choose a new password";
-$GLOBALS['strReenterNewPassword']               = "Re-enter new password";
-$GLOBALS['strNameLanguage']                     = "Name & Language";
+$GLOBALS['strUserPreferences']                  = "信息";
+$GLOBALS['strChangePassword']                   = "更新密码";
+$GLOBALS['strChangeEmail']                      = "更新 Email";
+$GLOBALS['strCurrentPassword']                  = "当前密码";
+$GLOBALS['strChooseNewPassword']                = "新密码";
+$GLOBALS['strReenterNewPassword']               = "新密码确认";
+$GLOBALS['strNameLanguage']                     = "姓名与语言";
 
 
 // Statistics columns

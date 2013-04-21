@@ -826,9 +826,9 @@ $GLOBALS['strAffiliateOverview']        = "Website Overview";
 $GLOBALS['strAffiliateHistory']            = "投放记录";
 $GLOBALS['strZonesWithoutAffiliate']    = "Zones without website";
 $GLOBALS['strMoveToNewAffiliate']        = "Move to new website";
-$GLOBALS['strNoAffiliates']                = "There are currently no websites defined. To create a zone, <a href='affiliate-edit.php'>add a new website</a> first.";
-$GLOBALS['strConfirmDeleteAffiliate']    = "Do you really want to delete this website?";
-$GLOBALS['strConfirmDeleteAffiliates']   = "Do you really want to delete the selected websites?";
+$GLOBALS['strNoAffiliates']                = "您还没有添加媒体。在添加新的版位前，您需要先<a href='affiliate-edit.php'>添加媒体</a>。";
+$GLOBALS['strConfirmDeleteAffiliate']    = "您真的要删除该媒体吗？";
+$GLOBALS['strConfirmDeleteAffiliates']   = "您真的要删除所有选中的媒体吗？";
 $GLOBALS['strMakePublisherPublic']        = "Make the zones owned by this website publically available";
 $GLOBALS['strAffiliateInvocation']      = "Invocation Code";
 $GLOBALS['strAdvertiserSetup']          = "Advertiser Sign Up";
@@ -839,7 +839,7 @@ $GLOBALS['strHideParentAffiliates']     = "隐藏版位所属的媒体";
 
 // Website (properties)
 $GLOBALS['strWebsite']                      = "Website";
-$GLOBALS['strWebsiteURL']                      = "媒体网址";
+$GLOBALS['strWebsiteURL']                      = "媒体 URL";
 $GLOBALS['strMnemonic']                     = "Mnemonic";
 $GLOBALS['strAllowAffiliateModifyInfo']     = "修改用户信息";
 $GLOBALS['strAllowAffiliateModifyZones']    = "修改版位";

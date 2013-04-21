@@ -28,16 +28,16 @@ $Id:invocation.lang.php 20042 2008-05-09 01:10:00Z aj.tarachanowicz@openx.org $
 // Other
 $GLOBALS['strCopyToClipboard']                      = "复制到剪贴板";
 $GLOBALS['strCopy']                                 = "复制";
-$GLOBALS['strChooseTypeOfInvocation']               = "Please choose the type of invocation";
-$GLOBALS['strChooseTypeOfBannerInvocation']         = "Please choose the type of banner invocation";
+$GLOBALS['strChooseTypeOfInvocation']               = "请选择调用方式";
+$GLOBALS['strChooseTypeOfBannerInvocation']         = "请选择调用方式";
 
 // Measures
 $GLOBALS['strAbbrPixels']                           = "像素";
 $GLOBALS['strAbbrSeconds']                          = "秒";
 
 // Common Invocation Parameters
-$GLOBALS['strInvocationWhat']                       = "Banner selection";
-$GLOBALS['strInvocationPreview']                    = "Banner preview";
+$GLOBALS['strInvocationWhat']                       = "素材选择";
+$GLOBALS['strInvocationPreview']                    = "素材预览";
 $GLOBALS['strInvocationClientID']                   = "客户";
 $GLOBALS['strInvocationCampaignID']                 = "项目";
 $GLOBALS['strInvocationTarget']                     = "目标窗口";
@@ -135,7 +135,7 @@ $GLOBALS['strAdLayerStyleName']	= array(
 );
 
 // Support for 3rd party server clicktracking
-$GLOBALS['str3rdPartyTrack']		 = "Support 3rd Party Server Clicktracking";
+$GLOBALS['str3rdPartyTrack']		 = "支持第三方点击率统计工具";
 
 // Support for cachebusting code
 $GLOBALS['strCacheBuster']		    = "Insert Cache-Busting code";

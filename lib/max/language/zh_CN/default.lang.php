@@ -262,7 +262,7 @@ $GLOBALS['strUnlinkUserConfirmBody']    = "Are you sure you want to remove this 
 
 // Login & Permissions
 $GLOBALS['strUserAccess']               = "访问权限";
-$GLOBALS['strAdminAccess']              = "Admin Access";
+$GLOBALS['strAdminAccess']              = "管理员权限";
 $GLOBALS['strUserProperties']           = "User Properties";
 $GLOBALS['strLinkNewUser']              = "Link New User";
 $GLOBALS['strPermissions']              = "权限";
@@ -477,8 +477,8 @@ $GLOBALS['strCalculatedForAllCampaigns']    = "所有项目";
 $GLOBALS['strCalculatedForThisCampaign']    = "仅该项目";
 $GLOBALS['strLinkingZonesProblem']          = "Problem occured when linking zones";
 $GLOBALS['strUnlinkingZonesProblem']        = "Problem occured when unlinking zones";
-$GLOBALS['strZonesLinked']                  = "个版位关联成功";
-$GLOBALS['strZonesUnlinked']                = "个版位解除关联成功";
+$GLOBALS['strZonesLinked']                  = "个版位已经成功关联";
+$GLOBALS['strZonesUnlinked']                = "个版位已经成功解除关联";
 $GLOBALS['strZonesSearch']                  = "搜索";
 $GLOBALS['strZonesSearchTitle']             = "按名称搜索媒体或版位";
 $GLOBALS['strNoWebsitesAndZones']           = "没有媒体或版位";
@@ -632,7 +632,7 @@ $GLOBALS['strBanners']                       = "素材";
 $GLOBALS['strBannerFilter']                  = "Banner Filter";
 $GLOBALS['strAddBanner']                     = "添加新的素材";
 $GLOBALS['strAddBanner_Key']                 = "添加新的素材（<u>n</u>）";
-$GLOBALS['strBannerToCampaign']              = "to campaign";
+$GLOBALS['strBannerToCampaign']              = "到";
 $GLOBALS['strModifyBanner']                  = "Modify banner";
 $GLOBALS['strActiveBanners']                 = "Active banners";
 $GLOBALS['strTotalBanners']                  = "Total banners";
@@ -694,7 +694,7 @@ $GLOBALS['strMySQLBanner']             = "Upload a local banner to the database"
 $GLOBALS['strWebBanner']               = "上传本地图片到服务器";
 $GLOBALS['strURLBanner']               = "Link an external banner";
 $GLOBALS['strHTMLBanner']              = "Create an HTML banner";
-$GLOBALS['strTextBanner']              = "Create a Text banner";
+$GLOBALS['strTextBanner']              = "创建一个文本素材";
 $GLOBALS['strAlterHTML']               = "Alter HTML to enable click tracking for:";
 $GLOBALS['strUploadOrKeep']            = "您希望保持现有的图片，还是上传新的图片？";
 $GLOBALS['strUploadOrKeepAlt']        = "您希望保持现有的图片，还是上传新的图片？";
@@ -725,8 +725,8 @@ $GLOBALS['strSwfTransparency']		   = "Allow transparent background";
 $GLOBALS['strBackToBanners']           = "返回素材列表";
 
 // Banner (advanced)
-$GLOBALS['strBannerPrependHTML']       = "Always prepend the following HTML code to this banner";
-$GLOBALS['strBannerAppendHTML']        = "Always append the following HTML code to this banner";
+$GLOBALS['strBannerPrependHTML']       = "在素材前附加 HTML 代码";
+$GLOBALS['strBannerAppendHTML']        = "在素材后附加 HTML 代码";
 
 // Banner (swf)
 $GLOBALS['strCheckSWF']                = "Check for hard-coded links inside the Flash file";
@@ -886,7 +886,7 @@ $GLOBALS['strAddNewZone']                   = "添加新的版位";
 $GLOBALS['strAddNewZone_Key']               = "添加新的版位（<u>n</u>）";
 $GLOBALS['strAddZone']                      = "Create zone";
 $GLOBALS['strModifyZone']                   = "Modify zone";
-$GLOBALS['strZoneToWebsite']                = "to website";
+$GLOBALS['strZoneToWebsite']                = "到";
 $GLOBALS['strLinkedZones']                  = "版位关联";
 $GLOBALS['strAvailableZones']               = "可关联的版位";
 $GLOBALS['strLinkingNotSuccess']            = "Linking not successful, please try again";
@@ -952,11 +952,11 @@ $GLOBALS['strZoneStopDelivery']            = "不展示任何素材";
 $GLOBALS['strZoneOtherZone']            = "展示其它版位的素材";
 $GLOBALS['strZoneUseKeywords']            = "Select a banner using the keywords entered below";
 $GLOBALS['strZoneAppend']                = "Always append the following HTML code to banners displayed by this zone";
-$GLOBALS['strAppendSettings']            = "Append and prepend settings";
+$GLOBALS['strAppendSettings']            = "附加代码";
 $GLOBALS['strZoneForecasting']            = "Zone Forecasting settings";
-$GLOBALS['strZonePrependHTML']            = "Always prepend the following HTML code to banners displayed by this zone";
-$GLOBALS['strZoneAppendHTML']            = "Always append the HTML code to text ads displayed by this zone";
-$GLOBALS['strZoneAppendNoBanner']        = "Prepend/Append even if no banner delivered";
+$GLOBALS['strZonePrependHTML']            = "在该版位展示的素材前附加 HTML 代码";
+$GLOBALS['strZoneAppendHTML']            = "在该版位展示的素材后附加 HTML 代码";
+$GLOBALS['strZoneAppendNoBanner']        = "在没有任何素材展示时仍然投放附加代码";
 $GLOBALS['strZoneAppendType']            = "Append type";
 $GLOBALS['strZoneAppendHTMLCode']        = "HTML code";
 $GLOBALS['strZoneAppendZoneSelection']    = "Popup or interstitial";
@@ -1525,79 +1525,79 @@ $GLOBALS['strDeliveryLimitationsDisagree'] = "WARNING: The delivery engine limit
 $GLOBALS['strDeliveryLimitationsInputErrors'] = "Some of delivery limitations reports incorrect values:";
 
 //confirmation messages
-$GLOBALS['strYouAreNowWorkingAsX'] = "You are now working as <b>%s</b>";
-$GLOBALS['strYouDontHaveAccess'] = "You don't have access to that page. You have been re-directed.";
+$GLOBALS['strYouAreNowWorkingAsX'] = "您已经切换到<b>%s</b>组。";
+$GLOBALS['strYouDontHaveAccess'] = "没有权限访问该页面，已经为您重定向。";
 
-$GLOBALS['strAdvertiserHasBeenAdded'] = "新客户<a href='%s'>%s</a>已经添加成功，现在可以<a href='%s'>添加新项目</a>";
-$GLOBALS['strAdvertiserHasBeenUpdated'] = "客户<a href='%s'>%s</a>已经更新成功";
-$GLOBALS['strAdvertiserHasBeenDeleted'] = "客户<b>%s</b>已经删除";
-$GLOBALS['strAdvertisersHaveBeenDeleted'] = "所有选中的客户已经删除成功";
+$GLOBALS['strAdvertiserHasBeenAdded'] = "新客户<a href='%s'>%s</a>已经成功添加，现在可以<a href='%s'>添加新项目</a>。";
+$GLOBALS['strAdvertiserHasBeenUpdated'] = "客户<a href='%s'>%s</a>已经成功更新。";
+$GLOBALS['strAdvertiserHasBeenDeleted'] = "客户<b>%s</b>已经成功删除。";
+$GLOBALS['strAdvertisersHaveBeenDeleted'] = "所有选中的客户已经成功删除。";
 
-$GLOBALS['strTrackerHasBeenAdded'] = "新追踪器<a href='%s'>%s</a>已经添加成功";
-$GLOBALS['strTrackerHasBeenUpdated'] = "追踪器<a href='%s'>%s</a>已经更新成功";
-$GLOBALS['strTrackerVarsHaveBeenUpdated'] = "追踪器<a href='%s'>%s</a>的变量已经更新成功";
-$GLOBALS['strTrackerCampaignsHaveBeenUpdated'] = "Linked campaigns of tracker <a href='%s'>%s</a> have been updated";
-$GLOBALS['strTrackerAppendHasBeenUpdated'] = "Append tracker code of tracker <a href='%s'>%s</a> has been updated";
-$GLOBALS['strTrackerHasBeenDeleted'] = "Tracker <b>%s</b> has been deleted";
-$GLOBALS['strTrackersHaveBeenDeleted'] = "All selected trackers have been deleted";
-$GLOBALS['strTrackerHasBeenDuplicated'] = "Tracker <a href='%s'>%s</a> has been copied to <a href='%s'>%s</a>";
-$GLOBALS['strTrackerHasBeenMoved'] = "Tracker <b>%s</b> has been moved to advertiser <b>%s</b>";
+$GLOBALS['strTrackerHasBeenAdded'] = "新追踪器<a href='%s'>%s</a>已经成功添加。";
+$GLOBALS['strTrackerHasBeenUpdated'] = "追踪器<a href='%s'>%s</a>已经成功更新。";
+$GLOBALS['strTrackerVarsHaveBeenUpdated'] = "追踪器<a href='%s'>%s</a>的变量已经成功更新。";
+$GLOBALS['strTrackerCampaignsHaveBeenUpdated'] = "追踪器<a href='%s'>%s</a>关联的所有项目已经成功更新。";
+$GLOBALS['strTrackerAppendHasBeenUpdated'] = "追踪器<a href='%s'>%s</a>的附加追踪代码已经成功更新。";
+$GLOBALS['strTrackerHasBeenDeleted'] = "追踪器<b>%s</b>已经成功删除。";
+$GLOBALS['strTrackersHaveBeenDeleted'] = "所有选中的追踪器已经成功删除。";
+$GLOBALS['strTrackerHasBeenDuplicated'] = "已经成功从<a href='%s'>%s</a>克隆出新的追踪器<a href='%s'>%s</a>。";
+$GLOBALS['strTrackerHasBeenMoved'] = "追踪器<b>%s</b>已经成功移至客户<b>%s</b>。";
 
-$GLOBALS['strCampaignHasBeenAdded'] = "Campaign <a href='%s'>%s</a> has been added, <a href='%s'>add a banner</a>";
-$GLOBALS['strCampaignHasBeenNoBanner'] = "Campaign <a href='%s'>%s</a> has been added";
-$GLOBALS['strCampaignHasBeenUpdated'] = "Campaign <a href='%s'>%s</a> has been updated";
-$GLOBALS['strCampaignTrackersHaveBeenUpdated'] = "Linked trackers of campaign <a href='%s'>%s</a> have been updated";
-$GLOBALS['strCampaignHasBeenDeleted'] = "Campaign <b>%s</b> has been deleted";
-$GLOBALS['strCampaignsHaveBeenDeleted'] = "All selected campaigns have been deleted";
-$GLOBALS['strCampaignHasBeenDuplicated'] = "Campaign <a href='%s'>%s</a> has been copied to <a href='%s'>%s</a>";
-$GLOBALS['strCampaignHasBeenMoved'] = "Campaign <b>%s</b> has been moved to advertiser <b>%s</b>";
+$GLOBALS['strCampaignHasBeenAdded'] = "新项目<a href='%s'>%s</a>已经成功添加，现在可以<a href='%s'>添加新素材</a>。";
+$GLOBALS['strCampaignHasBeenNoBanner'] = "新项目<a href='%s'>%s</a>已经成功添加。";
+$GLOBALS['strCampaignHasBeenUpdated'] = "项目<a href='%s'>%s</a>已经成功更新。";
+$GLOBALS['strCampaignTrackersHaveBeenUpdated'] = "项目<a href='%s'>%s</a>关联的所有追踪器已经成功更新。";
+$GLOBALS['strCampaignHasBeenDeleted'] = "项目<b>%s</b>已经成功删除。";
+$GLOBALS['strCampaignsHaveBeenDeleted'] = "所有选中的项目已经成功删除。";
+$GLOBALS['strCampaignHasBeenDuplicated'] = "已经成功从<a href='%s'>%s</a>克隆出新的项目<a href='%s'>%s</a>。";
+$GLOBALS['strCampaignHasBeenMoved'] = "项目<b>%s</b>已经成功移至客户<b>%s</b>。";
 
-$GLOBALS['strBannerHasBeenAdded'] = "Banner <a href='%s'>%s</a> has been added";
-$GLOBALS['strBannerHasBeenUpdated'] = "Banner <a href='%s'>%s</a> has been updated";
-$GLOBALS['strBannerAdvancedHasBeenUpdated'] = "Advanced settings for banner <a href='%s'>%s</a> have been updated";
-$GLOBALS['strBannerAclHasBeenUpdated'] = "Delivery options for banner <a href='%s'>%s</a> have been updated";
-$GLOBALS['strBannerAclHasBeenAppliedTo'] = "Delivery options for banner <a href='%s'>%s</a> have been applied to %d banners";
-$GLOBALS['strBannerHasBeenDeleted'] = "Banner <b>%s</b> has been deleted";
-$GLOBALS['strBannersHaveBeenDeleted'] = "All selected banners have been deleted";
-$GLOBALS['strBannerHasBeenDuplicated'] = "Banner <a href='%s'>%s</a> has been copied to <a href='%s'>%s</a>";
-$GLOBALS['strBannerHasBeenMoved'] = "Banner <b>%s</b> has been moved to campaign <b>%s</b>";
-$GLOBALS['strBannerHasBeenActivated'] = "Banner <a href='%s'>%s</a> has been activated";
-$GLOBALS['strBannerHasBeenDeactivated'] = "Banner <a href='%s'>%s</a> has been deactivated";
+$GLOBALS['strBannerHasBeenAdded'] = "新素材<a href='%s'>%s</a>已经成功添加。";
+$GLOBALS['strBannerHasBeenUpdated'] = "素材<a href='%s'>%s</a>已经成功更新。";
+$GLOBALS['strBannerAdvancedHasBeenUpdated'] = "素材<a href='%s'>%s</a>的高级设置已经成功更新。";
+$GLOBALS['strBannerAclHasBeenUpdated'] = "素材<a href='%s'>%s</a>的投放控制条件已经成功更新。";
+$GLOBALS['strBannerAclHasBeenAppliedTo'] = "素材<a href='%s'>%s</a>的投放控制条件已经成功应用到 %d 个素材。";
+$GLOBALS['strBannerHasBeenDeleted'] = "素材<b>%s</b>已经成功删除。";
+$GLOBALS['strBannersHaveBeenDeleted'] = "所有选中的素材已经成功删除。";
+$GLOBALS['strBannerHasBeenDuplicated'] = "已经成功从<a href='%s'>%s</a>克隆出新的素材<a href='%s'>%s</a>。";
+$GLOBALS['strBannerHasBeenMoved'] = "素材<b>%s</b>已经成功移至项目<b>%s</b>。";
+$GLOBALS['strBannerHasBeenActivated'] = "素材<a href='%s'>%s</a>已经成功启用。";
+$GLOBALS['strBannerHasBeenDeactivated'] = "素材<a href='%s'>%s</a>已经成功停用。";
 
-$GLOBALS['strXZonesLinked'] = "<b>%s</b> zone(s) linked";
-$GLOBALS['strXZonesUnlinked'] = "<b>%s</b> zone(s) unlinked";
+$GLOBALS['strXZonesLinked'] = "<b>%s</b> 个版位已经成功关联";
+$GLOBALS['strXZonesUnlinked'] = "<b>%s</b> 个版位已经成功解除关联";
 
-$GLOBALS['strWebsiteHasBeenAdded'] = "Website <a href='%s'>%s</a> has been added, <a href='%s'>add a zone</a>";
-$GLOBALS['strWebsiteHasBeenUpdated'] = "Website <a href='%s'>%s</a> has been updated";
-$GLOBALS['strWebsiteHasBeenDeleted'] = "Website <b>%s</b> has been deleted";
-$GLOBALS['strWebsitesHaveBeenDeleted'] = "All selected website have been deleted";
+$GLOBALS['strWebsiteHasBeenAdded'] = "新媒体<a href='%s'>%s</a>已经成功添加，现在可以<a href='%s'>添加新版位</a>。";
+$GLOBALS['strWebsiteHasBeenUpdated'] = "媒体<a href='%s'>%s</a>已经成功更新。";
+$GLOBALS['strWebsiteHasBeenDeleted'] = "媒体<b>%s</b>已经成功删除。";
+$GLOBALS['strWebsitesHaveBeenDeleted'] = "所有选中的媒体已经成功删除。";
 
-$GLOBALS['strZoneHasBeenAdded'] = "Zone <a href='%s'>%s</a> has been added";
-$GLOBALS['strZoneHasBeenUpdated'] = "Zone <a href='%s'>%s</a> has been updated";
-$GLOBALS['strZoneAdvancedHasBeenUpdated'] = "Advanced settings for zone <a href='%s'>%s</a> have been updated";
-$GLOBALS['strZoneHasBeenDeleted'] = "Zone <b>%s</b> has been deleted";
-$GLOBALS['strZonesHaveBeenDeleted'] = "All selected zone have been deleted";
-$GLOBALS['strZoneHasBeenDuplicated'] = "Zone <a href='%s'>%s</a> has been copied to <a href='%s'>%s</a>";
-$GLOBALS['strZoneHasBeenMoved'] = "Zone <b>%s</b> has been moved to website <b>%s</b>";
-$GLOBALS['strZoneLinkedBanner'] = "Banner has been linked to zone <a href='%s'>%s</a>";
-$GLOBALS['strZoneLinkedCampaign'] = "Campaign has been linked to zone <a href='%s'>%s</a>";
-$GLOBALS['strZoneRemovedBanner'] = "Banner has been unlinked from zone <a href='%s'>%s</a>";
-$GLOBALS['strZoneRemovedCampaign'] = "Campaign has been unlinked from zone <a href='%s'>%s</a>";
+$GLOBALS['strZoneHasBeenAdded'] = "版位<a href='%s'>%s</a>已经成功添加。";
+$GLOBALS['strZoneHasBeenUpdated'] = "版位<a href='%s'>%s</a>已经成功更新。";
+$GLOBALS['strZoneAdvancedHasBeenUpdated'] = "版位<a href='%s'>%s</a>的高级设置已经成功更新。";
+$GLOBALS['strZoneHasBeenDeleted'] = "版位<b>%s</b>已经成功删除。";
+$GLOBALS['strZonesHaveBeenDeleted'] = "所有选中的版位已经成功删除。";
+$GLOBALS['strZoneHasBeenDuplicated'] = "已经成功从<a href='%s'>%s</a>克隆出新的版位<a href='%s'>%s</a>。";
+$GLOBALS['strZoneHasBeenMoved'] = "版位<b>%s</b>已经成功移至媒体<b>%s</b>。";
+$GLOBALS['strZoneLinkedBanner'] = "素材已经成功关联到版位<a href='%s'>%s</a>。";
+$GLOBALS['strZoneLinkedCampaign'] = "项目已经成功关联到版位<a href='%s'>%s</a>。";
+$GLOBALS['strZoneRemovedBanner'] = "素材已经成功从版位<a href='%s'>%s</a>解除关联。";
+$GLOBALS['strZoneRemovedCampaign'] = "项目已经成功从版位<a href='%s'>%s</a>解除关联。";
 
-$GLOBALS['strChannelHasBeenAdded'] = "Targeting channel <a href='%s'>%s</a> has been added, <a href='%s'>change the delivery options</a>";
-$GLOBALS['strChannelHasBeenUpdated'] = "Targeting channel <a href='%s'>%s</a> has been updated";
-$GLOBALS['strChannelAclHasBeenUpdated'] = "Delivery options for targeting channel <a href='%s'>%s</a> have been updated";
-$GLOBALS['strChannelHasBeenDeleted'] = "Targeting channel <b>%s</b> has been deleted";
-$GLOBALS['strChannelsHaveBeenDeleted'] = "All selected Targeting Channels have been deleted";
-$GLOBALS['strChannelHasBeenDuplicated'] = "Targeting channel <a href='%s'>%s</a> has been copied to <a href='%s'>%s</a>";
+$GLOBALS['strChannelHasBeenAdded'] = "新频道<a href='%s'>%s</a>已经成功添加，现在可以<a href='%s'>更新投放选项</a>。";
+$GLOBALS['strChannelHasBeenUpdated'] = "频道<a href='%s'>%s</a>已经成功更新。";
+$GLOBALS['strChannelAclHasBeenUpdated'] = "频道<a href='%s'>%s</a>的投放选项已经成功更新。";
+$GLOBALS['strChannelHasBeenDeleted'] = "频道<b>%s</b>已经成功删除。";
+$GLOBALS['strChannelsHaveBeenDeleted'] = "所有选中的频道已经成功删除。";
+$GLOBALS['strChannelHasBeenDuplicated'] = "已经成功从<a href='%s'>%s</a>克隆出新的频道<a href='%s'>%s</a>。";
 
-$GLOBALS['strUserPreferencesUpdated'] = "Your <b>%s</b> preferences has been updated";
-$GLOBALS['strPreferencesHaveBeenUpdated'] = "Preferences have been updated";
-$GLOBALS['strEmailChanged'] = "Your E-mail has been changed";
-$GLOBALS['strPasswordChanged'] = "Your password has been changed";
-$GLOBALS['strXPreferencesHaveBeenUpdated'] = "<b>%s</b> have been updated";
-$GLOBALS['strXSettingsHaveBeenUpdated'] = "<b>%s</b> have been updated";
-$GLOBALS['strTZPreferencesWarning'] = "However, campaign activation and expiry were not updated, nor time-based banner limitations.<br />You will need to update them manually if you wish them to use the new timezone";
+$GLOBALS['strUserPreferencesUpdated'] = "您的<b>%s</b>已经成功更新。";
+$GLOBALS['strPreferencesHaveBeenUpdated'] = "设置已经成功更新。";
+$GLOBALS['strEmailChanged'] = "您的 E-mail 已经成功更新。";
+$GLOBALS['strPasswordChanged'] = "您的密码已经成功更新。";
+$GLOBALS['strXPreferencesHaveBeenUpdated'] = "<b>%s</b>已经成功更新。";
+$GLOBALS['strXSettingsHaveBeenUpdated'] = "<b>%s</b>已经成功更新。";
+$GLOBALS['strTZPreferencesWarning'] = "但是项目的开始和终止日期以及基于时间的投放控制条件还没有更新。<br />如果您希望对它们应用新的时区设置，您需要手动更新。";
 
 
 /*-------------------------------------------------------*/
@@ -1633,40 +1633,40 @@ $GLOBALS['strMarketZoneBeforeOpenX2.8.4'] = "OpenX Market ads before OpenX 2.8.4
 /* Languages Names                                       */
 /*-------------------------------------------------------*/
 
-$GLOBALS['str_ar']                  = "Arabic";
-$GLOBALS['str_bg']                  = "Bulgarian";
-$GLOBALS['str_cs']                  = "Czech";
-$GLOBALS['str_cy']                  = "Welsh";
-$GLOBALS['str_da']                  = "Danish";
-$GLOBALS['str_de']                  = "German";
-$GLOBALS['str_el']                  = "Greek";
-$GLOBALS['str_en']                  = "English";
-$GLOBALS['str_es']                  = "Spanish";
-$GLOBALS['str_fa']                  = "Persian";
-$GLOBALS['str_fr']                  = "French";
-$GLOBALS['str_he']                  = "Hebrew";
-$GLOBALS['str_hr']                  = "Croatian";
-$GLOBALS['str_hu']                  = "Hungarian";
-$GLOBALS['str_id']                  = "Indonesian";
-$GLOBALS['str_it']                  = "Italian";
-$GLOBALS['str_ja']                  = "Japanese";
-$GLOBALS['str_ko']                  = "Korean";
-$GLOBALS['str_lt']                  = "Lithuanian";
-$GLOBALS['str_ms']                  = "Malay";
-$GLOBALS['str_nb']                  = "Norwegian Bokmal";
-$GLOBALS['str_nl']                  = "Dutch";
-$GLOBALS['str_pl']                  = "Polish";
-$GLOBALS['str_pt_BR']               = "Portuguese Brazil";
-$GLOBALS['str_pt_PT']               = "Portuguese Portugal";
-$GLOBALS['str_ro']                  = "Romanian";
-$GLOBALS['str_ru']                  = "Russian";
-$GLOBALS['str_sk']                  = "Slovak";
-$GLOBALS['str_sl']                  = "Slovenian";
-$GLOBALS['str_sq']                  = "Albanian";
-$GLOBALS['str_sv']                  = "Swedish";
-$GLOBALS['str_tr']                  = "Turkish";
-$GLOBALS['str_uk']                  = "Ukranian";
-$GLOBALS['str_zh_CN']               = "Chinese Simplified";
-$GLOBALS['str_zh_TW']               = "Chinese Traditional";
+$GLOBALS['str_ar']                  = "阿拉伯语";
+$GLOBALS['str_bg']                  = "保加利亚语";
+$GLOBALS['str_cs']                  = "捷克语";
+$GLOBALS['str_cy']                  = "威尔士语";
+$GLOBALS['str_da']                  = "丹麦语";
+$GLOBALS['str_de']                  = "德语";
+$GLOBALS['str_el']                  = "希腊语";
+$GLOBALS['str_en']                  = "英语";
+$GLOBALS['str_es']                  = "西班牙语";
+$GLOBALS['str_fa']                  = "波斯语";
+$GLOBALS['str_fr']                  = "法语";
+$GLOBALS['str_he']                  = "希伯来语";
+$GLOBALS['str_hr']                  = "克罗地亚语";
+$GLOBALS['str_hu']                  = "匈牙利语";
+$GLOBALS['str_id']                  = "印度尼西亚语";
+$GLOBALS['str_it']                  = "意大利语";
+$GLOBALS['str_ja']                  = "日语";
+$GLOBALS['str_ko']                  = "韩语";
+$GLOBALS['str_lt']                  = "立陶宛语";
+$GLOBALS['str_ms']                  = "马来语";
+$GLOBALS['str_nb']                  = "挪威语";
+$GLOBALS['str_nl']                  = "荷兰语";
+$GLOBALS['str_pl']                  = "波兰语";
+$GLOBALS['str_pt_BR']               = "巴西葡萄牙语";
+$GLOBALS['str_pt_PT']               = "葡萄牙语";
+$GLOBALS['str_ro']                  = "罗马尼亚语";
+$GLOBALS['str_ru']                  = "俄语";
+$GLOBALS['str_sk']                  = "斯洛伐克语";
+$GLOBALS['str_sl']                  = "斯洛文尼亚语";
+$GLOBALS['str_sq']                  = "阿尔巴尼亚语";
+$GLOBALS['str_sv']                  = "瑞典语";
+$GLOBALS['str_tr']                  = "土耳其语";
+$GLOBALS['str_uk']                  = "乌克兰语";
+$GLOBALS['str_zh_CN']               = "简体中文";
+$GLOBALS['str_zh_TW']               = "繁体中文";
 
 ?>

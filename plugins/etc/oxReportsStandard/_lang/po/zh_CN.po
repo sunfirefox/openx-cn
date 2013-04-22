@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: OpenX - Reports (Standard)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-09-17 11:37+0100\n"
-"PO-Revision-Date: 2013-04-22 22:05+0800\n"
+"PO-Revision-Date: 2013-04-22 22:47+0800\n"
 "Last-Translator: Sah Lee <contact@leesah.name>\n"
 "Language-Team: Chris Nutting <Chris.Nutting@openx.org>\n"
 "MIME-Version: 1.0\n"
@@ -195,28 +195,25 @@ msgstr "客户名称"
 
 #: plugins_repo/openXReports/extensions/reports/oxReportsStandard//conversionTrackingReport.class.php:715
 msgid "Ad Name"
-msgstr "Ad Name"
+msgstr "素材"
 
 #: plugins_repo/openXReports/extensions/reports/oxReportsStandard//conversionTrackingReport.class.php:717
 msgid "Publisher Name"
-msgstr "Publisher Name"
+msgstr "媒体"
 
 #: plugins_repo/openXReports/extensions/reports/oxReportsStandard//conversionTrackingReport.class.php:719
 msgid "Zone Name"
-msgstr "Zone Name"
+msgstr "版位"
 
 #: plugins_repo/openXReports/extensions/reports/oxReportsStandard//conversionTrackingReport.class.php:721
 msgid "Connection Type"
-msgstr "Connection Type"
+msgstr "追踪器类型"
 
 #: plugins_repo/openXReports/extensions/reports/oxReportsStandard//conversionTrackingReport.class.php:723
 msgid "Connecting Value Date / Time"
-msgstr "Connecting Value Date / Time"
+msgstr "时间"
 
 #: plugins_repo/openXReports/extensions/reports/oxReportsStandard//conversionTrackingReport.class.php:725
 msgid "IP Address"
-msgstr "IP Address"
-
-msgid "All Websites"
-msgstr "所有媒体"
+msgstr "IP 地址"
 

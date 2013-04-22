@@ -116,7 +116,7 @@ $GLOBALS['strAvg']                      = "Avg.";
 $GLOBALS['strAverage']                  = "Average";
 $GLOBALS['strAveraged']                 = "Averaged";
 $GLOBALS['strAveragedColumnLegend']		= "This icon indicates that the values in this row are averaged.<br> There are situations where more than a single set of targeting data may have been generated for an hour. <br/> <ul><li> For example, if you run OpenX with an Operation Interval of less than 60 minutes (see \"Maintenance Settings\"), the targeting information for Contract Campaigns is calculated at every Operation Interval, and is then averaged to get the hour data.  </li><li>This can also happen in the case where you have enabled the option to update ads priorities when changes are made in the UI (see Priority Settings in the \"Maintenance Settings\" menu) and you have made changes to the Contract Campaigns while they are running.</li></ul>";
-$GLOBALS['strOverall']                  = "Overall";
+$GLOBALS['strOverall']                  = "总计";
 $GLOBALS['strTotal']                    = "总计";
 $GLOBALS['strUnfilteredTotal']          = "Total (unfiltered)";
 $GLOBALS['strFilteredTotal']            = "Total (filtered)";
@@ -226,10 +226,10 @@ $GLOBALS['strID']                       = "ID";
 $GLOBALS['strComments']                 = "详细描述";
 
 // User access
-$GLOBALS['strWorkingAs']                = "权限";
-$GLOBALS['strWorkingAs_Key']            = "权限（<u>w</u>）";
-$GLOBALS['strWorkingAs']                = "权限";
-$GLOBALS['strSwitchTo']                 = "选择";
+$GLOBALS['strWorkingAs']                = "用户组";
+$GLOBALS['strWorkingAs_Key']            = "用户组（<u>w</u>）";
+$GLOBALS['strWorkingAs']                = "用户组";
+$GLOBALS['strSwitchTo']                 = "切换到";
 $GLOBALS['strUseSearchBoxToFindMoreAccounts'] = "Use the switcher's search box to find more accounts";
 $GLOBALS['strWorkingFor']               = "%s 账户";
 $GLOBALS['strNoAccountWithXInNameFound']= "No accounts with \"%s\" in name found";
@@ -241,24 +241,24 @@ $GLOBALS['strEmailToLink']              = "Email of user to add";
 $GLOBALS['strNewUserWillBeCreated']     = "正在添加新的用户";
 $GLOBALS['strToLinkProvideEmail']       = "请输入 Email";
 $GLOBALS['strToLinkProvideUsername']    = "请输入用户名";
-$GLOBALS['strErrorWhileCreatingUser']   = "Error while creating user: %s";
-$GLOBALS['strUserLinkedToAccount']      = "User has been added to account";
-$GLOBALS['strUserAccountUpdated']       = "User account updated";
-$GLOBALS['strUserUnlinkedFromAccount']  = "User has been removed from account";
-$GLOBALS['strUserWasDeleted']           = "User has been deleted";
+$GLOBALS['strErrorWhileCreatingUser']   = "添加新用户时发生错误：%s";
+$GLOBALS['strUserLinkedToAccount']      = "用户已经成功添加到该用户组。";
+$GLOBALS['strUserAccountUpdated']       = "用户已经成功更新。";
+$GLOBALS['strUserUnlinkedFromAccount']  = "用户已经成功从该用户组删除。";
+$GLOBALS['strUserWasDeleted']           = "用户已经彻底删除。";
 $GLOBALS['strUserNotLinkedWithAccount'] = "Such user is not linked with account";
 $GLOBALS['strCantDeleteOneAdminUser']   = "You can't delete a user. At least one user needs to be linked with admin account.";
 $GLOBALS['strLinkUserHelp']             = "请输入%s，然后按{$GLOBALS['strLinkUser']}按钮" ;
 $GLOBALS['strLinkUserHelpUser']         = "用户名";
 $GLOBALS['strLinkUserHelpEmail']        = "Email";
 $GLOBALS['strLastLoggedIn']             = "Last logged in";
-$GLOBALS['strDateLinked']               = "关联日期";
-$GLOBALS['strUnlink']                   = "Remove";
-$GLOBALS['strUnlinkingFromLastEntity']  = "Removing user from last entity";
-$GLOBALS['strUnlinkingFromLastEntityBody']  = "Removing user from last entity will cause the user to be deleted. Would you like to remove this user?";
+$GLOBALS['strDateLinked']               = "添加日期";
+$GLOBALS['strUnlink']                   = "从用户组删除";
+$GLOBALS['strUnlinkingFromLastEntity']  = "正在删除用户";
+$GLOBALS['strUnlinkingFromLastEntityBody']  = "这是该用户所属的唯一用户组，从该组中删除将会彻底删除该用户。您真的要从用户组中删除该用户吗？";
 $GLOBALS['strUnlinkAndDelete']          = "Remove &amp; delete user";
 $GLOBALS['strUnlinkUser']               = "Remove user";
-$GLOBALS['strUnlinkUserConfirmBody']    = "Are you sure you want to remove this user?";
+$GLOBALS['strUnlinkUserConfirmBody']    = "您确定要从用户组中删除该用户吗？";
 
 // Login & Permissions
 $GLOBALS['strUserAccess']               = "访问权限";
@@ -277,7 +277,7 @@ $GLOBALS['strLogout']                   = "注销";
 $GLOBALS['strUsername']                 = "用户名";
 $GLOBALS['strPassword']                 = "密码";
 $GLOBALS['strPasswordRepeat']           = "密码确认";
-$GLOBALS['strAccessDenied']             = "Access denied";
+$GLOBALS['strAccessDenied']             = "访问被拒绝";
 $GLOBALS['strUsernameOrPasswordWrong']  = "The username and/or password were not correct. Please try again.";
 $GLOBALS['strPasswordWrong']            = "The password is not correct";
 $GLOBALS['strParametersWrong']          = "The parameters you supplied are not correct";
@@ -1179,7 +1179,7 @@ $GLOBALS['strErrorDBNoDataSerious']             = "数据库异常，".MAX_PRODU
 $GLOBALS['strErrorDBCorrupt']                   = "数据表异常，请参考 <i>Administrator guide</i> 中的 <i>Troubleshooting</i> 章节尝试修复。";
 $GLOBALS['strErrorDBContact']                   = "请联系系统管理员。";
 $GLOBALS['strErrorDBSubmitBug']                 = "If this problem is reproducable it might be caused by a bug in ".MAX_PRODUCT_NAME.". Please report the following information to the creators of ".MAX_PRODUCT_NAME.". Also try to describe the actions that led to this error as clearly as possible.";
-$GLOBALS['strMaintenanceNotActive']             = "距离上次运行维护脚本已经超过 24 小时。\\n为保证 ".MAX_PRODUCT_NAME." 正常工作，维护脚本运行的间隔不应该超过 1 小时。\\n\\n请参考 <i>Administrator guide</i> 配置维护脚本。";
+$GLOBALS['strMaintenanceNotActive']             = "距离上次运行维护脚本已经超过 24 小时。\\n为保证 ".MAX_PRODUCT_NAME." 正常工作，维护脚本运行的间隔不应该超过 1 小时。\\n\\n请参考 Administrator guide 配置维护脚本。";
 $GLOBALS['strErrorBadUserType']                 = "系统无法检测您的账户类型。";
 $GLOBALS['strErrorLinkingBanner']               = "将素材关联到该版位时发生错误：";
 $GLOBALS['strUnableToLinkBanner']               = "无法关联该素材：";
@@ -1373,20 +1373,20 @@ $GLOBALS['aProductStatus']['UPGRADE_COMPLETE']  = "UPGRADE COMPLETE";
 $GLOBALS['aProductStatus']['UPGRADE_FAILED']    = "UPGRADE FAILED";
 
 // Agency
-$GLOBALS['strAgencyManagement']              = "Account Management";
+$GLOBALS['strAgencyManagement']              = "用户组";
 $GLOBALS['strAgency']                      = "Account";
 $GLOBALS['strAgencies']                   = "Accounts";
-$GLOBALS['strAddAgency']                   = "Add new account";
-$GLOBALS['strAddAgency_Key']               = "Add <u>n</u>ew account";
-$GLOBALS['strTotalAgencies']               = "Total accounts";
-$GLOBALS['strAgencyProperties']              = "Account Properties";
-$GLOBALS['strNoAgencies']                 = "There are currently no accounts defined";
-$GLOBALS['strConfirmDeleteAgency']           = "Do you really want to delete this account?";
-$GLOBALS['strHideInactiveAgencies']          = "Hide inactive accounts";
-$GLOBALS['strInactiveAgenciesHidden']     = "inactive account(s) hidden";
+$GLOBALS['strAddAgency']                   = "添加新的用户组";
+$GLOBALS['strAddAgency_Key']               = "添加新的用户组（<u>n</u>）";
+$GLOBALS['strTotalAgencies']               = "用户组数";
+$GLOBALS['strAgencyProperties']              = "用户组";
+$GLOBALS['strNoAgencies']                 = "您还没有添加用户组";
+$GLOBALS['strConfirmDeleteAgency']           = "您真的要删除该用户组吗？";
+$GLOBALS['strHideInactiveAgencies']          = "隐藏停用的用户组";
+$GLOBALS['strInactiveAgenciesHidden']     = "个用户组已被隐藏";
 $GLOBALS['strAllowAgencyEditConversions'] = "Allow this user to edit conversions";
 $GLOBALS['strAllowMoreReports']           = "Allow 'More Reports' button";
-$GLOBALS['strSwitchAccount']              = "Switch to this account";
+$GLOBALS['strSwitchAccount']              = "切换到该组";
 
 // Channels
 $GLOBALS['strChannel']                    = "Targeting Channel";
@@ -1525,7 +1525,7 @@ $GLOBALS['strDeliveryLimitationsDisagree'] = "WARNING: The delivery engine limit
 $GLOBALS['strDeliveryLimitationsInputErrors'] = "Some of delivery limitations reports incorrect values:";
 
 //confirmation messages
-$GLOBALS['strYouAreNowWorkingAsX'] = "您已经切换到<b>%s</b>组。";
+$GLOBALS['strYouAreNowWorkingAsX'] = "您已经成功切换到<b>%s</b>组。";
 $GLOBALS['strYouDontHaveAccess'] = "没有权限访问该页面，已经为您重定向。";
 
 $GLOBALS['strAdvertiserHasBeenAdded'] = "新客户<a href='%s'>%s</a>已经成功添加，现在可以<a href='%s'>添加新项目</a>。";

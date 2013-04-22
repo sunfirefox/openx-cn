@@ -628,7 +628,7 @@ $GLOBALS['strBackToTrackers']             = "返回追踪器列表";
 
 
 // Banners (General)
-$GLOBALS['strBanner']                        = "Banner";
+$GLOBALS['strBanner']                        = "素材";
 $GLOBALS['strBanners']                       = "素材";
 $GLOBALS['strBannerFilter']                  = "Banner Filter";
 $GLOBALS['strAddBanner']                     = "添加新的素材";

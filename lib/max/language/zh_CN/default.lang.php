@@ -1087,12 +1087,12 @@ $GLOBALS['strAdvertiserReports']      = "Advertiser Reports";
 $GLOBALS['strAgencyReports']          = "Agency Reports";
 $GLOBALS['strPublisherReports']       = "Website Reports";
 $GLOBALS['strSelectReport']           = "Select the report you want to generate";
-$GLOBALS['strStartDate']              = "Start Date";
-$GLOBALS['strEndDate']                = "End Date";
+$GLOBALS['strStartDate']              = "开始日期";
+$GLOBALS['strEndDate']                = "结束日期";
 $GLOBALS['strNoData']                 = "There is no data available for this time period";
-$GLOBALS['strPeriod']                 = "Period";
+$GLOBALS['strPeriod']                 = "时间段";
 $GLOBALS['strLimitations']            = "投放控制";
-$GLOBALS['strWorksheets']             = "Worksheets";
+$GLOBALS['strWorksheets']             = "选择报表";
 
 // Admin_UI_Fields
 $GLOBALS['strAllAdvertisers']            = "所有客户";
@@ -1117,7 +1117,7 @@ $GLOBALS['strFrameSize']                = "Frame size";
 $GLOBALS['strBannercode']                = "素材代码";
 $GLOBALS['strTrackercode']                = "Trackercode";
 $GLOBALS['strOptional']                    = "optional";
-$GLOBALS['strBackToTheList']            = "Go back to report list";
+$GLOBALS['strBackToTheList']            = "选择其它报表";
 $GLOBALS['strGoToReportBuilder']        = "Go to the selected report";
 $GLOBALS['strCharset']                  = "字符集";
 $GLOBALS['strAutoDetect']                   = "自动检测";

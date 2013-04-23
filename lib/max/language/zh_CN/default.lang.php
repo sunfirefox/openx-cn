@@ -430,7 +430,7 @@ $GLOBALS['strDeleteAllCampaigns']           = "Delete all campaigns";
 $GLOBALS['strLinkedCampaigns']              = "项目关联";
 $GLOBALS['strCampaignStats']                = "Campaign Statistics";
 $GLOBALS['strCampaignProperties']           = "项目";
-$GLOBALS['strCampaignOverview']             = "Campaign Overview";
+$GLOBALS['strCampaignOverview']             = "项目近况";
 $GLOBALS['strCampaignHistory']              = "投放记录";
 $GLOBALS['strNoCampaigns']                  = "您还没有为该客户添加项目。";
 $GLOBALS['strNoCampaignsAddAdvertiser']     = "您还没有添加项目。在添加新的项目前，您需要先<a href='advertiser-edit.php'>添加客户</a>。";
@@ -1498,15 +1498,15 @@ $GLOBALS['strAccountPreferenceAssociation'] = "Account Preference Association";
 
 // Widget - Audit
 $GLOBALS['strAuditNoData']            = "No user activity has been recorded during the timeframe you have selected.";
-$GLOBALS['strAuditTrail']             = "Audit Trail";
+$GLOBALS['strAuditTrail']             = "日志";
 $GLOBALS['strAuditTrailSetup']          = "Setup the Audit Trail today";
-$GLOBALS['strAuditTrailGoTo']           = "Go to Audit Trail page";
+$GLOBALS['strAuditTrailGoTo']           = "转到日志列表";
 $GLOBALS['strAuditTrailNotEnabled']     = "<li>Audit Trail allows you to see who did what and when. Or to put it another way, it keeps track of system changes within " . MAX_PRODUCT_NAME ."</li>
         <li>You are seeing this message, because you have not activated the Audit Trail</li>
         <li>Interested in learning more? Read the <a href='".OX_PRODUCT_DOCSURL."/settings/auditTrail' class='site-link' target='help' >Audit Trail documentation</a></li>";
 
 // Widget - Campaign
-$GLOBALS['strCampaignGoTo']             = "Go to Campaigns page";
+$GLOBALS['strCampaignGoTo']             = "转到项目列表";
 $GLOBALS['strCampaignSetUp']            = "Set up a Campaign today";
 $GLOBALS['strCampaignNoRecords']        = "<li>Campaigns let you group together any number of banner ads, of any size, that share common advertising requirements</li>
         <li>Save time by grouping banners within a campaign and no longer define delivery settings for each ad separately</li>
@@ -1625,8 +1625,8 @@ $GLOBALS['keyLinkUser']        = "u";
 $GLOBALS['keyWorkingAs']        = "w";
 
 // Market entities
-$GLOBALS['strMarketCampaignOptin'] = "OpenX Market - Opted In Campaigns";
-$GLOBALS['strMarketZoneOptin'] = "OpenX Market - Zone Default Ads";
+$GLOBALS['strMarketCampaignOptin'] = "OpenX Market 优选项目";
+$GLOBALS['strMarketZoneOptin'] = "OpenX Market - 默认素材";
 $GLOBALS['strMarketZoneBeforeOpenX2.8.4'] = "OpenX Market ads before OpenX 2.8.4";
 
 /*-------------------------------------------------------*/

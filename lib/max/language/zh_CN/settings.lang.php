@@ -153,10 +153,9 @@ $GLOBALS['strServiceUnavalable']            = "The service is temporarily unavai
 
 // Global
 $GLOBALS['strChooseSection']                         = "Choose Section";
-$GLOBALS['strEditConfigNotPossible']                 = "It is not possible to edit all settings because the configuration file is locked for security reasons. ".
+$GLOBALS['strEditConfigNotPossible']                 = "出于安全考虑，配置文件已经锁定。目前禁止更新任何系统设置。".
                                                        "If you want to make changes, you may need to unlock the configuration file for this installation first.";
-$GLOBALS['strEditConfigPossible']                    = "It is possible to edit all settings because the configuration file is not locked, but this could lead to security issues. ".
-                                                       "If you want to secure your system, you need to lock the configuration file for this installation.";
+$GLOBALS['strEditConfigPossible']                    = "配置文件已经解除锁定，系统设置可以按您的需要进行更新。但是这可能会带来安全隐患。如果您希望提高安全性，请将配置文件设置为只读。";
 $GLOBALS['strUnableToWriteConfig']                   = "Unable to write changes to the config file";
 $GLOBALS['strUnableToWritePrefs']                    = "Unable to commit preferences to the database";
 $GLOBALS['strImageDirLockedDetected']	             = "The supplied <b>Images Folder</b> is not writeable by the server. <br>You can't proceed until you either change permissions of the folder or create the folder.";
@@ -478,28 +477,28 @@ $GLOBALS['strWarnAgency']                            = "项目即将过期时发
 
 // UI Settings
 $GLOBALS['strGuiSettings']                           = "用户界面";
-$GLOBALS['strGeneralSettings']                       = "General Settings";
-$GLOBALS['strAppName']                               = "Application Name";
-$GLOBALS['strMyHeader']                              = "Header File Location";
-$GLOBALS['strMyHeaderError']                         = "The header file does not exist in the location you specified";
-$GLOBALS['strMyFooter']                              = "Footer File Location";
-$GLOBALS['strMyFooterError']                         = "The footer file does not exist in the location you specified";
+$GLOBALS['strGeneralSettings']                       = "基本";
+$GLOBALS['strAppName']                               = "系统名称";
+$GLOBALS['strMyHeader']                              = "页眉文件";
+$GLOBALS['strMyHeaderError']                         = "在指定的路径找不到页眉文件";
+$GLOBALS['strMyFooter']                              = "页脚文件";
+$GLOBALS['strMyFooterError']                         = "在指定的路径找不到页脚文件";
 $GLOBALS['strDefaultTrackerStatus']                  = "Default tracker status";
 $GLOBALS['strDefaultTrackerType']                    = "Default tracker type";
-$GLOBALS['strSSLSettings']                           = "SSL Settings";
-$GLOBALS['requireSSL']                               = "Force SSL Access on User Interface";
-$GLOBALS['sslPort']                                  = "SSL Port Used by Web Server";
-$GLOBALS['strDashboardSettings']                     = "Dashboard Settings";
+$GLOBALS['strSSLSettings']                           = "HTTPS";
+$GLOBALS['requireSSL']                               = "强制使用 HTTPS 登录用户界面";
+$GLOBALS['sslPort']                                  = "HTTPS 端口";
+$GLOBALS['strDashboardSettings']                     = "首页图表";
 
-$GLOBALS['strMyLogo']                                = "Name/URL of custom logo file";
-$GLOBALS['strMyLogoError']                           = "The logo file does not exist in the admin/images directory";
-$GLOBALS['strGuiHeaderForegroundColor']              = "Color of the header foreground";
-$GLOBALS['strGuiHeaderBackgroundColor']              = "Color of the header background";
-$GLOBALS['strGuiActiveTabColor']                     = "Color of the active tab";
-$GLOBALS['strGuiHeaderTextColor']                    = "Color of the text in the header";
-$GLOBALS['strColorError']                            = "Please enter colors in an RGB format, like '0066CC'";
+$GLOBALS['strMyLogo']                                = "Logo 文件名或 URL";
+$GLOBALS['strMyLogoError']                           = "在 admin/images 目录中找不到指定的 Logo 文件";
+$GLOBALS['strGuiHeaderForegroundColor']              = "页眉前景色";
+$GLOBALS['strGuiHeaderBackgroundColor']              = "页眉背景色";
+$GLOBALS['strGuiActiveTabColor']                     = "激活标签颜色";
+$GLOBALS['strGuiHeaderTextColor']                    = "页眉文本颜色";
+$GLOBALS['strColorError']                            = "请按 RGB 格式输入，例如“0066CC”";
 
-$GLOBALS['strGzipContentCompression']                = "Use GZIP Content Compression";
+$GLOBALS['strGzipContentCompression']                = "使用 GZIP 压缩";
 $GLOBALS['strClientInterface']                       = "Advertiser Interface";
 $GLOBALS['strReportsInterface']                      = "Reports Interface";
 $GLOBALS['strClientWelcomeEnabled']                  = "Enable Advertiser Welcome Message";

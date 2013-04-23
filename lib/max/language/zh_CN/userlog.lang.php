@@ -27,9 +27,9 @@ $Id: userlog.lang.php 81772 2012-09-11 00:07:29Z chris.nutting $
 
 // Set translation strings
 
-$GLOBALS['strDeliveryEngine']				= "Delivery Engine";
-$GLOBALS['strMaintenance']					= "Maintenance";
-$GLOBALS['strAdministrator']				= "Administrator";
+$GLOBALS['strDeliveryEngine']				= "投放引擎";
+$GLOBALS['strMaintenance']					= "维护";
+$GLOBALS['strAdministrator']				= "管理员";
 
 // Audit
 $GLOBALS['strLogging']                      = "Logging";

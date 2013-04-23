@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: OpenX - Reports (Standard)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-09-17 11:37+0100\n"
-"PO-Revision-Date: 2013-04-22 22:47+0800\n"
+"PO-Revision-Date: 2013-04-23 09:44+0800\n"
 "Last-Translator: Sah Lee <contact@leesah.name>\n"
 "Language-Team: Chris Nutting <Chris.Nutting@openx.org>\n"
 "MIME-Version: 1.0\n"
@@ -121,11 +121,11 @@ msgstr "2: High"
 
 #: plugins_repo/openXReports/extensions/reports/oxReportsStandard//advertisingAnalysisReport.class.php:93
 msgid "Advertising Analysis Report"
-msgstr "Advertising Analysis Report"
+msgstr "投放分析报表"
 
 #: plugins_repo/openXReports/extensions/reports/oxReportsStandard//advertisingAnalysisReport.class.php:94
 msgid "This report shows a breakdown of advertising for a particular advertiser or publisher, by day, campaign, and zone."
-msgstr "This report shows a breakdown of advertising for a particular advertiser or publisher, by day, campaign, and zone."
+msgstr "针对指定客户或媒体的投放情况，分别按日期、项目及版位进行分析汇总"
 
 #: plugins_repo/openXReports/extensions/reports/oxReportsStandard//advertisingAnalysisReport.class.php:120
 #: plugins_repo/openXReports/extensions/reports/oxReportsStandard//advertisingAnalysisReport.class.php:334

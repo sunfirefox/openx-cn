@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: OpenX - Invocation tags\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-09-25 09:12+0100\n"
-"PO-Revision-Date: 2013-04-21 23:17+0800\n"
+"PO-Revision-Date: 2013-04-23 12:24+0800\n"
 "Last-Translator: Sah Lee <contact@leesah.name>\n"
 "Language-Team: Chris Nutting <Chris.Nutting@openx.org>\n"
 "MIME-Version: 1.0\n"
@@ -154,7 +154,7 @@ msgstr ""
 
 #: plugins_repo/openXInvocationTags/extensions/invocationTags/oxInvocationTags/adviewnocookies.class.php:57
 msgid "No Cookie Image Tag"
-msgstr "不使用 Cookie 的图片"
+msgstr "图片（不支持 Cookie）"
 
 #: plugins_repo/openXInvocationTags/extensions/invocationTags/oxInvocationTags/local.class.php:49
 msgid "Local Mode Tag"

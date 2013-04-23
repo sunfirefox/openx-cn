@@ -138,7 +138,7 @@ $GLOBALS['strAdLayerStyleName']	= array(
 $GLOBALS['str3rdPartyTrack']		 = "支持第三方点击率统计工具";
 
 // Support for cachebusting code
-$GLOBALS['strCacheBuster']		    = "Insert Cache-Busting code";
+$GLOBALS['strCacheBuster']		    = "包含 Cache Buster 参数";
 
 // Non-Img creatives Warning for zone image-only invocation
 $GLOBALS['strNonImgWarningZone']	= "Warning: There are banners attached to this zone which are not images. These banners will not be rotated using this tag.";

@@ -1082,7 +1082,7 @@ $GLOBALS['strCampaignStop']           = "Campaign stop";
 // Reports
 $GLOBALS['strReports']                = "报表";
 $GLOBALS['strAdvancedReports']        = "更多...";
-$GLOBALS['strAdminReports']           = "Admin Reports";
+$GLOBALS['strAdminReports']           = "管理员报表";
 $GLOBALS['strAdvertiserReports']      = "Advertiser Reports";
 $GLOBALS['strAgencyReports']          = "Agency Reports";
 $GLOBALS['strPublisherReports']       = "Website Reports";

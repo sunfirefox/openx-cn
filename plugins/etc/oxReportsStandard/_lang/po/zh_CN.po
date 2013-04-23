@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: OpenX - Reports (Standard)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-09-17 11:37+0100\n"
-"PO-Revision-Date: 2013-04-23 09:44+0800\n"
+"PO-Revision-Date: 2013-04-23 12:49+0800\n"
 "Last-Translator: Sah Lee <contact@leesah.name>\n"
 "Language-Team: Chris Nutting <Chris.Nutting@openx.org>\n"
 "MIME-Version: 1.0\n"
@@ -53,11 +53,11 @@ msgstr "Zone Breakdown"
 
 #: plugins_repo/openXReports/extensions/reports/oxReportsStandard//liveCampaignDeliveryReport.class.php:59
 msgid "Campaign Delivery Report"
-msgstr "Campaign Delivery Report"
+msgstr "项目投放情况汇总"
 
 #: plugins_repo/openXReports/extensions/reports/oxReportsStandard//liveCampaignDeliveryReport.class.php:60
 msgid "This report shows delivery statistics for all campaigns which were live during the specified period, highlighting campaigns which are underperforming."
-msgstr "This report shows delivery statistics for all campaigns which were live during the specified period, highlighting campaigns which are underperforming."
+msgstr "汇总指定时间段内所有项目的投放情况，以便于发现表现欠佳的项目"
 
 #: plugins_repo/openXReports/extensions/reports/oxReportsStandard//liveCampaignDeliveryReport.class.php:86
 msgid "Period"
@@ -124,7 +124,7 @@ msgid "Advertising Analysis Report"
 msgstr "投放分析报表"
 
 #: plugins_repo/openXReports/extensions/reports/oxReportsStandard//advertisingAnalysisReport.class.php:94
-msgid "This report shows a breakdown of advertising for a particular advertiser or publisher, by day, campaign, and zone."
+msgid "This report shows a breakdown of advertising for a particular advertiser or website, by day, campaign, and zone."
 msgstr "针对指定客户或媒体的投放情况，分别按日期、项目及版位进行分析汇总"
 
 #: plugins_repo/openXReports/extensions/reports/oxReportsStandard//advertisingAnalysisReport.class.php:120

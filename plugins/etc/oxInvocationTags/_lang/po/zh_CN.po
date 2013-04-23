@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: OpenX - Invocation tags\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-09-25 09:12+0100\n"
-"PO-Revision-Date: 2013-04-23 09:26+0800\n"
+"PO-Revision-Date: 2013-04-21 23:17+0800\n"
 "Last-Translator: Sah Lee <contact@leesah.name>\n"
 "Language-Team: Chris Nutting <Chris.Nutting@openx.org>\n"
 "MIME-Version: 1.0\n"
@@ -406,9 +406,6 @@ msgstr "Automatically close after"
 #: plugins_repo/openXInvocationTags/extensions/invocationTags/oxInvocationTags/layerstyles/simple/invocation.inc.php:144
 msgid "Border color"
 msgstr "Border color"
-
-msgid "New window"
-msgstr "新窗口"
 
 #~ msgid "PHP Comment"
 #~ msgstr "PHP Comment"

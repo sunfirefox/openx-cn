@@ -754,12 +754,12 @@ $GLOBALS['strEditAdSenseAccount']         = "Edit AdSense Account";
 // Display limitations
 $GLOBALS['strModifyBannerAcl']            = "投放控制";
 $GLOBALS['strACL']                        = "投放控制";
-$GLOBALS['strACLAdd']                     = "添加新的投放控制条件";
-$GLOBALS['strACLAdd_Key']                 = "添加新的投放控制条件（<u>N</u>）";
+$GLOBALS['strACLAdd']                     = "添加新的投放控制选项";
+$GLOBALS['strACLAdd_Key']                 = "添加新的投放控制选项（<u>N</u>）";
 $GLOBALS['strNoLimitations']              = "无";
-$GLOBALS['strApplyLimitationsTo']         = "复制投放控制条件至";
+$GLOBALS['strApplyLimitationsTo']         = "复制投放控制选项至";
 $GLOBALS['strAllBannersInCampaign']       = "该项目下的所有素材";
-$GLOBALS['strRemoveAllLimitations']       = "删除所有投放控制条件";
+$GLOBALS['strRemoveAllLimitations']       = "删除所有投放控制选项";
 $GLOBALS['strEqualTo']                    = "is equal to";
 $GLOBALS['strDifferentFrom']              = "is different from";
 $GLOBALS['strLaterThan']                  = "is later than";
@@ -796,7 +796,7 @@ $GLOBALS['strOrg']                        = "Organisation Name";
 $GLOBALS['strIsp']                        = "ISP Name";
 $GLOBALS['strNetspeed']                   = "Internet Connection Speed";
 $GLOBALS['strReferer']                    = "Referring page";
-$GLOBALS['strDeliveryLimitations']        = "投放控制条件";
+$GLOBALS['strDeliveryLimitations']        = "投放控制选项";
 
 $GLOBALS['strDeliveryCapping']            = "按用户进行投放控制";
 $GLOBALS['strDeliveryCappingReset']       = "投放控制周期";
@@ -1234,7 +1234,7 @@ $GLOBALS['strNoMoreConversions']                = "已达到订单上限";
 $GLOBALS['strWeightIsNull']                     = "权重设置为零";
 $GLOBALS['strRevenueIsNull']                    = "收入设置为零";
 $GLOBALS['strTargetIsNull']                     = "每日投放量上限设置为零，您需要设置项目停用日期以及每日投放量上限";
-$GLOBALS['strWarnClientTxt']                    = "素材的展示，点击或数据追踪已低于投放控制条件 {limit}。当达到上限时素材会被停用。";
+$GLOBALS['strWarnClientTxt']                    = "根据投放控制选项的设置（{limit}），素材将被停用。";
 $GLOBALS['strImpressionsClicksConversionsLow']  = "Impressions/Clicks/Conversions are low";
 $GLOBALS['strNoViewLoggedInInterval']           = "No Impressions were logged during the span of this report";
 $GLOBALS['strNoClickLoggedInInterval']          = "No Clicks were logged during the span of this report";
@@ -1390,19 +1390,19 @@ $GLOBALS['strAllowMoreReports']           = "Allow 'More Reports' button";
 $GLOBALS['strSwitchAccount']              = "切换到该组";
 
 // Channels
-$GLOBALS['strChannel']                    = "Targeting Channel";
+$GLOBALS['strChannel']                    = "频道";
 $GLOBALS['strChannels']                   = "频道";
 $GLOBALS['strChannelOverview']            = "Targeting Channel Overview";
-$GLOBALS['strChannelManagement']          = "Targeting Channel Management";
+$GLOBALS['strChannelManagement']          = "频道";
 $GLOBALS['strAddNewChannel']              = "添加新的频道";
 $GLOBALS['strAddNewChannel_Key']          = "添加新的频道（<u>N</u>）";
 $GLOBALS['strChannelToWebsite']           = "到";
 $GLOBALS['strNoChannels']                 = "您还没有添加频道。";
 $GLOBALS['strNoChannelsAddWebsite']       = "您还没有添加频道。在添加新的频道前，您需要先<a href='affiliate-edit.php'>添加媒体</a>。";
 
-$GLOBALS['strEditChannelLimitations']     = "Edit targeting channel limitations";
+$GLOBALS['strEditChannelLimitations']     = "更新投放控制选项";
 $GLOBALS['strChannelProperties']          = "频道";
-$GLOBALS['strChannelLimitations']         = "投放选项";
+$GLOBALS['strChannelLimitations']         = "投放控制选项";
 $GLOBALS['strConfirmDeleteChannel']       = "您真的要删除该频道吗？";
 $GLOBALS['strConfirmDeleteChannels']      = "您真的要删除所有选中的频道吗？";
 $GLOBALS['strModifychannel']              = "Edit targeting channel";
@@ -1521,7 +1521,7 @@ $GLOBALS['strCampaignAuditNotActivated'] = "<li>In order to view campaigns which
 ";
 $GLOBALS['strCampaignAuditTrailSetup']   = "Activate Audit Trail to start viewing Campaigns";
 
-$GLOBALS['strUnsavedChanges']       = "You have unsaved changes on this page, make sure you press &quot;Save Changes&quot; when finished";
+$GLOBALS['strUnsavedChanges']       = "该页面上有尚未保存的更新，请在编辑完成后按“保存”按钮";
 $GLOBALS['strDeliveryLimitationsDisagree'] = "WARNING: The delivery engine limitations <strong>DO NOT AGREE</strong> with the limitations shown below<br />Please hit save changes to update the delivery engine's rules";
 $GLOBALS['strDeliveryLimitationsInputErrors'] = "Some of delivery limitations reports incorrect values:";
 
@@ -1556,8 +1556,8 @@ $GLOBALS['strCampaignHasBeenMoved'] = "项目<b>%s</b>已经成功移至客户<b
 $GLOBALS['strBannerHasBeenAdded'] = "新素材<a href='%s'>%s</a>已经成功添加。";
 $GLOBALS['strBannerHasBeenUpdated'] = "素材<a href='%s'>%s</a>已经成功更新。";
 $GLOBALS['strBannerAdvancedHasBeenUpdated'] = "素材<a href='%s'>%s</a>的高级设置已经成功更新。";
-$GLOBALS['strBannerAclHasBeenUpdated'] = "素材<a href='%s'>%s</a>的投放控制条件已经成功更新。";
-$GLOBALS['strBannerAclHasBeenAppliedTo'] = "素材<a href='%s'>%s</a>的投放控制条件已经成功应用到 %d 个素材。";
+$GLOBALS['strBannerAclHasBeenUpdated'] = "素材<a href='%s'>%s</a>的投放控制选项已经成功更新。";
+$GLOBALS['strBannerAclHasBeenAppliedTo'] = "素材<a href='%s'>%s</a>的投放控制选项已经成功应用到 %d 个素材。";
 $GLOBALS['strBannerHasBeenDeleted'] = "素材<b>%s</b>已经成功删除。";
 $GLOBALS['strBannersHaveBeenDeleted'] = "所有选中的素材已经成功删除。";
 $GLOBALS['strBannerHasBeenDuplicated'] = "已经成功从<a href='%s'>%s</a>克隆出新的素材<a href='%s'>%s</a>。";
@@ -1598,7 +1598,7 @@ $GLOBALS['strEmailChanged'] = "您的 E-mail 已经成功更新。";
 $GLOBALS['strPasswordChanged'] = "您的密码已经成功更新。";
 $GLOBALS['strXPreferencesHaveBeenUpdated'] = "<b>%s</b>已经成功更新。";
 $GLOBALS['strXSettingsHaveBeenUpdated'] = "<b>%s</b>已经成功更新。";
-$GLOBALS['strTZPreferencesWarning'] = "但是项目的启用和停用日期以及基于时间的投放控制条件还没有更新。<br />如果您希望对它们应用新的时区设置，您需要手动更新。";
+$GLOBALS['strTZPreferencesWarning'] = "但是项目的启用和停用日期以及基于时间的投放控制选项还没有更新。<br />如果您希望对它们应用新的时区设置，您需要手动更新。";
 
 
 /*-------------------------------------------------------*/

@@ -1125,18 +1125,17 @@ $GLOBALS['strCacheBusterComment']       = "  * Replace all instances of {random}
   * a generated random number (or timestamp).
   *";
 $GLOBALS['strSSLBackupComment']         = "
-  * The backup image section of this tag has been generated for use on a
-  * non-SSL page. If this tag is to be placed on an SSL page, change the
-  *   'http://%s/...'
-  * to
-  *   'https://%s/...'
+  * 该标签被设计为用于非 SSL 页面。如果需要放置在 SSL 页面中，请将
+  *   “http://%s/...”
+  * 替换为\n
+  *   “https://%s/...”
   *";
+
 $GLOBALS['strSSLDeliveryComment']       = "
-  * This tag has been generated for use on a non-SSL page. If this tag
-  * is to be placed on an SSL page, change the
-  *   'http://%s/...'
-  * to
-  *   'https://%s/...'
+  * 该标签被设计为用于非 SSL 页面。如果需要放置在 SSL 页面中，请将
+  *   “http://%s/...”
+  * 替换为\n
+  *   “https://%s/...”
   *";
 
 $GLOBALS['strThirdPartyComment']        = "

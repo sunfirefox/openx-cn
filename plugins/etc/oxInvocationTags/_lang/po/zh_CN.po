@@ -80,7 +80,7 @@ msgid ""
 "  *"
 msgstr ""
 "\n"
-"  * 将所有的 {random} 替换为随机数（或时间戳）。\n"
+"  * 请将所有的 {random} 替换为随机数（或时间戳）。\n"
 "  *"
 
 #: plugins_repo/openXInvocationTags/extensions/invocationTags/oxInvocationTags/adlayer.class.php:123

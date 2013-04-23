@@ -1091,7 +1091,7 @@ $GLOBALS['strStartDate']              = "开始日期";
 $GLOBALS['strEndDate']                = "结束日期";
 $GLOBALS['strNoData']                 = "There is no data available for this time period";
 $GLOBALS['strPeriod']                 = "时间段";
-$GLOBALS['strLimitations']            = "筛选";
+$GLOBALS['strLimitations']            = "过滤";
 $GLOBALS['strWorksheets']             = "选择视图";
 
 // Admin_UI_Fields

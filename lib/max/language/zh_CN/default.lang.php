@@ -371,7 +371,7 @@ $GLOBALS['strTimes']                    = "次";
 // Advertiser
 $GLOBALS['strClient']                       = "客户";
 $GLOBALS['strClients']                      = "客户";
-$GLOBALS['strClientsAndCampaigns']          = "按客户与项目";
+$GLOBALS['strClientsAndCampaigns']          = "按项目";
 $GLOBALS['strAddClient']                    = "添加新的客户";
 $GLOBALS['strAddClient_Key']                = "添加新的客户（<u>N</u>）";
 $GLOBALS['strTotalClients']                 = "客户总数";
@@ -818,7 +818,7 @@ $GLOBALS['strCappingZone']['limit'] = "限制展示";
 // Website
 $GLOBALS['strAffiliate']                = "媒体";
 $GLOBALS['strAffiliates']                 = "媒体";
-$GLOBALS['strAffiliatesAndZones']        = "按媒体与版位";
+$GLOBALS['strAffiliatesAndZones']        = "按版位";
 $GLOBALS['strAddNewAffiliate']            = "添加新的媒体";
 $GLOBALS['strAddNewAffiliate_Key']        = "添加新的媒体（<u>N</u>）";
 $GLOBALS['strAddAffiliate']                = "Create website";

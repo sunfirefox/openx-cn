@@ -81,7 +81,7 @@ $GLOBALS['strCheckForUpdates']          = "检查新版本";
 $GLOBALS['strWhenCheckingForUpdates']   = "检查新版本时";
 $GLOBALS['strCompact']                  = "精简视图";
 $GLOBALS['strVerbose']                  = "Verbose";
-$GLOBALS['strUser']                     = "User";
+$GLOBALS['strUser']                     = "用户";
 $GLOBALS['strEdit']                     = "Edit";
 $GLOBALS['strCreate']                   = "Create";
 $GLOBALS['strDuplicate']                = "克隆";
@@ -288,7 +288,7 @@ $GLOBALS['strDuplicateAgencyName']      = "The username you provided already exi
 $GLOBALS['strInvalidPassword']          = "The new password is invalid, please use a different password.";
 $GLOBALS['strInvalidEmail']             = "The email is not correctly formatted, please put a correct email address.";
 $GLOBALS['strNotSamePasswords']         = "The two passwords you supplied are not the same";
-$GLOBALS['strRepeatPassword']           = "Repeat Password";
+$GLOBALS['strRepeatPassword']           = "密码确认";
 $GLOBALS['strOldPassword']              = "Old Password";
 $GLOBALS['strNewPassword']              = "New Password";
 $GLOBALS['strNoBannerId']               = "No banner ID";
@@ -1463,23 +1463,21 @@ $GLOBALS['strWrongDateFormat']      = "Wrong Date Format";
 
 // Password recovery
 $GLOBALS['strForgotPassword']         = "忘记密码";
-$GLOBALS['strPasswordRecovery']       = "Password recovery";
-$GLOBALS['strEmailRequired']          = "Email is a required field";
+$GLOBALS['strPasswordRecovery']       = "找回密码";
+$GLOBALS['strEmailRequired']          = "请输入您的 Email";
 $GLOBALS['strPwdRecEmailSent']        = "Recovery email sent";
-$GLOBALS['strPwdRecEmailNotFound']    = "Email address not found";
+$GLOBALS['strPwdRecEmailNotFound']    = "该 Email 还没有注册";
 $GLOBALS['strPwdRecPasswordSaved']    = "The new password was saved, proceed to <a href='index.php'>login</a>";
 $GLOBALS['strPwdRecWrongId']          = "Wrong ID";
-$GLOBALS['strPwdRecEnterEmail']       = "Enter your email address below";
-$GLOBALS['strPwdRecEnterPassword']    = "Enter your new password below";
-$GLOBALS['strPwdRecReset']            = "Password reset";
-$GLOBALS['strPwdRecResetLink']        = "Password reset link";
+$GLOBALS['strPwdRecEnterEmail']       = "请输入您的 Email";
+$GLOBALS['strPwdRecEnterPassword']    = "请输入您的新密码";
+$GLOBALS['strPwdRecReset']            = "重置密码";
+$GLOBALS['strPwdRecResetLink']        = "点击链接开始重置密码";
 $GLOBALS['strPwdRecResetPwdThisUser'] = "Reset password for this user";
 $GLOBALS['strPwdRecEmailPwdRecovery'] = "%s password recovery";
-$GLOBALS['strProceed']                = "Proceed >";
-$GLOBALS['strNotifyPageMessage']      = "An e-mail has been sent to you, which includes a link that will allow you
-                                         to re-set your password and log in.<br />Please allow a few minutes for the e-mail to arrive.<br />
-                                         If you do not receive the e-mail, please check your spam folder.<br />
-                                         <a href=\"index.php\">Return the the main login page.</a>";
+$GLOBALS['strProceed']                = "继续 >";
+$GLOBALS['strNotifyPageMessage']      = "已经将重置密码的链接用 Email 发送给您。如果您没有收到 Email，请检查您的“垃圾邮件”文件夹。<br />
+                                         <a href=\"index.php\">返回登录页</a>";
 
 // Audit
 $GLOBALS['strAdditionalItems']        = "and additional items";

@@ -1179,7 +1179,7 @@ $GLOBALS['strErrorDBNoDataSerious']             = "数据库异常，".MAX_PRODU
 $GLOBALS['strErrorDBCorrupt']                   = "数据表异常，请参考 <i>Administrator guide</i> 中的 <i>Troubleshooting</i> 章节尝试修复。";
 $GLOBALS['strErrorDBContact']                   = "请联系系统管理员。";
 $GLOBALS['strErrorDBSubmitBug']                 = "If this problem is reproducable it might be caused by a bug in ".MAX_PRODUCT_NAME.". Please report the following information to the creators of ".MAX_PRODUCT_NAME.". Also try to describe the actions that led to this error as clearly as possible.";
-$GLOBALS['strMaintenanceNotActive']             = "距离上次运行维护脚本已经超过 24 小时。\\n为保证 ".MAX_PRODUCT_NAME." 正常工作，维护脚本运行的间隔不应该超过 1 小时。\\n\\n请参考 Administrator guide 配置维护脚本。";
+$GLOBALS['strMaintenanceNotActive']             = "距离上次运行维护任务已经超过 24 小时。\\n为保证 ".MAX_PRODUCT_NAME." 正常工作，维护任务运行的间隔不应该超过 1 小时。\\n\\n请参考管理员手册配置维护任务。";
 $GLOBALS['strErrorBadUserType']                 = "系统无法检测您的账户类型。";
 $GLOBALS['strErrorLinkingBanner']               = "将素材关联到该版位时发生错误：";
 $GLOBALS['strUnableToLinkBanner']               = "无法关联该素材：";
@@ -1258,7 +1258,7 @@ $GLOBALS['strSourceEdit']                       = "Edit Sources";
 // Preferences
 $GLOBALS['strPreferences']                      = "设置";
 $GLOBALS['strMyAccount']                        = "账户";
-$GLOBALS['strConfiguration']                    = "Configuration";
+$GLOBALS['strConfiguration']                    = "系统";
 $GLOBALS['strMainPreferences']                  = "Main Preferences";
 $GLOBALS['strAccountPreferences']               = "Account Preferences";
 $GLOBALS['strCampaignEmailReportsPreferences']  = "报表";
@@ -1343,16 +1343,16 @@ $GLOBALS['strImpressionSR_short']               = "展示 SR";
 $GLOBALS['strClickSR_short']                    = "点击 SR";
 
 // Global Settings
-$GLOBALS['strGlobalSettings']               = "Global Settings";
+$GLOBALS['strGlobalSettings']               = "全局";
 $GLOBALS['strGeneralSettings']              = "General Settings";
 $GLOBALS['strMainSettings']                 = "Main Settings";
 $GLOBALS['strAdminSettings']                = "Administration Settings";
-$GLOBALS['strPlugins']                      = "Plugins";
+$GLOBALS['strPlugins']                      = "插件";
 
-$GLOBALS['strChooseSection']          = 'Choose Section';
+$GLOBALS['strChooseSection']          = '请选择任务';
 
 // Product Updates
-$GLOBALS['strProductUpdates']         = "Product Updates";
+$GLOBALS['strProductUpdates']         = "升级";
 $GLOBALS['strViewPastUpdates']        = "Manage Past Updates and Backups";
 $GLOBALS['strFromVersion']            = "From Version";
 $GLOBALS['strToVersion']              = "To Version";

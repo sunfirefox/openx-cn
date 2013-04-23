@@ -26,16 +26,13 @@ $Id:maintenance.lang.php 20042 2008-05-09 01:10:00Z aj.tarachanowicz@openx.org $
 */
 
 // Main strings
-$GLOBALS['strChooseSection']			= "Choose section";
-$GLOBALS['strAppendCodes']              = "Append codes";
+$GLOBALS['strChooseSection']			= "请选择任务";
+$GLOBALS['strAppendCodes']              = "附加代码";
 
 // Maintenance
-$GLOBALS['strScheduledMaintenanceHasntRun']	   = "<b>Scheduled maintenance hasn't run in the past hour. This may mean that you have not set it up correctly.</b>";
+$GLOBALS['strScheduledMaintenanceHasntRun']	   = "<b>维护任务在过去 1 小时内没有执行。请检查系统设置。</b>";
 
-$GLOBALS['strAutoMantenaceEnabledAndHasntRun'] = "
-	Automatic maintenance is enabled, but it has not been triggered. Automatic maintenance is triggered only when ".MAX_PRODUCT_NAME." delivers banners.
-    For the best performance, you should set up <a href='" . OX_PRODUCT_DOCSURL . "/maintenance' target='_blank'>scheduled maintenance</a>.
-";
+$GLOBALS['strAutoMantenaceEnabledAndHasntRun'] = "维护任务已经设置为自动运行，但是没有被触发。维护任务只有在 ".MAX_PRODUCT_NAME." 投放广告的时候才会被触发。出于性能的考虑，建议您设置<a href='" . OX_PRODUCT_DOCSURL . "/maintenance' target='_blank'>定时执行维护任务</a>。";
 
 $GLOBALS['strAutoMantenaceDisabledAndHasntRun'] = "
 	Automatic maintenance is currently disabled, so when ".MAX_PRODUCT_NAME." delivers banners, automatic maintenance will not be triggered.

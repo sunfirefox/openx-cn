@@ -206,7 +206,7 @@ $GLOBALS['strOpenadsPassword']                       = "" . MAX_PRODUCT_NAME . "
 $GLOBALS['strOpenadsEmail']                          = "" . MAX_PRODUCT_NAME . " email";
 
 // Database Settings
-$GLOBALS['strDatabaseSettings']                      = "Database Settings";
+$GLOBALS['strDatabaseSettings']                      = "数据库";
 $GLOBALS['strDatabaseServer']                        = "Database Server Settings";
 $GLOBALS['strDbLocal']                               = "Use local socket connection";
 $GLOBALS['strDbType']                                = "Database Type";
@@ -227,7 +227,7 @@ $GLOBALS['strDemoDataIntro']                         = "Default setup data can b
 
 
 // Email Settings
-$GLOBALS['strEmailSettings']                         = "Email Settings";
+$GLOBALS['strEmailSettings']                         = "Email 功能";
 $GLOBALS['strEmailAddresses']                        = "Email 'From' Address";
 $GLOBALS['strEmailFromName']                         = "Email 'From' Name";
 $GLOBALS['strEmailFromAddress']                      = "Email 'From' Email Address";
@@ -244,7 +244,7 @@ $GLOBALS['strEnableAudit']                           = "Enable Audit Trail";
 $GLOBALS['strEnableAuditForZoneLinking']             = "Enable Audit Trail for Zone Linking screen (introduces huge performance penalty when linking large amounts of zones)";
 
 // Debug Logging Settings
-$GLOBALS['strDebug']                                 = "Debug Logging Settings";
+$GLOBALS['strDebug']                                 = "调试日志";
 $GLOBALS['strProduction']                            = "Production server";
 $GLOBALS['strEnableDebug']                           = "Enable Debug Logging";
 $GLOBALS['strDebugMethodNames']                      = "Include method names in debug log";
@@ -344,7 +344,7 @@ $GLOBALS['uiEnabled']                                = "User Interface Enabled";
 $GLOBALS['defaultLanguage']                          = "Default System Language<br />(Each user can select their own language)";
 
 // Geotargeting Settings
-$GLOBALS['strGeotargetingSettings']                  = "Geotargeting Settings";
+$GLOBALS['strGeotargetingSettings']                  = "地理信息库";
 $GLOBALS['strGeotargeting']                          = "Geotargeting Settings";
 $GLOBALS['strGeotargetingType']                      = "Geotargeting Module Type";
 $GLOBALS['strGeotargetingUseBundledCountryDb']       = "Use the bundled MaxMind GeoLiteCountry database";
@@ -422,10 +422,10 @@ $GLOBALS['strInvocationDefaults']                    = "Invocation Defaults";
 $GLOBALS['strEnable3rdPartyTrackingByDefault']       = "Enable 3rd Party Clicktracking by Default";
 
 // Banner Delivery Settings
-$GLOBALS['strBannerDelivery']                         = "Banner Delivery Settings";
+$GLOBALS['strBannerDelivery']                         = "素材投放";
 
 // Banner Logging Settings
-$GLOBALS['strBannerLogging']                         = "Banner Logging Settings";
+$GLOBALS['strBannerLogging']                         = "素材投放日志";
 $GLOBALS['strLogAdRequests']                         = "Log a request every time a banner is requested";
 $GLOBALS['strLogAdImpressions']                      = "Log an impression every time a banner is viewed";
 $GLOBALS['strLogAdClicks']                           = "Log a click every time a viewer clicks on a banner";
@@ -438,7 +438,7 @@ $GLOBALS['strIgnoreUserAgents']                      = "<b>Don't</b> log statist
 $GLOBALS['strEnforceUserAgents']                     = "<b>Only</b> log statistics from clients with any of the following strings in their user-agent (one-per-line)";
 
 // Banner Storage Settings
-$GLOBALS['strBannerStorage']                         = "Banner Storage Settings";
+$GLOBALS['strBannerStorage']                         = "素材存储";
 
 // Campaign ECPM settings
 $GLOBALS['strEnableECPM']                            = "Use eCPM optimized priorities instead of remnant-weighted priorities";
@@ -448,8 +448,8 @@ $GLOBALS['strEnableECPMfromECPM']                    = "(If you disable this fea
 $GLOBALS['strInactivatedCampaigns']                  = "List of campaigns which became inactive due to the changes in preferences:";
 
 // Statistics & Maintenance Settings
-$GLOBALS['strMaintenanceSettings']                   = "Maintenance Settings";
-$GLOBALS['strConversionTracking']                    = "Conversion Tracking Settings";
+$GLOBALS['strMaintenanceSettings']                   = "维护任务";
+$GLOBALS['strConversionTracking']                    = "数据追踪";
 $GLOBALS['strEnableConversionTracking']              = "Enable Conversion Tracking";
 $GLOBALS['strCsvImport']                             = "Allow upload of offline conversions";
 $GLOBALS['strBlockAdViews']                          = "Don't count Ad Impressions if the viewer has seen the same ad/zone pair within the specified time (seconds)";
@@ -477,7 +477,7 @@ $GLOBALS['strWarnClient']                            = "项目即将过期时发
 $GLOBALS['strWarnAgency']                            = "项目即将过期时发送通知";
 
 // UI Settings
-$GLOBALS['strGuiSettings']                           = "User Interface Settings";
+$GLOBALS['strGuiSettings']                           = "用户界面";
 $GLOBALS['strGeneralSettings']                       = "General Settings";
 $GLOBALS['strAppName']                               = "Application Name";
 $GLOBALS['strMyHeader']                              = "Header File Location";
@@ -515,7 +515,7 @@ $GLOBALS['strNewPlatformHash']                       = "Your new Platform Hash i
 $GLOBALS['strPlatformHashInsertingError']            = "Error inserting Platform Hash into database";
 
 // Plugin Settings
-$GLOBALS['strPluginSettings']                        = "Plugin Settings";
+$GLOBALS['strPluginSettings']                        = "插件";
 $GLOBALS['strEnableNewPlugins']                      = "Enable newly installed plugins";
 $GLOBALS['strUseMergedFunctions']                    = "Use merged delivery functions file";
 

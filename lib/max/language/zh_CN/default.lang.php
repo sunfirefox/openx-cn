@@ -1125,16 +1125,16 @@ $GLOBALS['strCacheBusterComment']       = "  * Replace all instances of {random}
   * a generated random number (or timestamp).
   *";
 $GLOBALS['strSSLBackupComment']         = "
-  * 该标签被设计为用于非 SSL 页面。如果需要放置在 SSL 页面中，请将
+  * 该标签适用于非 SSL 页面。如果需要放置在 SSL 页面中，请将
   *   “http://%s/...”
-  * 替换为\n
+  * 替换为
   *   “https://%s/...”
   *";
 
 $GLOBALS['strSSLDeliveryComment']       = "
-  * 该标签被设计为用于非 SSL 页面。如果需要放置在 SSL 页面中，请将
+  * 该标签适用于非 SSL 页面。如果需要放置在 SSL 页面中，请将
   *   “http://%s/...”
-  * 替换为\n
+  * 替换为
   *   “https://%s/...”
   *";
 

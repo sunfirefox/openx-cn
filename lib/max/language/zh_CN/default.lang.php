@@ -262,7 +262,7 @@ $GLOBALS['strUnlinkUser']               = "Remove user";
 $GLOBALS['strUnlinkUserConfirmBody']    = "您确定要从用户组中删除该用户吗？";
 
 // Login & Permissions
-$GLOBALS['strUserAccess']               = "访问权限";
+$GLOBALS['strUserAccess']               = "用户";
 $GLOBALS['strAdminAccess']              = "管理员权限";
 $GLOBALS['strUserProperties']           = "用户";
 $GLOBALS['strLinkNewUser']              = "Link New User";
@@ -1109,7 +1109,7 @@ $GLOBALS['strAction']                = "Action";
 $GLOBALS['strNoActionsLogged']        = "No actions are logged";
 
 // Code generation
-$GLOBALS['strGenerateBannercode']        = "生成代码";
+$GLOBALS['strGenerateBannercode']        = "代码";
 $GLOBALS['strChooseInvocationType']        = "请选择调用方式";
 $GLOBALS['strGenerate']                    = "生成";
 $GLOBALS['strParameters']                = "参数设置";

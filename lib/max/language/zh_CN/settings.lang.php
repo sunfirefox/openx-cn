@@ -310,9 +310,9 @@ $GLOBALS['strDeliveryFilenamesXMLRPC']               = "XML RPC Invocation";
 $GLOBALS['strDeliveryFilenamesLocal']                = "Local Invocation";
 $GLOBALS['strDeliveryFilenamesFrontController']      = "Front Controller";
 $GLOBALS['strDeliveryFilenamesFlash']                = "Flash Include (Can be a full URL)";
-$GLOBALS['strDeliveryCaching']                       = "Banner Delivery Cache Settings";
-$GLOBALS['strDeliveryCacheLimit']                    = "Time Between Banner Cache Updates (seconds)";
-$GLOBALS['strDeliveryCacheStore']                    = "Banner Delivery Cache Store Type";
+$GLOBALS['strDeliveryCaching']                       = "素材缓存";
+$GLOBALS['strDeliveryCacheLimit']                    = "更新间隔（秒）";
+$GLOBALS['strDeliveryCacheStore']                    = "存储类型";
 
 $GLOBALS['strErrorInCacheStorePlugin']               = "Some errors were reported by the '%s' delivery store plugin:";
 $GLOBALS['strDeliveryCacheStorage']                  = "Delivery cache storage type";
@@ -326,7 +326,7 @@ $GLOBALS['strOriginTypeXMLRPC']                      = "XMLRPC";
 $GLOBALS['strOriginTimeout']                         = "Origin timeout (seconds)";
 $GLOBALS['strOriginProtocol']                        = "Origin server protocol";
 
-$GLOBALS['strDeliveryAcls']                          = "Evaluate banner delivery limitations during delivery";
+$GLOBALS['strDeliveryAcls']                          = "在投放时检查投放控制选项";
 $GLOBALS['strDeliveryAclsDirectSelection']           = "Evaluate banner delivery limitations for direct selected ads";
 $GLOBALS['strDeliveryObfuscate']                     = "Obfuscate channel when delivering ads";
 $GLOBALS['strDeliveryExecPhp']                       = "Allow PHP code in ads to be executed<br />(Warning: Security risk)";

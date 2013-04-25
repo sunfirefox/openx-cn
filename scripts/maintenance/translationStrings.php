@@ -29,11 +29,11 @@ $Id: translationStrings.php 81772 2012-09-11 00:07:29Z chris.nutting $
 $GLOBALS['strLogErrorClients'] 			= "[phpAds] An error occurred while trying to fetch the advertisers from the database.";
 
 //  lib-reports::phpAds_SendMaintenanceReport()
-$GLOBALS['strBanner'] 				= "Banner";
-$GLOBALS['strCampaign']				= "Campaign";
-$GLOBALS['strImpressions'] 				= "AdViews";
-$GLOBALS['strClicks']				= "AdClicks";
-$GLOBALS['strConversions']			= "AdSales";
+$GLOBALS['strBanner'] 				= "素材";
+$GLOBALS['strCampaign']				= "项目";
+$GLOBALS['strImpressions'] 				= "展示";
+$GLOBALS['strClicks']				= "点击";
+$GLOBALS['strConversions']			= "数据";
 $GLOBALS['strLinkedTo'] 			= "linked to";
 $GLOBALS['strMailSubject'] 			= "Advertiser report";
 $GLOBALS['strMailBannerStats'] 			= "Below you will find the banner statistics for {clientname}:";
@@ -54,6 +54,6 @@ $GLOBALS['strLogin'] 				= "Login";
 $GLOBALS['strShowBanner']			= "Show banner";
 
 
-$GLOBALS['date_format']                 = "%d-%m-%Y";
+$GLOBALS['date_format']                 = "%Y-%m-%d";
 
 ?>

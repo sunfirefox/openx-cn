@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: OpenX - Reports (Standard)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-09-17 11:37+0100\n"
-"PO-Revision-Date: 2013-04-25 12:22+0800\n"
+"PO-Revision-Date: 2013-04-25 21:00+0800\n"
 "Last-Translator: Sah Lee <contact@leesah.name>\n"
 "Language-Team: Chris Nutting <Chris.Nutting@openx.org>\n"
 "MIME-Version: 1.0\n"
@@ -174,7 +174,7 @@ msgstr "总计"
 
 #: plugins_repo/openXReports/extensions/reports/oxReportsStandard//conversionTrackingReport.class.php:380
 msgid " Connections"
-msgstr " 数据"
+msgstr "数据"
 
 #: plugins_repo/openXReports/extensions/reports/oxReportsStandard//conversionTrackingReport.class.php:679
 msgid "Connection ID"

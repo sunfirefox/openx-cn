@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: OpenX - Delivery limitations (Geo)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-09-16 14:30+0100\n"
-"PO-Revision-Date: 2013-04-23 12:24+0800\n"
+"PO-Revision-Date: 2013-04-25 12:20+0800\n"
 "Last-Translator: Sah Lee <contact@leesah.name>\n"
 "Language-Team: Chris Nutting <Chris.Nutting@openx.org>\n"
 "MIME-Version: 1.0\n"
@@ -19,49 +19,49 @@ msgstr ""
 
 #: plugins_repo/openXDeliveryLimitations/extensions/deliveryLimitations/Geo//City.res.inc.php:44
 msgid "---Any---"
-msgstr "---Any---"
+msgstr "-- 任意 --"
 
 #: plugins_repo/openXDeliveryLimitations/extensions/deliveryLimitations/Geo//Country.class.php:59
 #: plugins_repo/openXDeliveryLimitations/extensions/deliveryLimitations/Geo//Region.class.php:98
 #: plugins_repo/openXDeliveryLimitations/extensions/deliveryLimitations/Geo//City.class.php:93
 msgid "Country"
-msgstr "Country"
+msgstr "国家"
 
 #: plugins_repo/openXDeliveryLimitations/extensions/deliveryLimitations/Geo//Netspeed.class.php:57
 msgid "Net Speed"
-msgstr "Net Speed"
+msgstr "网速"
 
 #: plugins_repo/openXDeliveryLimitations/extensions/deliveryLimitations/Geo//Netspeed.res.inc.php:35
 msgid "Unknown"
-msgstr "Unknown"
+msgstr "未知"
 
 #: plugins_repo/openXDeliveryLimitations/extensions/deliveryLimitations/Geo//Netspeed.res.inc.php:36
 msgid "Dial-up"
-msgstr "Dial-up"
+msgstr "拨号"
 
 #: plugins_repo/openXDeliveryLimitations/extensions/deliveryLimitations/Geo//Netspeed.res.inc.php:37
 msgid "Broadband"
-msgstr "Broadband"
+msgstr "宽带"
 
 #: plugins_repo/openXDeliveryLimitations/extensions/deliveryLimitations/Geo//Netspeed.res.inc.php:38
 msgid "Corporate"
-msgstr "Corporate"
+msgstr "企业"
 
 #: plugins_repo/openXDeliveryLimitations/extensions/deliveryLimitations/Geo//Region.class.php:70
 msgid "Country / Region"
-msgstr "Country / Region"
+msgstr "国家／地区"
 
 #: plugins_repo/openXDeliveryLimitations/extensions/deliveryLimitations/Geo//Region.class.php:114
 msgid "Region(s)"
-msgstr "Region(s)"
+msgstr "地区"
 
 #: plugins_repo/openXDeliveryLimitations/extensions/deliveryLimitations/Geo//Postalcode.class.php:58
 msgid "US/Canada Postal Code"
-msgstr "US/Canada Postal Code"
+msgstr "北美地区邮编"
 
 #: plugins_repo/openXDeliveryLimitations/extensions/deliveryLimitations/Geo//City.class.php:108
 msgid "City(s)"
-msgstr "City(s)"
+msgstr "城市"
 
 #: plugins_repo/openXDeliveryLimitations/extensions/deliveryLimitations/Geo//Latlong.class.php:61
 msgid "Is within"
@@ -73,17 +73,17 @@ msgstr "Is not within"
 
 #: plugins_repo/openXDeliveryLimitations/extensions/deliveryLimitations/Geo//Latlong.class.php:72
 msgid "Latitude/Longitude"
-msgstr "Latitude/Longitude"
+msgstr "地理坐标"
 
 #: plugins_repo/openXDeliveryLimitations/extensions/deliveryLimitations/Geo//Latlong.class.php:97
 msgid "Geo:Latitude/Longitude: One of the parameter is not a number"
-msgstr "Geo:Latitude/Longitude: One of the parameter is not a number"
+msgstr "地理坐标：经度或纬度不是有效的数字"
 
 #: plugins_repo/openXDeliveryLimitations/extensions/deliveryLimitations/Geo//Latlong.class.php:114
 msgid "Latitude"
-msgstr "Latitude"
+msgstr "纬度"
 
 #: plugins_repo/openXDeliveryLimitations/extensions/deliveryLimitations/Geo//Latlong.class.php:120
 msgid "Longitude"
-msgstr "Longitude"
+msgstr "经度"
 

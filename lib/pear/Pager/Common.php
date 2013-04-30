@@ -235,13 +235,13 @@ class Pager_Common
      * @var string image/text to use as "prev" link
      * @access private
      */
-    var $_prevImg     = '&lt;&lt; Back';
+    var $_prevImg     = $GLOBAL['strPrevious'];
 
     /**
      * @var string image/text to use as "next" link
      * @access private
      */
-    var $_nextImg     = 'Next &gt;&gt;';
+    var $_nextImg     = $GLOBAL['strNext'];
 
     /**
      * @var string link separator

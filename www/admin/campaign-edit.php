@@ -86,8 +86,8 @@ if ($campaignid != "") {
         $oTz = $oExpireDate->tz;
         $oExpireDate->setTZbyID('UTC');
         $oExpireDate->convertTZ($oTz);
-        $campaign['expire_f'] = $oExpireDate->format($date_format);
-        $campaign['expire_date'] = $oExpireDate->format('%Y-%m-%d');
+        $campaign['expire_f'] = $oExpireDate->format($GLOBALS['date_format']);
+        $campaign['expire_date'] = $oExpireDate->format($GLOBALS['date_format']);
     }
     $campaign['status'] = $doCampaigns->status;
     $campaign['an_status'] = $doCampaigns->an_status;
@@ -98,8 +98,8 @@ if ($campaignid != "") {
         $oTz = $oActivateDate->tz;
         $oActivateDate->setTZbyID('UTC');
         $oActivateDate->convertTZ($oTz);
-        $campaign['activate_f'] = $oActivateDate->format($date_format);
-        $campaign['activate_date'] = $oActivateDate->format('%Y-%m-%d');
+        $campaign['activate_f'] = $oActivateDate->format($GLOBALS['date_format']);
+        $campaign['activate_date'] = $oActivateDate->format($GLOBALS['date_format']);
     }
     $campaign['priority'] = $data ['priority'];
     $campaign['weight'] = $data ['weight'];
@@ -381,7 +381,7 @@ function buildCampaignForm($campaign, &$oComponent = null)
 	if (!empty($campaign['activate_date'])) {
 	    $oDate = new Date($campaign['activate_date']);
 	    $startDateSet = 't';
-	    $startDateStr = $oDate->format("$GLOBALS['date_format'] ");
+	    $startDateStr = $oDate->format($GLOBALS['date_format']);
 	} else {
 	    $startDateSet = 'f';
 	    $startDateStr = '';
@@ -390,7 +390,7 @@ function buildCampaignForm($campaign, &$oComponent = null)
 	if (!empty($campaign['expire_date'])) {
 	    $oDate = new Date($campaign['expire_date']);
 	    $endDateSet = 't';
-	    $endDateStr = $oDate->format("$GLOBALS['date_format'] ");
+	    $endDateStr = $oDate->format($GLOBALS['date_format']);
 	} else {
 	    $endDateSet = 'f';
 	    $endDateStr = '';

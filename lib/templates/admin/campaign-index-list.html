@@ -71,7 +71,7 @@ $Id: campaign-index-list.html 81772 2012-09-11 00:07:29Z chris.nutting $
         <ul class='tableFilters alignRight'>
             <li>
                 <div class='label'>
-                    Show
+                    {t str=Show}
                 </div>
 
                 <div class='dropDown'>
@@ -80,8 +80,8 @@ $Id: campaign-index-list.html 81772 2012-09-11 00:07:29Z chris.nutting $
                     <div class='panel'>
                         <div>
                             <ul>
-                                <li><a href='advertiser-campaigns.php?clientid={$clientId}&hideinactive=0'>All campaigns</a></li>
-                                <li><a href='advertiser-campaigns.php?clientid={$clientId}&hideinactive=1'>Active campaigns</a></li>
+                                <li><a href='advertiser-campaigns.php?clientid={$clientId}&hideinactive=0'>{t str=AllCampaigns}</a></li>
+                                <li><a href='advertiser-campaigns.php?clientid={$clientId}&hideinactive=1'>{t str=ActiveCampaigns}</a></li>
                             </ul>
                         </div>
                     </div>

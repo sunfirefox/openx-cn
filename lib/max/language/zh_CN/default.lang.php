@@ -635,7 +635,7 @@ $GLOBALS['strAddBanner']                     = "添加新的素材";
 $GLOBALS['strAddBanner_Key']                 = "添加新的素材（<u>N</u>）";
 $GLOBALS['strBannerToCampaign']              = "到";
 $GLOBALS['strModifyBanner']                  = "Modify banner";
-$GLOBALS['strActiveBanners']                 = "Active banners";
+$GLOBALS['strActiveBanners']                 = "已启用的素材";
 $GLOBALS['strTotalBanners']                  = "Total banners";
 $GLOBALS['strShowBanner']                    = "显示素材";
 $GLOBALS['strShowAllBanners']                = "Show all banners";
@@ -1666,5 +1666,13 @@ $GLOBALS['str_tr']                  = "土耳其语";
 $GLOBALS['str_uk']                  = "乌克兰语";
 $GLOBALS['str_zh_CN']               = "简体中文";
 $GLOBALS['str_zh_TW']               = "繁体中文";
+
+/*-------------------------------------------------------*/
+/* Missing from original                                 */
+/*-------------------------------------------------------*/
+$GLOBALS['strShow'] = "显示"
+$GLOBALS['strActiveAdvertisers'] = "已启用的客户"
+$GLOBALS['strAllCampaigns'] = "所有客户"
+$GLOBALS['strAllBanners'] = "所有素材"
 
 ?>

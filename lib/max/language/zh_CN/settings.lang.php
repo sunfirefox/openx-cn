@@ -186,7 +186,7 @@ $GLOBALS['strAdminCheckMonthly']                     = "Monthly";
 $GLOBALS['strAdminCheckNever']                       = "Never";
 $GLOBALS['strNovice']                                = "执行删除操作之前需要确认";
 $GLOBALS['strUserlogEmail']                          = "Log all outgoing email messages";
-$GLOBALS['strEnableDashboard']                       = "Enable dashboard";
+$GLOBALS['strEnableDashboard']                       = "启用首页仪表盘";
 $GLOBALS['strEnableDashboardSyncNotice']             = "Please enable <a href='account-settings-update.php'>check for updates</a> to use the dashboard.";
 $GLOBALS['strTimezone']                              = "时区";
 $GLOBALS['strTimezoneEstimated']                     = "Estimated Timezone";
@@ -488,7 +488,7 @@ $GLOBALS['strDefaultTrackerType']                    = "Default tracker type";
 $GLOBALS['strSSLSettings']                           = "HTTPS";
 $GLOBALS['requireSSL']                               = "强制使用 HTTPS 登录用户界面";
 $GLOBALS['sslPort']                                  = "HTTPS 端口";
-$GLOBALS['strDashboardSettings']                     = "首页图表";
+$GLOBALS['strDashboardSettings']                     = "首页仪表盘";
 
 $GLOBALS['strMyLogo']                                = "Logo 文件名或 URL";
 $GLOBALS['strMyLogoError']                           = "在 admin/images 目录中找不到指定的 Logo 文件";

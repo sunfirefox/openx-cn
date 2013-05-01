@@ -1674,5 +1674,7 @@ $GLOBALS['strShow'] = "显示";
 $GLOBALS['strActiveAdvertisers'] = "已启用的客户";
 $GLOBALS['strAllCampaigns'] = "所有客户";
 $GLOBALS['strAllBanners'] = "所有素材";
+$GLOBALS['strUrl'] = "URL";
+
 
 ?>

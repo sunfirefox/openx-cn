@@ -490,7 +490,7 @@ function initCampaignForm(formId)
     //setup calendars
     Calendar.setup({
         inputField : 'start',
-        ifFormat   : Calendar._TT["DEF_DATE_FORMAT"],
+        ifFormat   : '%d %B %Y',
         button     : 'start_button',
         align      : 'Bl',
         weekNumbers: false,
@@ -503,7 +503,7 @@ function initCampaignForm(formId)
 
     Calendar.setup({
        inputField : 'end',
-       ifFormat : Calendar._TT["DEF_DATE_FORMAT"],
+       ifFormat : '%d %B %Y',
        button : 'end_button',
        align : 'Bl',
        weekNumbers: false,

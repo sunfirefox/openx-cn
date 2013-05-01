@@ -203,9 +203,9 @@ class Admin_UI_DaySpanField extends Admin_UI_Field
     function display()
     {
         $oStartDate = $this->getStartDate();
-        $startDateStr = is_null($oStartDate) ? '' : $oStartDate->format("$GLOBALS['date_format'] ");
+        $startDateStr = is_null($oStartDate) ? '' : $oStartDate->format('%d %B %Y ');
         $oEndDate = $this->getEndDate();
-        $endDateStr = is_null($oEndDate) ? '' : $oEndDate->format("$GLOBALS['date_format']");
+        $endDateStr = is_null($oEndDate) ? '' : $oEndDate->format('%d %B %Y');
 
         echo "
         <select name='{$this->_name}_preset' id='{$this->_name}_preset' onchange='{$this->_name}FormChange(" . ($this->_autoSubmit ? 1 : 0) . ")' tabindex='" . $this->_tabIndex++ . "'>";
@@ -228,7 +228,7 @@ class Admin_UI_DaySpanField extends Admin_UI_Field
         <!--
         Calendar.setup({
             inputField : '{$this->_name}_start',
-            ifFormat   : "$GLOBALS['date_format']",
+            ifFormat   : '%d %B %Y',
             button     : '{$this->_name}_start_button',
             align      : 'Bl',
             weekNumbers: false,
@@ -237,7 +237,7 @@ class Admin_UI_DaySpanField extends Admin_UI_Field
         });
         Calendar.setup({
             inputField : '{$this->_name}_end',
-            ifFormat   : "$GLOBALS['date_format']",
+            ifFormat   : '%d %B %Y',
             button     : '{$this->_name}_end_button',
             align      : 'Bl',
             weekNumbers: false,
@@ -262,10 +262,10 @@ class Admin_UI_DaySpanField extends Admin_UI_Field
           var endField = form.{$this->_name}_end;
 
           if (!startField.disabled && startField.value != '') {
-            var start = Date.parseDate(startField.value, "$GLOBALS['date_format']");
+            var start = Date.parseDate(startField.value, '%d %B %Y');
           }
           if (!startField.disabled && endField.value != '') {
-            var end = Date.parseDate(endField.value, "$GLOBALS['date_format']");
+            var end = Date.parseDate(endField.value, '%d %B %Y');
           }
 
           if ((start != undefined && end != undefined) && (start.getTime() > end.getTime())) {
@@ -305,9 +305,9 @@ class Admin_UI_DaySpanField extends Admin_UI_Field
                 if ($v != 'all_stats') {
                     $oTmpDaySpan->setSpanPresetValue($v);
                     $oTmpStartDate = $oTmpDaySpan->getStartDate();
-                    $sTmpStartDate = $oTmpStartDate->format("$GLOBALS['date_format']");
+                    $sTmpStartDate = $oTmpStartDate->format('%d %B %Y');
                     $oTmpEndDate   = $oTmpDaySpan->getEndDate();
-                    $sTmpEndDate   = $oTmpEndDate->format("$GLOBALS['date_format']");
+                    $sTmpEndDate   = $oTmpEndDate->format('%d %B %Y');
                 } else {
                     $sTmpStartDate = '';
                     $sTmpEndDate   = '';

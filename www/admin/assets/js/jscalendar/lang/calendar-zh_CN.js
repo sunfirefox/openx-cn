@@ -93,11 +93,11 @@ Calendar._TT["ABOUT_TIME"] = "\n\n" +
 "- 按住 Shift 点击可以减一\n" +
 "- 也可以直接拖动以快速选择";
 
-Calendar._TT["PREV_YEAR"] = "上一年（长按显示菜单）";
-Calendar._TT["PREV_MONTH"] = "上一月（长按显示菜单）";
+Calendar._TT["PREV_YEAR"] = "上一年（按住显示菜单）";
+Calendar._TT["PREV_MONTH"] = "上一月（按住显示菜单）";
 Calendar._TT["GO_TODAY"] = "转到今天";
-Calendar._TT["NEXT_MONTH"] = "下一月（长按显示菜单）";
-Calendar._TT["NEXT_YEAR"] = "下一年（长按显示菜单）";
+Calendar._TT["NEXT_MONTH"] = "下一月（按住显示菜单）";
+Calendar._TT["NEXT_YEAR"] = "下一年（按住显示菜单）";
 Calendar._TT["SEL_DATE"] = "选择日期";
 Calendar._TT["DRAG_TO_MOVE"] = "拖动";
 Calendar._TT["PART_TODAY"] = "（今天）";
@@ -113,11 +113,11 @@ Calendar._TT["WEEKEND"] = "0,6";
 
 Calendar._TT["CLOSE"] = "关闭";
 Calendar._TT["TODAY"] = "今天";
-Calendar._TT["TIME_PART"] = "(Shift-)点击鼠标或拖动改变值";
+Calendar._TT["TIME_PART"] = "按住 Shift 拖动选择";
 
 // date formats
 Calendar._TT["DEF_DATE_FORMAT"] = "%Y-%m-%d";
-Calendar._TT["TT_DATE_FORMAT"] = "%m月%e日，%A";
+Calendar._TT["TT_DATE_FORMAT"] = "%m 月 %e 日，%A";
 
 Calendar._TT["WK"] = "周";
 Calendar._TT["TIME"] = "时间：";
